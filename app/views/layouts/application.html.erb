@@ -69,7 +69,14 @@
               </div>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="#">신고</a>
+              <a class="nav-link text-uppercase text-expanded" href="/home/reports">신고</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <% unless user_signed_in? %>
+                <a class="nav-link text-uppercase text-expanded" href="/users/sign_in">로그인</a>
+              <% else %>
+                <%= link_to "로그아웃", destroy_user_session_path, :method => :delete, :class => "nav-link text-uppercase text-expanded"  %>
+              <% end %>
             </li>
           </ul>
         </div>

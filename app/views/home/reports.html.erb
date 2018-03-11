@@ -1,0 +1,33 @@
+<html>
+    <head>
+        
+    </head>
+    
+    <body>
+        <div class="container">
+            <h1 style="text-align:center;">신고 및 건의사항 게시판</h1>
+            <a href="/home/new_report" class="btn btn-primary" style="text-align: center;">새 글 작성</a>
+            <table class="table reports">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col" >#</th>
+                  <th scope="col" colspan="6">제목</th>
+                  <th scope="col" >작성자</th>
+                  <th scope="col" colspan="3">작성시간(+9)</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <% @reports.each do |report| %>
+                    <tr>
+                      <th scope="row"><%= report.id %></th>
+                      <td colspan="6"><a href="/home/report_show/<%=report.id %>"><%= report.title %></a></td>
+                      <td><%= report.user.email %></td>
+                      <td colspan="3"><%= report.updated_at%></td>
+                    </tr>
+                <% end %>
+              </tbody>
+            </table>
+            
+        </div>
+    </body>
+</html>

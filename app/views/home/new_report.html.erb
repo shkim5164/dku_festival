@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <%= tinymce_assets %>
+    </head>
+    <body>
+        <div class="container">
+            <h1>건의사항 및 신고 게시물 작성</h1>
+            <%= form_tag("/home/make_report", method: "post") do %>
+              <p class="labels"><%= label_tag(:title, "제목") %></p>
+              <%= text_field_tag(:title, "", :style => "width: 100%") %>
+              <p class="labels"><%= label_tag(:title, "내용") %></p>
+              <%= text_area_tag :content , " " , :class => " tinymce " , :rows => 10 , :cols => 120  %>
+              <%= tinymce %>
+              <%= submit_tag("작성", :class => "btn btn-primary btn-lg", :style => "font-size: 35px; margin-top: 10px; margin-bottom: 10px;") %>
+            <% end %>
+
+        </div>
+        <script type="text/javascript">
+             tinymce.init({
+                  selector: 'textarea',  // change this value according to your HTML
+                  forced_root_block : ""
+                });
+        </script>
+
+    </body>
+</html>

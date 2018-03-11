@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   root 'home#index'
 
   get 'home/event'
@@ -10,7 +11,27 @@ Rails.application.routes.draw do
   get 'home/booth'
   
   get 'home/about'
-
+  
+  get 'home/ad_event'
+  
+  get 'home/ad_event_detail'
+  
+  get 'home/apply'
+  
+  get 'home/new_report'
+  
+  get 'home/reports'
+  
+  get '/home/report_show/:report_id' => 'home#report_show'
+  
+  get '/home/report_edit/:report_id' => 'home#report_edit'
+  
+  post '/home/report_update/:report_id' => 'home#report_update'
+  
+  get '/home/report_destroy/:report_id' => 'home#report_destroy'
+  
+  post 'home/make_report'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

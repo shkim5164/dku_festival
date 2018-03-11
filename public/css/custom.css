@@ -41,6 +41,7 @@
 .dropdown:hover .dropbtn {
     /* background-color: #3e8e41; */
 }
+
 /* index */
 
 :not(span) {
@@ -281,4 +282,24 @@
 .ev_img {
   text-align: center;
   margin-bottom: 10px;
+}
+
+/* reports */
+
+.reports {
+  text-align: center!important;
+  margin-top: 30px;
+  font-size: 20px!important;
+}
+
+/*new_report*/
+
+.labels {
+  font-size: 35px!important;
+  margin-bottom: 0px!important
+}
+
+p {
+  margin: 0!important;
+  padding: 0!important;
 }
