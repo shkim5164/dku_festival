@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
+
+.logo {
+  text-decoration: none!important;
+}
+
+.dropbtn {
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    /* background-color: #3e8e41; */
+}
+/* index */
+
+:not(span) {
+  font-family: 'Nanum Pen Script'!important;
+}
+
+.slide {
+  margin-bottom: 10px;
+}
+
+.perform {
+  text-align: center;
+
+}
+
+.perform > div {
+  display: inline-block;
+  width: 23%;
+  line-height: 100px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.pocpo {
+  background-color: #198C19;
+}
+
+.rooftop {
+  background-color: pink;
+}
+
+.nocheon {
+  background-color: #8C198C;
+}
+
+.frontlaw {
+  background-color: #FFFF4C;
+}
+
+.perform > div > img {
+  border-radius: 5px;
+  width: 90%;
+  max-width: 760px;
+  vertical-align: middle;
+}
+
+.notice > div {
+
+}
+
+/* index2 */
+.day_count {
+  text-align: center;
+}
+
+.time_table {
+  text-align: center;
+}
+
+.tg  {
+  margin: 0 auto;
+  border-collapse: collapse;border-spacing:0;
+}
+.tg td {
+  font-size:25px;
+  padding:10px 5px;
+  border-style:solid;
+  border-width:1px;
+  overflow:hidden;
+  word-break:normal;
+}
+
+.tg th {
+  font-size:25px;
+  font-weight:normal;
+  padding:10px 5px;
+  border-style:solid;
+}
+
+.tg .tg-yw4l {
+  vertical-align:top
+}
+
+/* 부스상세보기 */
+
+.map {
+  position:relative;
+  height: 725px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-image: url(/img/map.png);
+  background-color: black;
+  background-position: center;
+  background-size: 100%
+}
+
+.nbbtn {
+  position: absolute;
+  bottom: 65px;
+  right: 65px;
+  z-index: 2;
+}
+
+.no_btn {
+  width: 241px;
+  height: 179px;
+  border-radius: 20px;
+  font-size: 50px;
+  background-color: rgba(140,25,140, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.pbbtn {
+  position: absolute;
+  top: 21px;
+  left: 16px;
+  z-index: 2;
+}
+
+.poc_btn {
+  width: 219px;
+  height: 124px;
+  border-radius: 20px;
+  font-size: 50px;
+  background-color: rgba(25,140,25, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.rbbtn {
+  position: absolute;
+  bottom: 105px;
+  right: 386px;
+  z-index: 2;
+}
+
+.rft_btn {
+  width: 75px;
+  height: 80px;
+  border-radius: 20px;
+  font-size: 29px;
+  background-color: rgba(255,192,203, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.dbbtn {
+  position: absolute;
+  bottom: 322px;
+  left: 65px;
+  z-index: 2;
+}
+
+.daebup_btn {
+  width: 317px;
+  height: 68px;
+  border-radius: 20px;
+  font-size: 50px;
+  background-color: rgba(255,255,76, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.gbtn {
+  position: absolute;
+  bottom: 383px;
+  left: 432px;
+  z-index: 2;
+}
+
+.gom_btn {
+  width: 317px;
+  height: 241px;
+  border-radius: 20px;
+  font-size: 70px;
+  background-color: rgba(76,76,255, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.hbbtn {
+  position: absolute;
+  bottom: 30px;
+  left: 427px;
+  z-index: 2;
+}
+
+.h_btn {
+  width: 317px;
+  height: 68px;
+  border-radius: 20px;
+  font-size: 50px;
+  background-color: rgba(255,50,50, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.map > div > button:hover {
+  color: #e6a756
+}
+
+.map > div > a > button {
+  text-decoration: none;
+  color: black;
+}
+
+.map > div > a > button:hover {
+  color: #e6a756
+}
+
+.map > .gbtn > a {
+  text-decoration: none;
+  color: black;
+}
+
+/* 곰상지도 */
+
+.gom_map {
+  background-color: black;
+  background-image: url(/img/gom_map.png);
+  background-position: center;
+  background-size: 100%;
+  height: 470px;
+  width:50%;
+  margin: 10px auto;
+}
+
+/* 이벤트고르기 .about*/
+
+.event {
+  margin-bottom: 10px;
+}
+
+
+/* .event 이벤트상세 */
+
+.ev_img {
+  text-align: center;
+  margin-bottom: 10px;
+}
