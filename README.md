@@ -29,7 +29,7 @@
 
 ------------------------------
 - 2018-03-10 updated by 순후
-- commit ms : 0301 update by sunu
+- commit ms : 0310 updated by sunu
 -------------------------------------
 1.  devise gem 추가
 2.  신고 CRUD 구현
@@ -40,7 +40,7 @@
 
 ------------------------------
 - 2018-03-13 updated by 순후
-- commit ms : 0301 update by sunu
+- commit ms : 0313 updated by sunu
 -------------------------------------
 1.  kaminari 추가
 ----------------------------------------
