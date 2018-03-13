@@ -4,4 +4,14 @@
 # Examples:
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+#   Mayor.create(name: 'Emanuel', city: cities.first
+
+for x in 1..100 do
+    Report.create(
+             title: "title#{x}",
+              user_id: 1,
+              content: "content#{}"
+            )
+end
+
+User.create(email: 'a@a.com', password: '123123', password_confirmation: '123123')

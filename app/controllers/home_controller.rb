@@ -38,7 +38,9 @@ class HomeController < ApplicationController
   end
   
   def reports
-    @reports = Report.all
+  
+    @reports  =  Report.page(params[:page])
+    
   end
   
   def report_show
