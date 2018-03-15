@@ -20,7 +20,7 @@
                   <% @reports.each do |report| %>
                     <tr>
                       <th scope="row"><%= report.id %></th>
-                      <td colspan="6"><a href="/home/report_show/<%=report.id %>"><%= report.title %></a></td>
+                      <td colspan="6"><a href="/police/report_show/<%=report.id %>"><%= report.title %></a></td>
                       <td><%= report.user.email %></td>
                       <td colspan="3"><%= report.updated_at%></td>
                     </tr>

@@ -15,16 +15,21 @@
                   <hr>
                   <!-- Date/Time -->
                   <p>작성시간 : <%= report.updated_at %></p>
-                <p>작성자 : <%= report.user.email %></p>
+                  <p>작성자 : <%= report.user.email %></p>
                   <hr>
                   <!-- Post Content -->
                   <div class="breadcrumb">
                       <%= report.content %>
                   </div> 
                   <hr>
-                  <% if report.user_id == current_user.id %>
-                      <a href="/home/report_edit/<%= report.id %>" class="btn btn-primary">수정하기</a>
-                      <a href="/home/report_destroy/<%= report.id %>" class="btn btn-primary">삭제하기</a>
+                  <% if current_user.nil? or report.user_id != current_user.id %>
+                     <a href="/police/reports" class="btn btn-primary">목록보기</a>
+                  <% elsif report.user_id == current_user.id %>
+                      <a href="/police/reports" class="btn btn-primary">목록보기</a>
+                      <a href="/police/report_edit/<%= report.id %>" class="btn btn-primary">수정하기</a>
+                      <a href="/police/report_destroy/<%= report.id %>" data-method="post" class="btn btn-primary">삭제하기</a>
+                  <% else %>
+                      <a href="/police/reports" class="btn btn-primary">목록보기</a>
                   <% end %>
         
                   <!-- Comments Form -->

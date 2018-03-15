@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
+  
   root 'home#index'
 
   get 'home/event'
@@ -18,19 +19,25 @@ Rails.application.routes.draw do
   
   get 'home/apply'
   
-  get 'home/new_report'
+  get 'home/my_page'
   
-  get 'home/reports'
+# --------------------------------------------------------------------
   
-  get '/home/report_show/:report_id' => 'home#report_show'
+  get 'police/new_report'
   
-  get '/home/report_edit/:report_id' => 'home#report_edit'
+  get 'police/reports'
   
-  post '/home/report_update/:report_id' => 'home#report_update'
+  get '/police/report_show/:report_id' => 'police#report_show'
   
-  get '/home/report_destroy/:report_id' => 'home#report_destroy'
+  get '/police/report_edit/:report_id' => 'police#report_edit'
   
-  post 'home/make_report'
+  post '/police/report_update/:report_id' => 'police#report_update'
+  
+  post '/police/report_destroy/:report_id' => 'police#report_destroy'
+  
+  post 'police/make_report'
+  
+  
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
