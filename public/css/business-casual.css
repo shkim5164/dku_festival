@@ -83,10 +83,6 @@ p {
   font-weight: 800;
 }
 
-#mainNav .navbar-nav .nav-item.active .nav-link {
-  color: black;
-}
-
 @media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 1.5rem;
