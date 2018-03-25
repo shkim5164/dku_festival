@@ -14,4 +14,6 @@ for x in 1..100 do
             )
 end
 
-User.create(email: 'a@a.com', password: '123123', password_confirmation: '123123')
+User.create(email: 'admin@admin.com', name: '이벤트1관리자', password: '123123', password_confirmation: '123123', phone_number: '010-2187-7724', student_id: '32164640')
+Event.create(event_name: '물총')
+Event.create(event_name: '방탈출')

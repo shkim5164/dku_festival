@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :applies
   devise_for :users
   
   root 'home#index'
@@ -17,7 +18,6 @@ Rails.application.routes.draw do
   
   get 'home/ad_event_detail'
   
-  get 'home/apply'
   
   get 'home/my_page'
   
@@ -37,7 +37,13 @@ Rails.application.routes.draw do
   
   post 'police/make_report'
   
+  #-----------------------------------------------------------------------
   
+  get 'event/apply'
+  
+  resources :event do
+    resources :eventapply, only: [:create, :destroy]
+  end
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
