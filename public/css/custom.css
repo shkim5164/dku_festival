@@ -129,27 +129,29 @@
 
 .map {
   position:relative;
-  height: 725px;
+  height: 543.75px;
+  width: 832.5px;
   text-align: center;
   margin-bottom: 10px;
   background-image: url(/img/map.png);
   background-color: black;
   background-position: center;
-  background-size: 100%
+  background-size: 100%;
+  margin: 0 auto 10px auto;
 }
 
 .nbbtn {
   position: absolute;
-  bottom: 65px;
-  right: 65px;
+  bottom: 8.9%;
+  right: 3.8%;
   z-index: 2;
 }
 
 .no_btn {
-  width: 241px;
-  height: 179px;
+  width: 12.31rem;
+  height: 10.12rem;
   border-radius: 20px;
-  font-size: 50px;
+  font-size: 3.125rem;
   background-color: rgba(140,25,140, 0.7);
   border: none;
   cursor: pointer;
@@ -157,16 +159,16 @@
 
 .pbbtn {
   position: absolute;
-  top: 21px;
-  left: 16px;
+  top: 2.8%;
+  left: 1.4%;
   z-index: 2;
 }
 
 .poc_btn {
-  width: 219px;
-  height: 124px;
+  width: 11.25rem;
+  height: 7.75rem;
   border-radius: 20px;
-  font-size: 50px;
+  font-size: 3.125rem;
   background-color: rgba(25,140,25, 0.7);
   border: none;
   cursor: pointer;
@@ -174,16 +176,16 @@
 
 .rbbtn {
   position: absolute;
-  bottom: 105px;
-  right: 386px;
+  bottom: 14.4%;
+  right: 34.7%;
   z-index: 2;
 }
 
 .rft_btn {
-  width: 75px;
-  height: 80px;
+  width: 3.5rem;
+  height: 3.31rem;
   border-radius: 20px;
-  font-size: 29px;
+  font-size: 1.125rem;
   background-color: rgba(255,192,203, 0.7);
   border: none;
   cursor: pointer;
@@ -191,16 +193,16 @@
 
 .dbbtn {
   position: absolute;
-  bottom: 322px;
-  left: 65px;
+  bottom: 44.4%;
+  left: 5.8%;
   z-index: 2;
 }
 
 .daebup_btn {
-  width: 317px;
-  height: 68px;
+  width: 15rem;
+  height: 3.1875rem;
   border-radius: 20px;
-  font-size: 50px;
+  font-size: 2.1875rem;
   background-color: rgba(255,255,76, 0.7);
   border: none;
   cursor: pointer;
@@ -208,16 +210,16 @@
 
 .gbtn {
   position: absolute;
-  bottom: 383px;
-  left: 432px;
+  bottom: 52.8%;
+  left: 38.9%;
   z-index: 2;
 }
 
 .gom_btn {
-  width: 317px;
-  height: 241px;
+  width: 14.56rem;
+  height: 12.125rem;
   border-radius: 20px;
-  font-size: 70px;
+  font-size: 3.43rem;
   background-color: rgba(76,76,255, 0.7);
   border: none;
   cursor: pointer;
@@ -225,16 +227,16 @@
 
 .hbbtn {
   position: absolute;
-  bottom: 30px;
-  left: 427px;
+  bottom: 4.1%;
+  left: 38.4%;
   z-index: 2;
 }
 
 .h_btn {
-  width: 317px;
-  height: 68px;
+  width: 15.5rem;
+  height: 3.125rem;
   border-radius: 20px;
-  font-size: 50px;
+  font-size: 2.1875rem;
   background-color: rgba(255,50,50, 0.7);
   border: none;
   cursor: pointer;
