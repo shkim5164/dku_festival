@@ -15,3 +15,13 @@ for x in 1..100 do
 end
 
 User.create(email: 'a@a.com', password: '123123', password_confirmation: '123123')
+
+Singer.create(
+    name: '싸이',
+    text: 'iwenioewniovweiofjwoiejgiowneiofnoiwengioweniof',
+    st_time: 123123,
+    end_time: 12344,
+    rl_date: '2018-01-05',
+    day: 1,
+    img_addr: '/img/psy.png'
+    )
