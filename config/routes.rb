@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
+  get "hashtags/:hashtag",   to: "hashtags#show",      as: :hashtag
+  get "hashtags",            to: "hashtags#index",     as: :hashtags
   devise_for :users
   
   root 'home#index'
 
   get 'home/event'
-
-  get 'home/time'
 
   get 'home/gomsang'
 
@@ -37,6 +37,10 @@ Rails.application.routes.draw do
   
   post 'police/make_report'
   
+  
+#------------------------------------------------------------
+
+  get 'plan/time'
   
   
   # The priority is based upon order of creation: first created -> highest priority.

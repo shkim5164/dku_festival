@@ -26,7 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'tinymce-rails'
 gem 'devise'
 gem 'kaminari'
-
+gem 'simple_hashtag'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

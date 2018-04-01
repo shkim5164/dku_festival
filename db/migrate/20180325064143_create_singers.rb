@@ -4,11 +4,10 @@ class CreateSingers < ActiveRecord::Migration
       t.string :name
       t.text :info
       t.integer :st_time
-      t.integer :end_time
-      t.string :rl_date
+      t.string :img_addr
+      t.string :place
+      t.string :crass
       t.integer :day
-      t.text :img_addr
-      
       t.timestamps null: false
     end
   end
