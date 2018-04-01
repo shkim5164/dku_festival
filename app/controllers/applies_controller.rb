@@ -1,4 +1,5 @@
 class AppliesController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_apply, only: [:show, :edit, :update, :destroy]
 # scaffold로 만든 controller
   # GET /applies
@@ -76,12 +77,7 @@ class AppliesController < ApplicationController
     end
     # Never trust parameters from the scary internet, only allow the white list through.
     def apply_params
-      params.require(:apply).permit(:how_many, :time)
+      params.require(:apply).permit(:how_many, :time, :user_id)
     end
-    def user_params
-      params.require(:user).permit(:user_id, :phone_number, :student_id)
-    end
-    def event
-      params.require(:event).permit(:event_id)
-    end
+
 end

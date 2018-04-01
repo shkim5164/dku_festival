@@ -2,7 +2,6 @@
   <% if @apply.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@apply.errors.count, "error") %> prohibited this apply from being saved:</h2>
-
       <ul>
       <% @apply.errors.full_messages.each do |message| %>
         <li><%= message %></li>
@@ -10,12 +9,31 @@
       </ul>
     </div>
   <% end %>
+  <%= f.hidden_field :user_id, :value => current_user.id %>
+
   <div class="field">
-    <%= f.label :how_many %><br>
+   <h2>이름</h2>
+   <p><%= current_user.name %></p>
+  </div>
+
+  <div class="field">
+   <h2>학번</h2>
+   <p><%= current_user.student_id %></p>
+  </div>
+  <div class="field">
+   <h2>이메일</h2>
+   <p><%= current_user.email %></p>
+  </div>
+  <div class="field">
+   <h2>전화번호</h2>
+   <p><%= current_user.phone_number %></p>
+  </div>
+  <div class="field">
+    <h2>인원 수</h2>
     <%= f.number_field :how_many %>
   </div>
   <div class="field">
-    <%= f.label :time %><br>
+    <h2>시간</h2>
     <%= f.text_field :time %>
   </div>
   <div class="actions">

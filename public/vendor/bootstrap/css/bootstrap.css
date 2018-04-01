@@ -2379,6 +2379,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  justify-content: center;
 }
 
 .form-inline .form-check {

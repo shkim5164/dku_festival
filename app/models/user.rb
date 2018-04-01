@@ -5,5 +5,5 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
          
   has_many :reports
-  has_many :eventapplys
+  has_many :applys
 end

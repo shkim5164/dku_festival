@@ -2,9 +2,6 @@ class HomeController < ApplicationController
   def index
   end
 
-  def event
-  end
-
   def gomsang
   end
 
@@ -12,6 +9,7 @@ class HomeController < ApplicationController
   end
   
   def about
+    
   end
 
   

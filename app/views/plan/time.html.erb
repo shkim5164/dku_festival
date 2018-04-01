@@ -7,11 +7,12 @@
 
   <body>
 
-
   <div class="container">
     <div class="search_box">
+
       <form class="form-inline" action="/plan/search" method="get">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="search_info">
+        <label><h2>검색:&nbsp</h2></label>
+        <input class="form-control mr-sm-2" type="search" placeholder="ex)싸이" aria-label="Search" name="search_info">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
    </div>
@@ -38,7 +39,7 @@
                 <div class="card-body">
                 <% @singers.each do |singer| %>
                   <div class="singer row <%= singer.crass %>">
-                    <div class="col-4 img_div">
+                    <div class="col-lg-4 col-sm-6 img_div">
                       <img class="singer_img" src="<%= singer.img_addr %>" alt="<%=singer.name %>"></img>
                     </div>
                     

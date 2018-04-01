@@ -6,6 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first
 
+# 신고 게시물
 for x in 1..100 do
     Report.create(
              title: "title#{x}",
@@ -14,8 +15,15 @@ for x in 1..100 do
             )
 end
 
-User.create(email: 'a@a.com', password: '123123', password_confirmation: '123123')
+# Admin user
+User.create(email: 'admin@admin.com', name: '이벤트1관리자', password: '123123', password_confirmation: '123123', phone_number: '010-2187-7724', student_id: '32164640')
 
+# Event
+Event.create(event_name: '방탈출')
+Event.create(event_name: '물총')
+Event.create(event_name: '이벤트3')
+
+# Lineup
 Singer.create(
     [{ name: '싸이',
     info: 'Do you know PSY? 말이 필요없다! 온 몸을 들썩 거리게 하는 무대장악력의 소유자! 싸이ㅣㅣ!',
@@ -55,7 +63,4 @@ Singer.create(
     
     
     )
-User.create(email: 'admin@admin.com', name: '이벤트1관리자', password: '123123', password_confirmation: '123123', phone_number: '010-2187-7724', student_id: '32164640')
-Event.create(event_name: '물총')
-Event.create(event_name: '방탈출')
 
