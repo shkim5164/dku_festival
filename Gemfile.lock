@@ -162,14 +162,11 @@ GEM
     sdoc (0.4.2)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
-
-    simple_hashtag (0.1.9)
-      rails (> 3.2.0)
-
     simple_form (3.5.1)
       actionpack (> 4, < 5.2)
       activemodel (> 4, < 5.2)
-
+    simple_hashtag (0.1.9)
+      rails (> 3.2.0)
     spring (2.0.2)
       activesupport (>= 4.2)
     sprockets (3.7.1)

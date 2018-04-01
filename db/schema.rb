@@ -12,7 +12,6 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema.define(version: 20180330090224) do
-ActiveRecord::Schema.define(version: 20180325054937) do
 
   create_table "applies", force: :cascade do |t|
     t.integer  "how_many"
