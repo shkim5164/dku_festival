@@ -2,6 +2,7 @@
     border-radius: 50%;
     width: 174px;
     height: 174px;
+    margin: 1rem;
 }
 
 .img_div {
@@ -10,6 +11,16 @@
 
 .singer {
     border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.s_info{
+    display: inline-block;
+    margin: auto;
+}
+
+.search_box{
+    margin: 1rem;
 }
 /*노천마당*/
 .nc {
