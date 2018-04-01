@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
 
 @media(max-width:750px){
+  /* 메인화면 */
   /* index perform */
   .perform > div{
     width: 160px;
@@ -10,6 +11,12 @@
   }
   .perform h2{
     font-size: 1.5rem;
+  }
+  .perform h3{
+    font-size: 1.25rem;
+  }
+  .perform p{
+    font-size: 1rem;
   }
   
   /* nav */
@@ -31,6 +38,29 @@
   .card.event p{
     font-size: 0.7rem;
   }
+
+  /* 축제일정 */
+  /* search */
+  .search_box input{
+    width: 10rem;
+    margin-right: 0.5rem;
+  }
+  
+  /* card-body */
+  .card-body img{
+    width: 10rem;
+    height: 10rem;
+    margin-top: 1rem;
+  }
+  .card-body h2{
+    font-size: 2rem;
+  }
+  .card-body h3{
+    font-size: 1.5rem;
+  }
+  
+  
+  /* 신고게시판 */
 
 }
 
