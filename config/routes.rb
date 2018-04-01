@@ -40,14 +40,14 @@ Rails.application.routes.draw do
   
   post 'police/make_report'
   
-  #-----------------------------------------------------------------------
+#-----------------------------------------------------------------------
   
 
 #------------------------------------------------------------
 
   get 'plan/time'
   
-
+  get '/event/detail/:event_id' => 'event#detail'
   get 'event/apply'
   
   resources :event do

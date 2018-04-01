@@ -17,11 +17,8 @@ ActiveRecord::Schema.define(version: 20180330090224) do
     t.integer  "how_many"
     t.string   "time"
     t.integer  "user_id"
-    t.integer  "event_id"
-    t.string   "phone_number"
-    t.string   "student_id"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "events", force: :cascade do |t|
