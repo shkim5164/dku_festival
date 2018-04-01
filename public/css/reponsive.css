@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
 
-@media(max-width:600px){
+@media(max-width:750px){
   /* index perform */
   .perform > div{
     width: 160px;
