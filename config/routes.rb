@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
+
   get "hashtags/:hashtag",   to: "hashtags#show",      as: :hashtag
   get "hashtags",            to: "hashtags#index",     as: :hashtags
+
+  resources :applies
+
   devise_for :users
   
   root 'home#index'
@@ -17,7 +21,6 @@ Rails.application.routes.draw do
   
   get 'home/ad_event_detail'
   
-  get 'home/apply'
   
   get 'home/my_page'
   
@@ -37,11 +40,20 @@ Rails.application.routes.draw do
   
   post 'police/make_report'
   
+  #-----------------------------------------------------------------------
   
+
 #------------------------------------------------------------
 
   get 'plan/time'
   
+
+  get 'event/apply'
+  
+  resources :event do
+    resources :eventapply, only: [:create, :destroy]
+  end
+
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

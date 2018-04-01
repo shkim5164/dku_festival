@@ -14,11 +14,6 @@ class HomeController < ApplicationController
   def about
   end
 
-# -----------------------
-
-  def apply
-  end
- 
   
 #-------------------------admin관리
   

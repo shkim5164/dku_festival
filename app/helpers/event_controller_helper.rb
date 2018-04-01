@@ -1,0 +1,2 @@
+module EventControllerHelper
+end
