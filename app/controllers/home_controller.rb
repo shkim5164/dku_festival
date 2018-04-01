@@ -5,9 +5,6 @@ class HomeController < ApplicationController
   def event
   end
 
-  def time
-  end
-
   def gomsang
   end
 
@@ -17,11 +14,6 @@ class HomeController < ApplicationController
   def about
   end
 
-# -----------------------
-
-  def apply
-  end
- 
   
 #-------------------------admin관리
   

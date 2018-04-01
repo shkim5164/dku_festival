@@ -4,6 +4,7 @@ class CreateReports < ActiveRecord::Migration
       t.integer :user_id
       t.string :title
       t.text :content
+     
 
       t.timestamps null: false
     end

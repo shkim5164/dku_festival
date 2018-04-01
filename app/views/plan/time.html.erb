@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+       <link rel="stylesheet" href="/css/time.css"></link>
+  </head>
+
+  <body>
+
+
+  <div class="container">
+    <div class="search_box">
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+   </div>
+    <h1 class="day_count"><일차별 전체라인업></h1>
+  </div>
+
+  <section class="all_time">
+    <div class="container">
+      <div class="lineup">
+        
+          <div id="accordion">
+            <div class="card">
+             
+                
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="time_header">
+                     <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">1일차 일정</h2>
+                    </div>
+                  </button>
+                
+              
+          
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                <% @singers.each do |singer| %>
+                  <div class="singer row <%= singer.crass %>">
+                    <div class="col-4 img_div">
+                      <img class="singer_img" src="<%= singer.img_addr %>" alt="<%=singer.name %>"></img>
+                    </div>
+                    
+                      <div class="s_info col-8 align-middle">
+                      <h2><%= singer.name %>  <%= singer.day %>일차 <%= singer.st_time %>시 시작 <%= singer.place %></h2>
+                        <h3><%= singer.info %></h3>
+                      </div>
+                  
+                  </div>
+                  <% end %>
+                </div>
+              </div>
+          </div>
+            
+            <div class="card">
+              
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="time_header">
+                    <div class="card-header" id="headingTwo">
+                      <h2 class="mb-0">
+                        2일차 일정
+                      </h2>
+                    </div>
+                  </button>
+                
+              
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            
+            <div class="card">
+              
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="time_header">
+                    <div class="card-header" id="headingThree">
+                      <h2 class="mb-0">
+                        3일차 일정
+                      </h2>
+                    </div>
+                  </button>
+
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  </section>
+
+  </body>
+
+</html>

@@ -11,7 +11,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180311104500) do
+ActiveRecord::Schema.define(version: 20180330090224) do
+
+  create_table "applies", force: :cascade do |t|
+    t.integer  "how_many"
+    t.string   "time"
+    t.integer  "user_id"
+    t.integer  "event_id"
+    t.string   "phone_number"
+    t.string   "student_id"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+  end
+
+  create_table "events", force: :cascade do |t|
+    t.string   "event_name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "reports", force: :cascade do |t|
     t.integer  "user_id"
@@ -21,9 +38,41 @@ ActiveRecord::Schema.define(version: 20180311104500) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "simple_hashtag_hashtaggings", force: :cascade do |t|
+    t.integer "hashtag_id"
+    t.integer "hashtaggable_id"
+    t.string  "hashtaggable_type"
+  end
+
+  add_index "simple_hashtag_hashtaggings", ["hashtag_id"], name: "index_simple_hashtag_hashtaggings_on_hashtag_id"
+  add_index "simple_hashtag_hashtaggings", ["hashtaggable_id", "hashtaggable_type"], name: "index_hashtaggings_hashtaggable_id_hashtaggable_type"
+
+  create_table "simple_hashtag_hashtags", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "simple_hashtag_hashtags", ["name"], name: "index_simple_hashtag_hashtags_on_name"
+
+  create_table "singers", force: :cascade do |t|
+    t.string   "name"
+    t.text     "info"
+    t.integer  "st_time"
+    t.string   "img_addr"
+    t.string   "place"
+    t.string   "crass"
+    t.integer  "day"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
+    t.string   "name",                   default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
+    t.string   "phone_number",           default: "", null: false
+    t.string   "student_id",             default: "", null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"

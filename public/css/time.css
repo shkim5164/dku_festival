@@ -1,0 +1,52 @@
+.singer_img {
+    border-radius: 50%;
+    width: 174px;
+    height: 174px;
+}
+
+.img_div {
+    text-align: center;
+}
+
+.singer {
+    border-radius: 20px;
+}
+/*노천마당*/
+.nc {
+   background-color: #A64CA6;
+}
+/*폭포공원*/
+.pp {
+    background-color: #7FBF7F;
+}
+/*루프탑*/
+.rft {
+    background-color: pink;
+}
+/*혜당관 앞*/
+.hf {
+    background-color: #FFFF66;
+}
+
+.lineup {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#time_header {
+    background-color: #7C88F8;
+    text-decoration: none;
+    color: black;
+    padding: 0;
+}
+
+#time_header:hover {
+    background-color: #7C88F8;
+    text-decoration: none;
+    color: white;
+    padding: 0;
+}
+
+.all_time {
+    margin: 25px 0;
+}
