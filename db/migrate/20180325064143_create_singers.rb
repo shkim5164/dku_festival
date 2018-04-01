@@ -8,6 +8,8 @@ class CreateSingers < ActiveRecord::Migration
       t.string :place
       t.string :crass
       t.integer :day
+      t.string :w_day
+      t.string :w_time
       t.timestamps null: false
     end
   end

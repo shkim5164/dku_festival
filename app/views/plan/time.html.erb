@@ -10,8 +10,8 @@
 
   <div class="container">
     <div class="search_box">
-      <form class="form-inline">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <form class="form-inline" action="/plan/search" method="get">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="search_info">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
    </div>
@@ -43,7 +43,8 @@
                     </div>
                     
                       <div class="s_info col-8 align-middle">
-                      <h2><%= singer.name %>  <%= singer.day %>일차 <%= singer.st_time %>시 시작 <%= singer.place %></h2>
+                        <h1><%= singer.name %></h1>
+                        <h2>#<%= singer.day %>일차 #<%= singer.st_time %>시 시작 #<%= singer.place %></h2>
                         <h3><%= singer.info %></h3>
                       </div>
                   

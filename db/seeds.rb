@@ -10,7 +10,7 @@ for x in 1..100 do
     Report.create(
              title: "title#{x}",
               user_id: 1,
-              content: "content#{}"
+              content: "content#{x}"
             )
 end
 

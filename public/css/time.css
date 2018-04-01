@@ -50,3 +50,10 @@
 .all_time {
     margin: 25px 0;
 }
+
+/*search*/
+
+.search_result {
+    margin: 20px auto;
+    width: 70%;
+}

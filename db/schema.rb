@@ -63,6 +63,8 @@ ActiveRecord::Schema.define(version: 20180330090224) do
     t.string   "place"
     t.string   "crass"
     t.integer  "day"
+    t.string   "w_day"
+    t.string   "w_time"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'admin/index'
+
   get "hashtags/:hashtag",   to: "hashtags#show",      as: :hashtag
   get "hashtags",            to: "hashtags#index",     as: :hashtags
 
@@ -47,12 +49,17 @@ Rails.application.routes.draw do
 
   get 'plan/time'
   
+  get 'plan/search'
+  
+  get 'plan/result'
 
   get 'event/apply'
   
   resources :event do
     resources :eventapply, only: [:create, :destroy]
   end
+  
+  get 'admin/index', as: 'admin'
 
   
   # The priority is based upon order of creation: first created -> highest priority.
