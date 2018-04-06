@@ -16,6 +16,8 @@ class AppliesController < ApplicationController
   # GET /applies/new
   def new
     @apply = Apply.new
+    @event_id = params[:event_id]
+    
   end
 
   # GET /applies/1/edit
@@ -77,7 +79,7 @@ class AppliesController < ApplicationController
     end
     # Never trust parameters from the scary internet, only allow the white list through.
     def apply_params
-      params.require(:apply).permit(:how_many, :time, :user_id)
+      params.require(:apply).permit(:how_many, :time, :user_id, :event_id)
     end
 
 end

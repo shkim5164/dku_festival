@@ -18,8 +18,11 @@
 
   <section>
     <div class="container">
-      <a href="/applies/new"><button>신청하기</button></a>
-      
+      <div class="regi_btn">
+        <a href="/applies/new/<%= params[:event_id] %>">
+          <button class="btn btn-primary">신청하기</button>
+        </a>
+      </div>
     </div>
   </section>
 

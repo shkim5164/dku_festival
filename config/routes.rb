@@ -1,11 +1,10 @@
 Rails.application.routes.draw do
 
   get 'admin/index'
-
-  get "hashtags/:hashtag",   to: "hashtags#show",      as: :hashtag
-  get "hashtags",            to: "hashtags#index",     as: :hashtags
-
+  
   resources :applies
+  
+  get 'applies/new/:event_id' => 'applies#new'
 
   devise_for :users
   

@@ -245,6 +245,16 @@ p {
   font-weight: 100 !important;
 }
 
-a:hover {
-  background-color: transparent!important;
+.login {
+  width: 33%;
+  margin: 0 auto;
+}
+
+.regi_btn {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.regi_btn button {
+  width: 50%;
 }

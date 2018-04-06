@@ -10,23 +10,24 @@
     </div>
   <% end %>
   <%= f.hidden_field :user_id, :value => current_user.id %>
+  <%= f.hidden_field :event_id, :value => @event_id %>
 
   <div class="field">
    <h2>이름</h2>
-   <p><%= current_user.name %></p>
+   <p class="breadcrumb"><%= current_user.name %></p>
   </div>
 
   <div class="field">
    <h2>학번</h2>
-   <p><%= current_user.student_id %></p>
+   <p class="breadcrumb"><%= current_user.student_id %></p>
   </div>
   <div class="field">
    <h2>이메일</h2>
-   <p><%= current_user.email %></p>
+   <p class="breadcrumb"><%= current_user.email %></p>
   </div>
   <div class="field">
    <h2>전화번호</h2>
-   <p><%= current_user.phone_number %></p>
+   <p class="breadcrumb"><%= current_user.phone_number %></p>
   </div>
   <div class="field">
     <h2>인원 수</h2>
@@ -39,4 +40,6 @@
   <div class="actions">
     <%= f.submit %>
   </div>
+
 <% end %>
+

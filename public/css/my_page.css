@@ -1,7 +1,10 @@
 .my_info {
-    width: 50%;
-    text-align: center;
+    width: 80%;
     margin: 10px auto;
+}
+
+.my_info > .nav {
+    text-align: center;
 }
 
 .my_con {

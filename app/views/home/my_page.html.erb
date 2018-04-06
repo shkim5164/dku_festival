@@ -4,7 +4,7 @@
     </head>
     <body>
     <div class="container my_info">
-             <h1><%= current_user.email %>님의 페이지</h1>
+             <h1 style="text-align:center;"><%= current_user.email %>님의 페이지</h1>
              <div class="my_info">
                  <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                       <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">내 정보</a>
@@ -12,8 +12,38 @@
                       <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">내 신고글</a>
                 </div>
                 <div class="tab-content my_con" id="v-pills-tabContent">
-                      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro qui ullam incidunt magni perferendis molestias ipsum reiciendis, reprehenderit, quasi ducimus quod, obcaecati minima sit! Fugit aperiam optio, officiis cum totam, dignissimos ex. Optio aliquid ad minus temporibus soluta natus ab sint porro ut nihil animi ullam sequi cumque, iure voluptas, dicta tenetur vel consequatur unde molestias ipsam vitae eum magni a! Eveniet esse nemo ad velit odio et deleniti itaque ducimus dolores quam error aliquam nam numquam quas, quasi laboriosam nobis maxime porro aperiam odit adipisci laudantium! Voluptatem delectus quos earum, molestiae quo id dicta temporibus, quidem ea quae libero?</div>
-                      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore fuga molestias odit voluptatum voluptatibus id, culpa quidem voluptas vero odio repellendus, quisquam laboriosam, quaerat alias eveniet. Consequatur laborum aperiam, aspernatur deleniti nobis repellendus illo recusandae! Perferendis ea impedit, nam deserunt autem nisi magnam culpa eum ad et repudiandae aliquid accusamus libero tempora maiores voluptatem, ipsam, consectetur doloribus mollitia velit voluptatibus beatae dolorem odit assumenda. Perspiciatis nobis explicabo veniam necessitatibus repellendus! Repellat sint quaerat dignissimos, deleniti ex odit cumque repellendus beatae vel dolorem nam nostrum exercitationem assumenda animi eligendi! Ducimus minima quis deserunt laudantium, ipsam architecto alias repellendus reprehenderit! Consectetur, rerum!</div>
+                      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <div class="container">
+                          <div class="field">
+                           <h2>이름</h2>
+                           <p class="breadcrumb"><%= current_user.name %></p>
+                          </div>
+                        
+                          <div class="field">
+                           <h2>학번</h2>
+                           <p class="breadcrumb"><%= current_user.student_id %></p>
+                          </div>
+                          <div class="field">
+                           <h2>이메일</h2>
+                           <p class="breadcrumb"><%= current_user.email %></p>
+                          </div>
+                          <div class="field">
+                           <h2>전화번호</h2>
+                           <p class="breadcrumb"><%= current_user.phone_number %></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        <% @my_events.each do |event| %>
+                          <div class="card event">
+                            <img class="card-img-top" src="/img/mini<%= event.event_id %>.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">WATERBATTLE Navy vs. Pirates </h5>
+                              <a href="/applies/<%= event.id %>" class="btn btn-primary">내 신청정보 보기</a>
+                            </div>
+                          </div>
+                        <% end %>
+                      </div>
                       <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
                           <h1 style="text-align:center;">내 신고글</h1>
                           <% unless @my_reports.empty? %>

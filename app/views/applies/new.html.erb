@@ -11,10 +11,11 @@
     </style>
 </head>
 <body>
-    <h1>이벤트 신청하기</h1>
-    <div style="margin-left:15rem">
-    <%= render 'form' %>
+    <div class="container">
+        <h1>이벤트 신청하기</h1>
+        <div>
+        <%= render 'form' %>
+        </div>
+        <%= link_to 'Back', applies_path %>
     </div>
-    <%= link_to 'Back', applies_path %>
-
 </body>
