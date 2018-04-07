@@ -43,7 +43,7 @@ gem 'figaro'
 # gem 'capistrano-rails', group: :development
 group :production do
   # gem 'mysql2', '~> 0.4.10'
-   gem 'pg'
+   gem 'pg', '~> 0.15.1'
    gem 'rails_12factor'
 
 end
