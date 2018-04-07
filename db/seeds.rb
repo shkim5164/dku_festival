@@ -16,7 +16,7 @@ for x in 1..100 do
 end
 
 # Admin user
-User.create(email: 'admin@admin.com', name: '이벤트1관리자', password: '123123', password_confirmation: '123123', phone_number: '010-2187-7724', student_id: '32164640')
+User.create(email: 'admin@admin.com', name: '이벤트1관리자', password: '123123', password_confirmation: '123123', phone_number: '010-1234-5678', student_id: '32181818')
 
 # Event
 Event.create(event_name: '방탈출')
@@ -31,35 +31,46 @@ Singer.create(
     img_addr: '/img/psy.jpg',
     place: '노천마당',
     crass: 'nc',
-    day: 1},
+    day: 1,
+    w_day: '1일차',
+    w_time: '5시'
+    },
     { name: '랄라스윗',
     info: '인디씬의 신나고 감미로운 목소리의 강자! 랄라스윗!',
     st_time: 1,
     img_addr: '/img/lalasweet.jpg',
     place: '폭포공원',
     crass: 'pp',
-    day: 1},
+    day: 1,
+    w_day: '1일차',
+    w_time: '1시'},
     { name: '10cm',
     info: '감미롭고 개성적인 목소리! 봄이좋냐?!?!?! 말이 필요없는 10cm!!',
     st_time: 2,
     img_addr: '/img/10cm.jpg',
     place: '루프탑파티',
     crass: 'rft',
-    day: 1},
+    day: 1,
+    w_day: '1일차',
+    w_time: '2시'},
     { name: '워너원',
     info: '작년부터 올해까지 모든 사람들의 시선을 받는! 명불허전 워너원! 댓달각?',
     st_time: 3,
     img_addr: '/img/wannaone.jpg',
     place: '혜당관 앞',
     crass: 'hf',
-    day: 1},
+    day: 1,
+    w_day: '1일차',
+    w_time: '3시'},
     { name: '우주소녀',
     info: '앙 우주띠~~!!!! 우주소녀!',
     st_time: 4,
     img_addr: '/img/spacegirl.jpg',
     place: '노천마당',
     crass: 'nc',
-    day: 1},]
+    day: 1,
+    w_day: '1일차',
+    w_time: '4시'}]
     
     
     )
