@@ -1,2 +1,106 @@
-<h1>List of products</h1>
-<%= link_to 'Download as .xlsx', admin_path(format: :xlsx) %>
+<div class="container">
+    
+        <h1 style="text-align:center;">이벤트별 신청자</h1>
+    <div class="downex">
+        <button class="btn btn-primary"><%= link_to '엑셀로 전부 다운로드', admin_path(format: :xlsx) %></button>
+    </div>
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">이벤트1</a>
+        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">이벤트2</a>
+        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">이벤트3</a>
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+           <table class="table events">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col" >event_id</th>
+                  <th scope="col" >event이름</th>
+                  <th scope="col" >이메일</th>
+                  <th scope="col" >신청자이름</th>
+                  <th scope="col" >학번</th>
+                  <th scope="col" >전화번호</th>
+                  <th scope="col" >howmany</th>
+                  <th scope="col" >time</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <% @event1.each do |x| %>
+                    <tr>
+                      <th scope="row"><%= x.event_id %></th>
+                      <th scope="row"><%= x.event.event_name %></th>
+                      <th scope="row"><%= x.user.email %></th>
+                      <td scope="row"><%= x.user.name %></td>
+                      <td scope="row"><%= x.user.student_id %></td>
+                      <td scope="row"><%= x.user.phone_number %></td>
+                      <td scope="row"><%= x.how_many %></td>
+                      <td scope="row"><%= x.time %></td>
+                    </tr>
+                <% end %>
+              </tbody>
+            </table>
+      </div>
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+           <table class="table events">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col" >event_id</th>
+                  <th scope="col" >event이름</th>
+                  <th scope="col" >이메일</th>
+                  <th scope="col" >신청자이름</th>
+                  <th scope="col" >학번</th>
+                  <th scope="col" >전화번호</th>
+                  <th scope="col" >howmany</th>
+                  <th scope="col" >time</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <% @event2.each do |x| %>
+                    <tr>
+                      <th scope="row"><%= x.event_id %></th>
+                      <th scope="row"><%= x.event.event_name %></th>
+                      <th scope="row"><%= x.user.email %></th>
+                      <td scope="row"><%= x.user.name %></td>
+                      <td scope="row"><%= x.user.student_id %></td>
+                      <td scope="row"><%= x.user.phone_number %></td>
+                      <td scope="row"><%= x.how_many %></td>
+                      <td scope="row"><%= x.time %></td>
+                    </tr>
+                <% end %>
+              </tbody>
+            </table>
+      </div>
+      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+           <table class="table events">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col" >event_id</th>
+                  <th scope="col" >event이름</th>
+                  <th scope="col" >이메일</th>
+                  <th scope="col" >신청자이름</th>
+                  <th scope="col" >학번</th>
+                  <th scope="col" >전화번호</th>
+                  <th scope="col" >howmany</th>
+                  <th scope="col" >time</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <% @event3.each do |x| %>
+                    <tr>
+                      <th scope="row"><%= x.event_id %></th>
+                      <th scope="row"><%= x.event.event_name %></th>
+                      <th scope="row"><%= x.user.email %></th>
+                      <td scope="row"><%= x.user.name %></td>
+                      <td scope="row"><%= x.user.student_id %></td>
+                      <td scope="row"><%= x.user.phone_number %></td>
+                      <td scope="row"><%= x.how_many %></td>
+                      <td scope="row"><%= x.time %></td>
+                    </tr>
+                <% end %>
+              </tbody>
+            </table>
+      </div>
+    </div>
+</div>

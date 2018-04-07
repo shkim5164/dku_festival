@@ -1,9 +1,40 @@
 wb = xlsx_package.workbook
-wb.add_worksheet(name: "Products") do |sheet|
-    @products.each do |product|
-    sheet.add_row [product.title, product.content]
+wb.add_worksheet(name: "event1") do |sheet|
+    sheet.add_row ["event_id", "event_name", "email", "name", "phone_number", "howmany", "time"]
+    @event1.each do |product|
+    sheet.add_row [product.event_id,
+                    product.event.event_name,
+                    product.user.email,
+                    product.user.name,
+                    product.user.student_id,
+                    product.user.phone_number,
+                    product.how_many,
+                    product.time]
     end
-    @users.each do |user|
-    sheet.add_row [user.email]
+end
+wb.add_worksheet(name: "event2") do |sheet|
+    sheet.add_row ["event_id", "event_name", "email", "name", "phone_number", "howmany", "time"]
+    @event2.each do |product|
+    sheet.add_row [product.event_id,
+                    product.event.event_name,
+                    product.user.email,
+                    product.user.name,
+                    product.user.student_id,
+                    product.user.phone_number,
+                    product.how_many,
+                    product.time]
+    end
+end
+wb.add_worksheet(name: "event3") do |sheet|
+    sheet.add_row ["event_id", "event_name", "email", "name", "phone_number", "howmany", "time"]
+    @event3.each do |product|
+    sheet.add_row [product.event_id,
+                    product.event.event_name,
+                    product.user.email,
+                    product.user.name,
+                    product.user.student_id,
+                    product.user.phone_number,
+                    product.how_many,
+                    product.time]
     end
 end
