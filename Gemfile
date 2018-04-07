@@ -42,7 +42,7 @@ gem 'figaro'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 group :production do
-  gem 'mysql2'
+  gem 'mysql2', '~> 0.4.10'
 end
 
 group :development, :test do
