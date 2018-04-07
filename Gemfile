@@ -27,10 +27,10 @@ gem 'tinymce-rails'
 gem 'devise'
 gem 'kaminari'
 
-gem 'rails_db'
 gem "scoped_search"
 
 gem 'axlsx_rails'
+gem 'figaro'
 
 
 # Use ActiveModel has_secure_password
@@ -45,6 +45,7 @@ gem 'axlsx_rails'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'rails_db'
 end
 
 group :development do
@@ -55,3 +56,6 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  gem 'mysql2'
+end
