@@ -21,10 +21,5 @@ test:
   database: db/test.sqlite3
 
 production:
-  adapter: mysql2
-  host: 127.0.0.1
-  database: dku_festival_production
-  username: root
-  password: <%= ENV.fetch("DATABASE_PASSWORD"){ "" } %>
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  timeout: 5000
+  encoding: utf8
+  pool: 15
