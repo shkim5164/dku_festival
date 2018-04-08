@@ -244,6 +244,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   scoped_search
   sdoc (~> 0.4.0)
+  simple_form
   spring
   sqlite3
   tinymce-rails

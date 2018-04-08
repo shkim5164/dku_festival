@@ -31,7 +31,7 @@ gem "scoped_search"
 
 gem 'axlsx_rails'
 gem 'figaro'
-
+gem 'simple_form'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
