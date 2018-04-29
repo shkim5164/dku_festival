@@ -5,7 +5,7 @@
     <body>
         <div class="container">
             <h1>건의사항 및 신고 게시물 작성</h1>
-            <%= form_tag("/home/make_report", method: "post") do %>
+            <%= form_tag("/police/make_report", method: "post") do %>
               <p class="labels"><%= label_tag(:title, "제목") %></p>
               <%= text_field_tag(:title, "", :style => "width: 100%") %>
               <p class="labels"><%= label_tag(:title, "내용") %></p>
