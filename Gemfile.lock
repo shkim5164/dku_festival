@@ -99,6 +99,7 @@ GEM
     mini_portile2 (2.2.0)
     minitest (5.10.3)
     multi_json (1.12.1)
+
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
     orm_adapter (0.5.0)
@@ -226,7 +227,11 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   kaminari
+<<<<<<< HEAD
+  mysql2 (~> 0.4.10)
+=======
   pg (~> 0.20.0)
+>>>>>>> f59c19716d91a81f6cbf6b37d93931ecd74c6e85
   pry-rails
   rails (= 4.2.5)
   rails_12factor

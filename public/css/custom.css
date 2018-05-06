@@ -133,8 +133,8 @@
 
 .map {
   position:relative;
-  height: 543.75px;
-  width: 832.5px;
+  height: 34rem;
+  width: 52rem;
   text-align: center;
   margin-bottom: 10px;
   background-image: url(/img/map.png);
@@ -290,7 +290,14 @@
   display: inline-block;
 }
 
+.card.event {
+  margin: 0.5rem;
+}
 
+.all_event {
+  display: flex;
+  flex-wrap: wrap;
+}
 /* .event 이벤트상세 */
 
 .ev_img {
@@ -321,4 +328,14 @@ p {
 .police .new{
   float: right;
   margin-bottom: 1rem;
+}
+
+/* 동영상 정렬 */
+.carousel.slide {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  height: 473px;
 }

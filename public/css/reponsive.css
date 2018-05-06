@@ -18,6 +18,9 @@
   .perform p{
     font-size: 1rem;
   }
+  .carousel.slide iframe{
+    height: 203px;
+  }
   
   /* nav */
   #mainNav{
@@ -29,14 +32,14 @@
   
   /* card event */
   .card.event{
-    width: 160px;
+    width: 20rem;
     margin-top: 0.5rem;
   }
   .card.event h5{
     font-size: 1.2rem;
   }
   .card.event p{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 
   /* 축제일정 */
@@ -60,143 +63,138 @@
   }
   
   
-  /* 신고게시판 */
+  /* 부스상세보기 */
+  .map {
+    position:relative;
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 22rem;
+    text-align: center;
+    margin-bottom: 10px;
+    background-image: url(/img/map.png);
+    background-position: center;
+    background-size: 100%;
+    margin: 0 auto 10px auto;
+  }
+  
+  .nbbtn {
+    bottom: 8.9%;
+    right: 3.8%;
+    z-index: 2;
+  }
+  
+  .no_btn {
+    width: 5.31rem;
+    height: 4.62rem;
+    border-radius: 10px;
+    font-size: 1.125rem;
+    background-color: rgba(140,25,140, 0.7);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pbbtn {
+    position: absolute;
+    top: 2.8%;
+    left: 1.4%;
+    z-index: 2;
+  }
+  
+  .poc_btn {
+    width: 5.25rem;
+    height: 3.25rem;
+    border-radius: 10px;
+    font-size: 1.125rem;
+    background-color: rgba(25,140,25, 0.7);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .rbbtn {
+    position: absolute;
+    bottom: 14.4%;
+    right: 34.7%;
+    z-index: 2;
+  }
+  
+  .rft_btn {
+    width: 2rem;
+    height: 1.7rem;
+    border-radius: 10px;
+    font-size: 0.5rem;
+    background-color: rgba(255,192,203, 0.7);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dbbtn {
+    position: absolute;
+    bottom: 43%;
+    left: 5.8%;
+    z-index: 2;
+  }
+  
+  .daebup_btn {
+    width: 6.5rem;
+    height: 1.5rem;
+    border-radius: 10px;
+    font-size: 0.8875rem;
+    background-color: rgba(255,255,76, 0.7);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .gbtn {
+    position: absolute;
+    bottom: 50.8%;
+    left: 36.9%;
+    z-index: 2;
+  }
+  
+  .gom_btn {
+    width: 7.56rem;
+    height: 6.125rem;
+    border-radius: 10px;
+    font-size: 1.23rem;
+    background-color: rgba(76,76,255, 0.7);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hbbtn {
+    position: absolute;
+    bottom: 2.1%;
+    left: 38.4%;
+    z-index: 2;
+  }
+  
+  .h_btn {
+    width: 6.5rem;
+    height: 1.5rem;
+    border-radius: 10px;
+    font-size: 1.1375rem;
+    background-color: rgba(255,50,50, 0.7);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .map > div > button:hover {
+    color: #e6a756
+  }
+  
+  .map > div > a > button {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .map > div > a > button:hover {
+    color: #e6a756
+  }
+  
+  .map > .gbtn > a {
+    text-decoration: none;
+    color: black;
+  }
+
 
 }
-
-
-/* 부스상세보기 */
-
-/*.map {*/
-/*  position:relative;*/
-/*  height: 471.5px;*/
-/*  width: 307.75px;*/
-/*  text-align: center;*/
-/*  margin-bottom: 10px;*/
-/*  background-image: url(/img/map.png);*/
-/*  background-color: black;*/
-/*  background-position: center;*/
-/*  background-size: 100%;*/
-/*  margin: 0 auto 10px auto;*/
-/*}*/
-
-/*.nbbtn {*/
-/*  position: absolute;*/
-/*  bottom: 8.9%;*/
-/*  right: 3.8%;*/
-/*  z-index: 2;*/
-/*}*/
-
-/*.no_btn {*/
-/*  width: 6.31rem;*/
-/*  height: 5.12rem;*/
-/*  border-radius: 20px;*/
-/*  font-size: 2.125rem;*/
-/*  background-color: rgba(140,25,140, 0.7);*/
-/*  border: none;*/
-/*  cursor: pointer;*/
-/*}*/
-
-/*.pbbtn {*/
-/*  position: absolute;*/
-/*  top: 2.8%;*/
-/*  left: 1.4%;*/
-/*  z-index: 2;*/
-/*}*/
-
-/*.poc_btn {*/
-/*  width: 6.25rem;*/
-/*  height: 3.75rem;*/
-/*  border-radius: 20px;*/
-/*  font-size: 2.125rem;*/
-/*  background-color: rgba(25,140,25, 0.7);*/
-/*  border: none;*/
-/*  cursor: pointer;*/
-/*}*/
-
-/*.rbbtn {*/
-/*  position: absolute;*/
-/*  bottom: 14.4%;*/
-/*  right: 34.7%;*/
-/*  z-index: 2;*/
-/*}*/
-
-/*.rft_btn {*/
-/*  width: 2.2rem;*/
-/*  height: 1.9rem;*/
-/*  border-radius: 20px;*/
-/*  font-size: 0.7rem;*/
-/*  background-color: rgba(255,192,203, 0.7);*/
-/*  border: none;*/
-/*  cursor: pointer;*/
-/*}*/
-
-/*.dbbtn {*/
-/*  position: absolute;*/
-/*  bottom: 44.4%;*/
-/*  left: 5.8%;*/
-/*  z-index: 2;*/
-/*}*/
-
-/*.daebup_btn {*/
-/*  width: 9rem;*/
-/*  height: 2rem;*/
-/*  border-radius: 20px;*/
-/*  font-size: 1.1875rem;*/
-/*  background-color: rgba(255,255,76, 0.7);*/
-/*  border: none;*/
-/*  cursor: pointer;*/
-/*}*/
-
-/*.gbtn {*/
-/*  position: absolute;*/
-/*  bottom: 52.8%;*/
-/*  left: 38.9%;*/
-/*  z-index: 2;*/
-/*}*/
-
-/*.gom_btn {*/
-/*  width: 8.56rem;*/
-/*  height: 7.125rem;*/
-/*  border-radius: 20px;*/
-/*  font-size: 1.43rem;*/
-/*  background-color: rgba(76,76,255, 0.7);*/
-/*  border: none;*/
-/*  cursor: pointer;*/
-/*}*/
-
-/*.hbbtn {*/
-/*  position: absolute;*/
-/*  bottom: 4.1%;*/
-/*  left: 38.4%;*/
-/*  z-index: 2;*/
-/*}*/
-
-/*.h_btn {*/
-/*  width: 8.5rem;*/
-/*  height: 1.8rem;*/
-/*  border-radius: 20px;*/
-/*  font-size: 1.1875rem;*/
-/*  background-color: rgba(255,50,50, 0.7);*/
-/*  border: none;*/
-/*  cursor: pointer;*/
-/*}*/
-
-/*.map > div > button:hover {*/
-/*  color: #e6a756*/
-/*}*/
-
-/*.map > div > a > button {*/
-/*  text-decoration: none;*/
-/*  color: black;*/
-/*}*/
-
-/*.map > div > a > button:hover {*/
-/*  color: #e6a756*/
-/*}*/
-
-/*.map > .gbtn > a {*/
-/*  text-decoration: none;*/
-/*  color: black;*/
-/*}*/
-
