@@ -8,14 +8,7 @@
   <body>
 
   <div class="container">
-    <div class="search_box">
-
-      <form class="form-inline" action="/plan/search" method="get">
-        <label><h2>검색:&nbsp</h2></label>
-        <input class="form-control mr-sm-2" type="search" placeholder="ex)싸이" aria-label="Search" name="search_info">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-   </div>
+   
     <h1 class="day_count"><일차별 전체라인업></h1>
   </div>
 
@@ -37,7 +30,7 @@
           
               <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body">
-                <% @singers.each do |singer| %>
+                <% @singer1.each do |singer| %>
                   <div class="singer row <%= singer.crass %>">
                     <div class="col-lg-4 col-sm-6 img_div">
                       <img class="singer_img" src="<%= singer.img_addr %>" alt="<%=singer.name %>"></img>
@@ -45,7 +38,7 @@
                     
                       <div class="s_info col-8 align-middle">
                         <h1><%= singer.name %></h1>
-                        <h2>#<%= singer.day %>일차 #<%= singer.st_time %>시 시작 #<%= singer.place %></h2>
+                        <h2>#<%= singer.w_day %> #<%= singer.w_time %> 시작 #<%= singer.place %></h2>
                         <h3><%= singer.info %></h3>
                       </div>
                   
@@ -68,7 +61,20 @@
               
               <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                 <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  <% @singer2.each do |singer| %>
+                  <div class="singer row <%= singer.crass %>">
+                    <div class="col-lg-4 col-sm-6 img_div">
+                      <img class="singer_img" src="<%= singer.img_addr %>" alt="<%=singer.name %>"></img>
+                    </div>
+                    
+                      <div class="s_info col-8 align-middle">
+                        <h1><%= singer.name %></h1>
+                        <h2>#<%= singer.w_day %> #<%= singer.w_time %> 시작 #<%= singer.place %></h2>
+                        <h3><%= singer.info %></h3>
+                      </div>
+                  
+                  </div>
+                  <% end %>
                 </div>
               </div>
             </div>
@@ -85,7 +91,20 @@
 
               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                 <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                 <% @singer3.each do |singer| %>
+                  <div class="singer row <%= singer.crass %>">
+                    <div class="col-lg-4 col-sm-6 img_div">
+                      <img class="singer_img" src="<%= singer.img_addr %>" alt="<%=singer.name %>"></img>
+                    </div>
+                    
+                      <div class="s_info col-8 align-middle">
+                        <h1><%= singer.name %></h1>
+                        <h2>#<%= singer.w_day %> #<%= singer.w_time %> 시작 #<%= singer.place %></h2>
+                        <h3><%= singer.info %></h3>
+                      </div>
+                  
+                  </div>
+                  <% end %>
                 </div>
               </div>
               

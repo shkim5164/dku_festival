@@ -23,21 +23,32 @@
     margin: 1rem;
 }
 /*노천마당*/
-.nc {
-   background-color: #A64CA6;
-}
+/*.nc {*/
+/*   background-color: #A64CA6;*/
+/*}*/
 /*폭포공원*/
-.pp {
-    background-color: #7FBF7F;
-}
+/*.pp {*/
+/*    background-color: #7FBF7F;*/
+/*}*/
 /*루프탑*/
-.rft {
-    background-color: pink;
-}
+/*.rft {*/
+/*    background-color: pink;*/
+/*}*/
 /*혜당관 앞*/
-.hf {
-    background-color: #FFFF66;
+/*.hf {*/
+/*    background-color: #FFFF66;*/
+/*}*/
+
+/*배경색분홍*/
+.bgpk {
+   background-color: #F6D8E0;
 }
+/*배경색파랑*/
+.bgblue {
+   background-color: #567DBE;
+}
+
+
 
 .lineup {
     width: 85%;

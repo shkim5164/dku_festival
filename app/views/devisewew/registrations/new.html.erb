@@ -10,6 +10,9 @@
         <%= f.input :email, required: true, autofocus: true, input_html: { class: "form-control", id: "exampleInputEmail1", placeholder: "Enter email"} %>
         <%= f.input :password, required: true, hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length), input_html: {class: "form-control", id:"exampleInputPassword1", placeholder: "Password"} %>
         <%= f.input :password_confirmation, required: true, input_html: {class: "form-control", id:"exampleInputPassword1", placeholder: "Password"} %>
+        <%= f.input :name, required: true, autofocus: true, input_html: { class: "form-control", id: "exampleInputEmail1", placeholder: "이름을 입력해주세요"} %>
+        <%= f.input :phone_number, required: true, autofocus: true, input_html: { class: "form-control", id: "exampleInputEmail1", placeholder: "ex) 010-1234-5164"} %>
+        <%= f.input :student_id, required: true, autofocus: true, input_html: { class: "form-control", id: "exampleInputEmail1", placeholder: "ex) 32181818"} %>
       </div>
     
       <div class="form-actions">

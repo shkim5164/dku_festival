@@ -3,7 +3,8 @@ class CreateSingers < ActiveRecord::Migration
     create_table :singers do |t|
       t.string :name
       t.text :info
-      t.integer :st_time
+      t.integer :st_time, :limit => 8
+      t.integer :end_time, :limit => 8
       t.string :img_addr
       t.string :place
       t.string :crass

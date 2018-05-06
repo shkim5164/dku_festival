@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180330090224) do
+ActiveRecord::Schema.define(version: 20180505131829) do
 
   create_table "applies", force: :cascade do |t|
     t.integer  "how_many"
@@ -26,6 +26,21 @@ ActiveRecord::Schema.define(version: 20180330090224) do
 
   create_table "events", force: :cascade do |t|
     t.string   "event_name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "jujums", force: :cascade do |t|
+    t.string   "name"
+    t.string   "major"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "menus", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "price"
+    t.integer  "jujum_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -58,21 +73,26 @@ ActiveRecord::Schema.define(version: 20180330090224) do
   create_table "singers", force: :cascade do |t|
     t.string   "name"
     t.text     "info"
-    t.integer  "st_time"
+    t.integer  "st_time",    limit: 8
+    t.integer  "end_time",   limit: 8
     t.string   "img_addr"
     t.string   "place"
     t.string   "crass"
     t.integer  "day"
+<<<<<<< HEAD
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+=======
+    t.string   "w_day"
+    t.string   "w_time"
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
+>>>>>>> f59c19716d91a81f6cbf6b37d93931ecd74c6e85
   end
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
-    t.string   "name",                   default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
-    t.string   "phone_number",           default: "", null: false
-    t.string   "student_id",             default: "", null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
@@ -83,6 +103,9 @@ ActiveRecord::Schema.define(version: 20180330090224) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
+    t.string   "name"
+    t.string   "phone_number"
+    t.string   "student_id"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true
