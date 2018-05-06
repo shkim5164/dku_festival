@@ -85,10 +85,3 @@ for (;i<l;i++) {
               $('html, body').animate({scrollTop:posTop}, speed ) // body의 스크롤이동 : posTop
           }
       };
-       
-       
-      $("div.statis a").click(function(){  // 네비게이션 클릭시
-          var direction = $(this).attr("href");   // direction = 클릭한 요소의 href 속성
-          scrolling( direction ); // direction 을 인자로 함수 실행
-          return false;   // 본래 이벤트 방지 
-      });

@@ -18,10 +18,8 @@ ActiveRecord::Schema.define(version: 20180505131829) do
     t.string   "time"
     t.integer  "user_id"
     t.integer  "event_id"
-    t.string   "phone_number"
-    t.string   "student_id"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "events", force: :cascade do |t|
@@ -33,6 +31,9 @@ ActiveRecord::Schema.define(version: 20180505131829) do
   create_table "jujums", force: :cascade do |t|
     t.string   "name"
     t.string   "major"
+    t.string   "numbs"
+    t.string   "idd"
+    t.string   "madi"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -53,23 +54,6 @@ ActiveRecord::Schema.define(version: 20180505131829) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "simple_hashtag_hashtaggings", force: :cascade do |t|
-    t.integer "hashtag_id"
-    t.integer "hashtaggable_id"
-    t.string  "hashtaggable_type"
-  end
-
-  add_index "simple_hashtag_hashtaggings", ["hashtag_id"], name: "index_simple_hashtag_hashtaggings_on_hashtag_id"
-  add_index "simple_hashtag_hashtaggings", ["hashtaggable_id", "hashtaggable_type"], name: "index_hashtaggings_hashtaggable_id_hashtaggable_type"
-
-  create_table "simple_hashtag_hashtags", force: :cascade do |t|
-    t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "simple_hashtag_hashtags", ["name"], name: "index_simple_hashtag_hashtags_on_name"
-
   create_table "singers", force: :cascade do |t|
     t.string   "name"
     t.text     "info"
@@ -79,15 +63,10 @@ ActiveRecord::Schema.define(version: 20180505131829) do
     t.string   "place"
     t.string   "crass"
     t.integer  "day"
-<<<<<<< HEAD
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-=======
     t.string   "w_day"
     t.string   "w_time"
     t.datetime "created_at",           null: false
     t.datetime "updated_at",           null: false
->>>>>>> f59c19716d91a81f6cbf6b37d93931ecd74c6e85
   end
 
   create_table "users", force: :cascade do |t|

@@ -168,7 +168,9 @@
   padding:0;
 }
 
-/*.gom_map > .statis_btn > a {*/
-/*  text-decoration: none;*/
-/*  color: black;*/
-/*}*/
+.mj_img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
