@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180407153644) do
+ActiveRecord::Schema.define(version: 20180505131829) do
 
   create_table "applies", force: :cascade do |t|
     t.integer  "how_many"
@@ -28,6 +28,21 @@ ActiveRecord::Schema.define(version: 20180407153644) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "jujums", force: :cascade do |t|
+    t.string   "name"
+    t.string   "major"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "menus", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "price"
+    t.integer  "jujum_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "reports", force: :cascade do |t|
     t.integer  "user_id"
     t.string   "title"
@@ -39,15 +54,16 @@ ActiveRecord::Schema.define(version: 20180407153644) do
   create_table "singers", force: :cascade do |t|
     t.string   "name"
     t.text     "info"
-    t.integer  "st_time"
+    t.integer  "st_time",    limit: 8
+    t.integer  "end_time",   limit: 8
     t.string   "img_addr"
     t.string   "place"
     t.string   "crass"
     t.integer  "day"
     t.string   "w_day"
     t.string   "w_time"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
   end
 
   create_table "users", force: :cascade do |t|

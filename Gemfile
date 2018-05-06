@@ -29,7 +29,7 @@ gem 'kaminari'
 
 gem "scoped_search"
 
-gem 'axlsx_rails'
+# gem 'axlsx_rails'
 gem 'figaro'
 gem 'simple_form'
 

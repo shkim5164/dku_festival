@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
 
+.no_show {
+  font-size:0px;
+}
+
 .logo {
   text-decoration: none!important;
 }
@@ -272,13 +276,19 @@
   margin: 10px auto;
 }
 
+.gs_map {
+  margin-top: 20px;
+}
+
+
+
 /* 이벤트고르기 .about*/
 
 .event {
   margin-bottom: 10px;
   width: 18rem;
   display: inline-block;
-}
+}z
 
 
 /* .event 이벤트상세 */
