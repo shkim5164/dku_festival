@@ -79,7 +79,8 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: black;
+  /*color: black;*/
+  color:#CBCBCC;
   font-weight: 800;
 }
 
@@ -232,13 +233,13 @@ p {
 }
 
 .btn-primary {
-  background-color: #e6a756;
-  border-color: #e6a756;
+  background-color: #A5C6FB;
+  border-color: #567DBE;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #df902a;
-  border-color: #df902a;
+  background-color: #A5C6FB;
+  border-color: #567DBE;
 }
 
 .font-weight-light {

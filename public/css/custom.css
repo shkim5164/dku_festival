@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
 
 .no_show {
   font-size:0px;
@@ -49,7 +51,7 @@
 /* index */
 
 :not(span) {
-  font-family: 'Nanum Pen Script'!important;
+  font-family: 'Hanna', sans-serif;
 }
 
 .slide {
@@ -70,19 +72,19 @@
   margin-bottom: 10px;
 }
 .pocpo {
-  background-color: #198C19;
+  background-color: #FCB2CF;
 }
 
 .rooftop {
-  background-color: pink;
+  background-color: #A5C6FB;
 }
 
 .nocheon {
-  background-color: #8C198C;
+  background-color: #FCB2CF;
 }
 
 .frontlaw {
-  background-color: #FFFF4C;
+  background-color: #A5C6FB;
 }
 
 .perform > div > img {
