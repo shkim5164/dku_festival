@@ -40,16 +40,14 @@
 /*    background-color: #FFFF66;*/
 /*}*/
 
-/*배경색분홍*/
+/*배경색회색*/
 .bgpk {
-   background-color: #F6D8E0;
+   background-color: #CBCBCC;
 }
 /*배경색파랑*/
 .bgblue {
    background-color: #567DBE;
 }
-
-
 
 .lineup {
     width: 85%;
@@ -57,14 +55,14 @@
 }
 
 #time_header {
-    background-color: #7C88F8;
+    background-color: #FCB2CF;
     text-decoration: none;
     color: black;
     padding: 0;
 }
 
 #time_header:hover {
-    background-color: #7C88F8;
+    background-color: #FCB2CF;
     text-decoration: none;
     color: white;
     padding: 0;

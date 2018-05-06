@@ -1,9 +1,9 @@
 .text-primary {
-  color: $primary !important;
+  color: #A5C6FB !important;
 }
 
 .bg-primary {
-  background-color: $primary !important;
+  background-color: #A5C6FB !important;
 }
 
 .btn {
@@ -11,13 +11,13 @@
 }
 
 .btn-primary {
-  background-color: $primary;
-  border-color: $primary;
+  background-color: #A5C6FB;
+  border-color: #A5C6FB;
   &:hover,
   &:focus,
   &:active {
-    background-color: darken($primary, 10%);
-    border-color: darken($primary, 10%);
+    background-color: darken(#A5C6FB, 10%);
+    border-color: darken(#A5C6FB, 10%);
   }
 }
 

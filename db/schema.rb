@@ -31,6 +31,9 @@ ActiveRecord::Schema.define(version: 20180505131829) do
   create_table "jujums", force: :cascade do |t|
     t.string   "name"
     t.string   "major"
+    t.string   "numbs"
+    t.string   "idd"
+    t.string   "madi"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

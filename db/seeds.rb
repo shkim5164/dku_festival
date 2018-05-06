@@ -7,13 +7,13 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first
 
 # 신고 게시물
-for x in 1..100 do
-    Report.create(
-             title: "title#{x}",
-              user_id: 1,
-              content: "content#{x}"
-            )
-end
+# for x in 1..100 do
+#     Report.create(
+#              title: "title#{x}",
+#               user_id: 1,
+#               content: "content#{x}"
+#             )
+# end
 
 # Admin user
 User.create(email: 'admin@admin.com', name: '이벤트1관리자', password: '123123', password_confirmation: '123123', phone_number: '010-1234-5678', student_id: '32181818')
@@ -167,16 +167,40 @@ Singer.create(
 
 Jujum.create([
     {name: '응용통계학과',
-    major: '응용통계학과'},
-    {name: '경영학과'},
-    {name: '전자전기공학부'},
-    {name: '철학과'},
-    {name: '소프트웨어학과'},
-    {name: '체육볶음',
-    major: '체육교육학과'
+    major: '응용통계학과',
+    numbs: 'One',
+    idd: 'statis'
     },
-    {name: '기계공학과'},
-    {name: '패션디자인학과'}
+    {name: '경영학과',
+    major: '경영학과',
+    numbs: 'Two',
+    idd: 'bz'
+    },
+    {name: '전자전기공학부',
+    major: '전자전기공학부',
+    numbs: 'Three',
+    idd: 'elec'},
+    {name: '철학과',
+    major: '철학과',
+    numbs: 'Four',
+    idd: 'thinking'},
+    {name: '소프트웨어학과',
+    major: '소프트웨어학과',
+    numbs: 'Five',
+    idd: 'soft'},
+    {name: '체육볶음',
+    major: '체육교육과',
+    numbs: 'Six',
+    idd: 'physical'
+    },
+    {name: '기계공학과',
+    major: '기계공학과',
+    numbs: 'Seven',
+    idd: 'mech'},
+    {name: '패션디자인학과',
+    major: '패션디자인학과',
+    numbs: 'Eight',
+    idd: 'fadi'}
     ])
 
 # •제육볶음

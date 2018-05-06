@@ -3,6 +3,7 @@ class HomeController < ApplicationController
   end
 
   def gomsang
+    @jujums = Jujum.all
   end
 
   def booth
