@@ -1,6 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="/css/time.css"></link>
+        <link href="/css/reponsive.css" rel="stylesheet">
     </head>
     
     <body>
@@ -14,11 +15,11 @@
            <h1 class="day_count">"<%= @word %>"에 대한 검색결과 입니다.</h1>
            <div class="search_result">
                 <% @search.each do |singer| %>
-                    <div class="singer row <%= singer.crass %>">
+                    <div class="singer <%= singer.crass %>">
                         <div class="col-4 img_div">
                             <img class="singer_img" src="<%= singer.img_addr %>" alt="<%=singer.name %>"></img>
                         </div>
-                        <div class="s_info col-8 align-middle">
+                        <div class="s_info col-lg-8 col-xs-12 align-middle">
                             <h1><%= singer.name %></h1>
                             <h2>#<%= singer.day %>일차 #<%= singer.st_time %>시 시작 #<%= singer.place %></h2>
                             <h3><%= singer.info %></h3>
