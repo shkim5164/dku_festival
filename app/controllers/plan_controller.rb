@@ -8,7 +8,9 @@ class PlanController < ApplicationController
   
   def search
       @word = params[:search_info]
-      @search = Singer.search_for(params[:search_info])
+      @search_s = Singer.search_for(params[:search_info])
+      @search_j = Jujum.search_for(params[:search_info])
+      @search_b = Buth.search_for(params[:search_info])
   end
     
     

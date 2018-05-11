@@ -14,18 +14,79 @@
            </div>
            <h1 class="day_count">"<%= @word %>"에 대한 검색결과 입니다.</h1>
            <div class="search_result">
-                <% @search.each do |singer| %>
-                    <div class="singer <%= singer.crass %>">
-                        <div class="col-4 img_div">
-                            <img class="singer_img" src="<%= singer.img_addr %>" alt="<%=singer.name %>"></img>
+               <h2>* 가수 검색</h2>
+                <% if @search_s.empty? %>
+                <p>가수 검색결과가 없습니다.</p>
+                <% else %>
+                    <% @search_s.each do |singer| %>
+                        <div class="singer <%= singer.crass %>">
+                            <div class="col-4 img_div">
+                                <img class="singer_img" src="<%= singer.img_addr %>" alt="<%=singer.name %>"></img>
+                            </div>
+                            <div class="s_info col-lg-8 col-xs-12 align-middle">
+                                <h1><%= singer.name %></h1>
+                                <h2>#<%= singer.w_day %> #<%= singer.w_time %> 시작 #<%= singer.place %></h2>
+                                <h3><%= singer.info %></h3>
+                             </div>
                         </div>
-                        <div class="s_info col-lg-8 col-xs-12 align-middle">
-                            <h1><%= singer.name %></h1>
-                            <h2>#<%= singer.day %>일차 #<%= singer.st_time %>시 시작 #<%= singer.place %></h2>
-                            <h3><%= singer.info %></h3>
-                         </div>
-                    </div>
+                    <% end %>
                 <% end %>
+                <hr>
+                <h2>* 주점 검색</h2>
+                <% if @search_j.empty? %>
+                <p>주점 검색결과가 없습니다.</p>
+                <% else %>
+                    <% @search_j.each do |jujum| %>
+                        <div class="row">
+                            <div class="col-4" style="text-align: center">
+                              <img src="/img/no_image.png" alt="학과 이미지" class="mj_img">
+                            </div>
+                            <div class="col-8">
+                              <ul>
+                                <li>
+                                  <h3 style="display: inline-block"><%= jujum.major %></h3>
+                                </li>
+                                <li>
+                                  <p>안녕하세요. OO학과주점입니다.</p>
+                                </li>
+                                <li>
+                                  <p>대표메뉴 : 제육볶음, 팔보채, 짜장면</p>
+                                </li>
+                                <li>
+                                  <p>위치 : 곰상 왼쪽 밑 구석</p>
+                                </li>
+                              </ul>
+                              <a href="/home/gomsang/#<%= jujum.idd %>_c">
+                                <button class="btn btn-primary">자세한 정보 확인하기!</button>
+                              </a>
+                              </div>
+                            </div>
+                            <hr>
+                    <% end %>
+                <% end %>
+                <hr>
+                <h2>* 부스 검색</h2>
+                <% if @search_b.empty? %>
+                <p>부스 검색결과가 없습니다.</p>
+                <% else %>
+                    <% @search_b.each do |jujum| %>
+                        <div>
+                            <ul>
+                                <li style="display: inline-block; margin-right: 25px">
+                                    <h3><%= jujum.name %></h3>
+                                </li>
+                                <a href="/home/hd_front">
+                                    <button class="btn btn-primary">부스 위치 확인하기!</button>
+                                </a>
+                                <li>
+                                  <p><%= jujum.content %></p>
+                               </li>
+                            </ul>
+                        </div>
+                    <hr>
+                    <% end %>
+                <% end %>
+                </div>
             </div>
         </div>
     </body>

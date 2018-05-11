@@ -1,0 +1,117 @@
+
+.hd_map {
+  position:relative;
+  height: 404px;
+  width: 850px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-image: url(/img/hd_front4.png);
+  background-color: black;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto 10px auto;
+}
+
+.hd_1 {
+  position: absolute;
+  top: 58.9%;
+    left: 20.8%;
+  z-index: 2;
+}
+
+.hd_2 {
+  position: absolute;
+      top: 58.9%;
+    left: 27.8%;
+  z-index: 2;
+}
+
+.hd_3 {
+  position: absolute;
+   top: 58.9%;
+    left: 34.8%;
+  z-index: 2;
+}
+
+.hd_4 {
+  position: absolute;
+   top: 58.9%;
+    left: 44.8%;
+  z-index: 2;
+}
+
+.hd_5 {
+  position: absolute;
+  top: 58.9%;
+    left: 56.8%;
+  z-index: 2;
+}
+
+.hd_6 {
+  position: absolute;
+  top: 81.9%;
+  left: 20.8%;
+  z-index: 2;
+}
+
+.hd_7 {
+  position: absolute;
+    top: 81.9%;
+    left: 32.8%;
+    z-index: 2;
+}
+
+.hd_8 {
+    position: absolute;
+    top: 81.9%;
+    left: 44.8%;
+    z-index: 2;
+}
+.hd_9 {
+    position: absolute;
+    top: 81.9%;
+    left: 56.8%;
+    z-index: 2;
+}
+.hd_10 {
+position: absolute;
+    top: 81.9%;
+    left: 68.8%;
+    z-index: 2;
+}
+.hd_11 {
+position: absolute;
+    top: 12.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_12 {
+position: absolute;
+    top: 22.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_13 {
+    position: absolute;
+    top: 32.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_14 {
+  position: absolute;
+    top: 58.9%;
+    left: 70.8%;
+    z-index: 2;
+}
+.hd_15 {
+     position: absolute;
+    top: 58.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_16 {
+position: absolute;
+    top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
