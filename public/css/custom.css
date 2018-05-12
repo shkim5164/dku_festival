@@ -58,6 +58,10 @@
   margin-bottom: 10px;
 }
 
+.search_box,.clock_con h2 {
+  margin:0.5rem auto;
+}
+
 .perform {
   text-align: center;
 
@@ -139,7 +143,7 @@
   width: 52rem;
   text-align: center;
   margin-bottom: 10px;
-  background-image: url(/img/map.png);
+  background-image: url(/img/map2.png);
   background-color: black;
   background-position: center;
   background-size: 100%;
@@ -191,7 +195,7 @@
   width: 3.5rem;
   height: 3.31rem;
   border-radius: 20px;
-  font-size: 1.125rem;
+  font-size: 1rem;
   background-color: rgba(255,192,203, 0.7);
   border: none;
   cursor: pointer;
@@ -216,16 +220,16 @@
 
 .gbtn {
   position: absolute;
-  bottom: 52.8%;
+  bottom: 47.8%;
   left: 38.9%;
   z-index: 2;
 }
 
 .gom_btn {
-  width: 14.56rem;
-  height: 12.125rem;
+  width: 20.56rem;
+  height: 14.125rem;
   border-radius: 20px;
-  font-size: 3.43rem;
+  font-size: 3rem;
   background-color: rgba(76,76,255, 0.7);
   border: none;
   cursor: pointer;
@@ -323,185 +327,3 @@ p {
 iframe {
   height: 573px;
 }
-
-/* 곰상지도 */
-.gom_map {
-  position:relative;
-  height: 470px;
-  width: 555px;
-  text-align: center;
-  margin-bottom: 10px;
-  background-image: url(/img/gom_map.png);
-  background-color: black;
-  background-position: center;
-  background-size: 100%;
-  margin: 0 auto 10px auto;
-}
-
-.bz {
-  position: absolute;
-  top: 13.9%;
-  left: 12.8%;
-  z-index: 2;
-}
-
-.bz_btn {
-  width: 11.31rem;
-  height: 8.12rem;
-  border-radius: 20px;
-  font-size: 3.125rem;
-  background-color: rgba(140,25,140, 0.7);
-  border: none;
-  cursor: pointer;
-}
-
-.elec {
-  position: absolute;
-  top: 13.8%;
-  left: 55.4%;
-  z-index: 2;
-}
-
-.elec_btn {
-  width: 11.25rem;
-  height: 7.75rem;
-  border-radius: 20px;
-  font-size: 2.125rem;
-  background-color: rgba(25,140,25, 0.7);
-  border: none;
-  cursor: pointer;
-}
-
-.soft {
-  position: absolute;
-  bottom: 36.4%;
-  right: 10.7%;
-  z-index: 2;
-}
-
-.soft_btn {
-  width: 6rem;
-  height: 5.31rem;
-  border-radius: 20px;
-  font-size: 1.125rem;
-  background-color: rgba(255,192,203, 0.7);
-  border: none;
-  cursor: pointer;
-}
-
-.thinking {
-  position: absolute;
-  bottom: 22.4%;
-  left: 13.8%;
-  z-index: 2;
-}
-
-.thinking_btn {
-  width: 7rem;
-  height: 6rem;
-  border-radius: 20px;
-  font-size: 2.1875rem;
-  background-color: rgba(255,255,76, 0.7);
-  border: none;
-  cursor: pointer;
-}
-
-.statis{
-  position: absolute;
-  bottom: 8.8%;
-  left: 5.9%;
-  z-index: 2;
-}
-
-.statis_btn {
-  width: 10.5rem;
-  height: 3.5rem;
-  border-radius: 20px;
-  font-size: 2.43rem;
-  background-color: rgba(76,76,255, 0.7);
-  border: none;
-  cursor: pointer;
-}
-
-.physical {
-  position: absolute;
-  bottom: 12.1%;
-  left: 72.4%;
-  z-index: 2;
-}
-
-.physical_btn {
-  width: 6.5rem;
-  height: 6.125rem;
-  border-radius: 20px;
-  font-size: 2.1875rem;
-  background-color: rgba(255,50,50, 0.7);
-  border: none;
-  cursor: pointer;
-}
-
-.mech {
-  position: absolute;
-  bottom: 9.1%;
-  left: 38.4%;
-  z-index: 2;
-}
-
-.mech_btn {
-  width: 10.5rem;
-  height: 3.125rem;
-  border-radius: 20px;
-  font-size: 2.1875rem;
-  background-color: rgba(255,50,50, 0.7);
-  border: none;
-  cursor: pointer;
-}
-
-.fadi {
-  position: absolute;
-  bottom: 23.1%;
-  left: 37.8%;
-  z-index: 2;
-}
-
-.fadi_btn {
-  width: 10.5rem;
-  height: 3.5rem;
-  border-radius: 20px;
-  font-size: 1.1875rem;
-  background-color: rgba(255,50,50, 0.7);
-  border: none;
-  cursor: pointer;
-}
-
-/*------------------------*/
-
-.gom_map > div > button:hover {
-  color: #e6a756
-}
-
-.gom_map > div > a > button {
-  text-decoration: none;
-  color: black;
-}
-
-.gom_map > div > a > button:hover {
-  color: #e6a756
-}
-
-.card > button {
-  text-decoration: none;
-  padding:0;
-}
-
-.mj_img {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  border: 1px solid black;
-}
-
-/*.gom_map > .statis_btn > a {*/
-/*  text-decoration: none;*/
-/*  color: black;*/
-/*}*/

@@ -1,4 +1,4 @@
-
+/* 곰상지도 */
 .gom_map {
   position:relative;
   height: 470px;
@@ -23,7 +23,7 @@
   width: 11.31rem;
   height: 8.12rem;
   border-radius: 20px;
-  font-size: 3.125rem;
+  font-size: 2.75rem;
   background-color: rgba(140,25,140, 0.7);
   border: none;
   cursor: pointer;
@@ -38,9 +38,9 @@
 
 .elec_btn {
   width: 11.25rem;
-  height: 7.75rem;
+  height: 8.5rem;
   border-radius: 20px;
-  font-size: 2.125rem;
+  font-size: 1.75rem;
   background-color: rgba(25,140,25, 0.7);
   border: none;
   cursor: pointer;
@@ -65,16 +65,16 @@
 
 .thinking {
   position: absolute;
-  bottom: 22.4%;
-  left: 13.8%;
+  bottom: 24%;
+  left: 15%;
   z-index: 2;
 }
 
 .thinking_btn {
-  width: 7rem;
-  height: 6rem;
+  width: 6.5rem;
+  height: 5.5rem;
   border-radius: 20px;
-  font-size: 2.1875rem;
+  font-size: 1.75rem;
   background-color: rgba(255,255,76, 0.7);
   border: none;
   cursor: pointer;
@@ -82,16 +82,16 @@
 
 .statis{
   position: absolute;
-  bottom: 8.8%;
+  bottom: 8%;
   left: 5.9%;
   z-index: 2;
 }
 
 .statis_btn {
   width: 10.5rem;
-  height: 3.5rem;
+  height: 3.7rem;
   border-radius: 20px;
-  font-size: 2.43rem;
+  font-size: 1.75rem;
   background-color: rgba(76,76,255, 0.7);
   border: none;
   cursor: pointer;
@@ -100,7 +100,7 @@
 .physical {
   position: absolute;
   bottom: 12.1%;
-  left: 72.4%;
+  left: 71%;
   z-index: 2;
 }
 
@@ -108,7 +108,7 @@
   width: 6.5rem;
   height: 6.125rem;
   border-radius: 20px;
-  font-size: 2.1875rem;
+  font-size: 1.35rem;
   background-color: rgba(255,50,50, 0.7);
   border: none;
   cursor: pointer;
@@ -116,16 +116,16 @@
 
 .mech {
   position: absolute;
-  bottom: 9.1%;
+  bottom: 7%;
   left: 38.4%;
   z-index: 2;
 }
 
 .mech_btn {
   width: 10.5rem;
-  height: 3.125rem;
+  height: 4rem;
   border-radius: 20px;
-  font-size: 2.1875rem;
+  font-size: 2rem;
   background-color: rgba(255,50,50, 0.7);
   border: none;
   cursor: pointer;
@@ -164,7 +164,7 @@
 }
 
 .card > button {
-  text-decoration: none!important;
+  text-decoration: none;
   padding:0;
 }
 

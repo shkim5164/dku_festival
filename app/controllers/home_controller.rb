@@ -29,12 +29,18 @@ class HomeController < ApplicationController
     @buths = Buth.all
   end
   
+  def pocpo
+    
+  end
+  
   def booth
   end
   
   def about
     
   end
+  
+  
 
   
 #-------------------------admin관리

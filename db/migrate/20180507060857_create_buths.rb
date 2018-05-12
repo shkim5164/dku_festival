@@ -4,7 +4,7 @@ class CreateBuths < ActiveRecord::Migration
       t.string :name
       t.text  :content
       t.string :idd
-      
+      t.string :where
       t.timestamps null: false
     end
   end
