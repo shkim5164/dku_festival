@@ -139,7 +139,7 @@
   width: 52rem;
   text-align: center;
   margin-bottom: 10px;
-  background-image: url(/img/map.png);
+  background-image: url(/img/map2.png);
   background-color: black;
   background-position: center;
   background-size: 100%;
@@ -216,14 +216,14 @@
 
 .gbtn {
   position: absolute;
-  bottom: 52.8%;
+  bottom: 47.8%;
   left: 38.9%;
   z-index: 2;
 }
 
 .gom_btn {
-  width: 14.56rem;
-  height: 12.125rem;
+  width: 20.56rem;
+  height: 14.125rem;
   border-radius: 20px;
   font-size: 3.43rem;
   background-color: rgba(76,76,255, 0.7);
@@ -331,7 +331,7 @@ iframe {
   width: 555px;
   text-align: center;
   margin-bottom: 10px;
-  background-image: url(/img/gom_map.png);
+  background-image: url(/img/gomsang2.png);
   background-color: black;
   background-position: center;
   background-size: 100%;

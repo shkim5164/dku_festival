@@ -26,6 +26,8 @@ Rails.application.routes.draw do
   get 'home/my_page'
   
   get 'home/hd_front'
+  
+  get 'home/pocpo'
 # --------------------------------------------------------------------
   
   get 'police/new_report'

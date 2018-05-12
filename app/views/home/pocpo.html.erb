@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="/css/pocpo.css" />
+  </head>
+  
+  <body>
+
+  <div class="container">
+    <section class="gs_map">
+      <h1 style="text-align: center;">곰상주변</h1>
+      <div class="gom_map">
+        <% @jujums.each do |jujum| %>
+         <div class="<%= jujum.idd %>">
+           <a href="#<%= jujum.idd %>_c">
+            <button class="<%= jujum.idd %>_btn"><%= jujum.major %></button>
+           </a>
+         </div>
+        <% end %>
+      </div>
+    </section>
+  </div>
+
+      <section class="jujum">
+        <h1 class="no_show">학과 주점정보</h1>
+        <div class="container">
+            <div class="lineup">
+              <div id="accordion">
+                
+                <% @jujums.each do |jujum| %>
+                <div class="card" id="<%= jujum.idd %>_c">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapse<%= jujum.numbs %>" aria-expanded="true" aria-controls="collapse<%= jujum.numbs %>" id="time_header">
+                    <div class="card-header" id="heading<%= jujum.idd %>">
+                        <h2 class="mb-0"><%= jujum.name %> : <%= jujum.major %></h2>
+                    </div>
+                  </button>
+                  <div id="collapse<%= jujum.numbs %>" class="collapse" aria-labelledby="heading<%= jujum.numbs %>" data-parent="#accordion">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-4" style="text-align: center">
+                          <img src="/img/no_image.png" alt="학과 이미지" class="mj_img">
+                          <li>
+                              <h3 style="display: inline-block">주점 소개 한마디</h3>
+                          </li>
+                          <p>안녕하세요. 여러분 OO학과입니당</p>
+                        </div>
+                        <div class="col-8">
+                          <ul>
+                            <li>
+                              <h3>메뉴 및 가격</h3>
+                            </li>
+                            <table class="table">
+                              <thead class="thead-light">
+                                <tr>
+                                  <th>메뉴</th>
+                                  <th>가격</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                              <% @menu = Menu.where(jujum_id: jujum.id) %>
+                              <% if @menu.empty? %>
+                                <tr>
+                                  <h1>메뉴가 정해지지 않았습니다.</h1>
+                                </tr>
+                              <% else %>
+                                <% @menu.each do |k| %>
+                                <tr>
+                                  <td><%= k.name %></td>
+                                  <td><%= k.price %></td>
+                                </tr>
+                                <% end %>
+                              <% end %>
+                              </tbody>
+                            </table>
+                          </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                </div>
+              <!--반복문 끝-->
+              <% end %>
+            </div>
+        </div>
+      </div>
+    </section>
+
+  </body>
+  <script>
+  <% @jujums.each do |v| %>
+    $("div.<%= v.idd%> a").click(function(){  // 네비게이션 클릭시
+          var direction = $(this).attr("href");   // direction = 클릭한 요소의 href 속성
+          scrolling( direction ); // direction 을 인자로 함수 실행
+          return false;   // 본래 이벤트 방지 
+      });
+  <% end %>
+  </script>
+</html>
