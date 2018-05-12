@@ -31,15 +31,26 @@
     <section class="perform">
       <div class="pocpo">
         <h2>폭포공원</h2>
-        <img src="http://cfile24.uf.tistory.com/image/267D7B4A56E037C330982B" alt="랄라스윗">
-        <h3>랄라스윗</h3>
-        
-        <p>스윗한 인디의 목소리! 랄라스윗과 함께!</p>
+         <% if @now_busk.nil? %>
+            <a href="/home/pocpo"><img src="/img/buth.png" alt="부스이미지"></a>
+            <h3>다양한 부스 운영중!</h3>
+            <p>비주얼존, 프리마켓 등 다양한 부스 체험해보세요!</p>
+        <% elsif @now_busk.nil == false %>
+          <% @now_busk.each do |busk| %>
+            <img src="<%= busk.img_addr %>" alt="<%= busk.name %>">
+            <h3><%= busk.name %></h3>
+            <p><%= busk.info %></p>
+          <% end %>
+        <% else %>
+            <img src="/img/loading2.png" alt="현재 이벤트 없음.">
+            <h3>이벤트 준비중입니다.</h3>
+            <p>현재 진행중인 이벤트가 없습니다.</p>
+        <% end %>
       </div>
       <div class="rooftop">
         <h2>혜당관 앞</h2>
         <% if @hd == true %>
-        <a href="/home/hd_front"><img src="/img/buth" alt="부스이미지"></a>
+        <a href="/home/hd_front"><img src="/img/buth.png" alt="부스이미지"></a>
         <h3>다양한 부스 운영중!</h3>
         <p>학과 및 동아리의 다양한 프로그램 체험하고 가세요~</p>
         <% else %>
@@ -65,7 +76,7 @@
       <div class="frontlaw">
         <h2>평화의 광장</h2>
          <% if @peace == true %>
-          <a href="/home/gomsang"><img src="/img/mukguri" alt="먹거리장터"></a>
+          <a href="/home/gomsang"><img src="/img/mukguri.png" alt="먹거리장터"></a>
           <h3>먹거리장터 운영중!</h3>
           <p>학생회 및 동아리 먹거리장터에서 돼지되세요!</p>
         <% else %>
