@@ -17,6 +17,7 @@ class AppliesController < ApplicationController
   def new
     @apply = Apply.new
     @event_id = params[:event_id]
+
     
   end
 

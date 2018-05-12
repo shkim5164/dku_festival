@@ -13,7 +13,17 @@
       </form>
    </div>
     <div class="clock_con">
-      <h2>DANFESTA 3일차 실시간!</h2>
+      <% if @day == 0 %>
+        <h2>축제 시작 전 입니다.</h2>
+      <% elsif @day == 1 %>
+        <h2>DANFESTA 1일차 실시간!</h2>
+      <% elsif @day == 2 %>
+        <h2>DANFESTA 2일차 실시간!</h2>
+      <% elsif @day == 3 %>
+        <h2>DANFESTA 3일차 실시간!</h2>
+      <% else %>
+        <h2>축제가 모두 끝났습니다.</h2>
+      <% end %>
       <span class="clock"></span>
     </div>
   </div>
@@ -34,11 +44,18 @@
         <p>스윗한 인디의 목소리! 랄라스윗과 함께!</p>
       </div>
       <div class="nocheon">
-        <h2>폭포공원</h2>
-        <img src="/img/mamamoo.jpg" alt="랄라스윗">
-        <h3>랄라스윗</h3>
-        <h4>17:30 ~ 18:30</h4>
-        <p>스윗한 인디의 목소리! 랄라스윗과 함께!</p>
+        <h2>노천마당</h2>
+        <% if @now_singer.nil? %>
+            <img src="/img/no_image.png" alt="현재 이벤트 없음.">
+            <h3>이벤트 준비중입니다.</h3>
+            <p>진행중인 이벤트가 없습니다.</p>
+        <% else %>
+          <% @now_singer.each do |singer| %>
+            <img src="<%= singer.img_addr %>" alt="<%= singer.name %>">
+            <h3><%= singer.name %></h3>
+            <p><%= singer.info %></p>
+          <% end %>
+        <% end %>
       </div>
       <div class="frontlaw">
         <h2>폭포공원</h2>

@@ -23,7 +23,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'tinymce-rails'
+# gem 'tinymce-rails'
 gem 'devise'
 gem 'kaminari'
 
