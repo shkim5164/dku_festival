@@ -38,14 +38,17 @@
                   <div id="collapse<%= jujum.numbs %>" class="collapse" aria-labelledby="heading<%= jujum.numbs %>" data-parent="#accordion">
                     <div class="card-body">
                       <div class="row">
-                        <div class="col-4" style="text-align: center">
+                        <div class="col-lg-4 col-xs-12 jujum">
                           <img src="/img/no_image.png" alt="학과 이미지" class="mj_img">
-                          <li>
+                          <ul>
+                            <li>
                               <h3 style="display: inline-block">주점 소개 한마디</h3>
-                          </li>
-                          <p>안녕하세요. 여러분 OO학과입니당</p>
+                            </li>
+                            <p>안녕하세요. 여러분 OO학과입니당</p>
+                          </ul>
+                          
                         </div>
-                        <div class="col-8">
+                        <div class="col-lg-8 col-xs-12 menu">
                           <ul>
                             <li>
                               <h3>메뉴 및 가격</h3>
@@ -61,7 +64,7 @@
                               <% @menu = Menu.where(jujum_id: jujum.id) %>
                               <% if @menu.empty? %>
                                 <tr>
-                                  <h1>메뉴가 정해지지 않았습니다.</h1>
+                                  <h1 class="nomenu">메뉴가 정해지지 않았습니다.</h1>
                                 </tr>
                               <% else %>
                                 <% @menu.each do |k| %>
