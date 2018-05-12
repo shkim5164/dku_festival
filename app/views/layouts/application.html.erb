@@ -7,8 +7,7 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-    
-      gtag('config', 'UA-113311473-2');
+
     </script>
     <title>DANFESTA::Festival for Dankook</title>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -48,16 +47,25 @@
   </head>
   <body>
 
-      <h1 class="site-heading text-center text-white d-none d-lg-block">
+      <h1 class="site-heading text-center text-white d-none d-lg-block" style="margin-top:1rem">
         <a href="/" class="logo">
-          <span class="site-heading-lower">로고</span>
+          <span class="site-heading-lower">
+            <!--<h1 style="color:#567DBE">DANFESTA</h1>-->
+            <img src="/img/logo.png" style="height:200px">
+            <br>
+            <img src="/img/danfesta.JPG" style="width:300px">
+            <br>
+
+          </span>
         </a>
       </h1>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
       <div class="container">
-        <a class="navbar-brand text-uppercase d-lg-none" id="mainLogo" href="/">로고</a>
+        <a class="navbar-brand text-uppercase d-lg-none" id="mainLogo" href="/">
+          <h2 style="color:white"><img src="/img/logo.png" style="height:50px">  DANFESTA</h2>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -76,7 +84,7 @@
                 <!-- <a class="nav-link text-uppercase text-expanded" href="products.html">부스상세보기</a> -->
                 <a class="nav-link text-uppercase dropbtn" href="/home/booth"  style="font-family: 'Jeju Gothic', sans-serif;">부스상세보기</a>
                 <div class="dropdown-content">
-                  <a href="#">폭포공원</a>
+                  <a href="/home/pocpo">폭포공원</a>
                   <a href="#">노천마당</a>
                   <a href="/home/gomsang">평화의 광장(곰상주변)</a>
                   <a href="/home/hd_front">혜당관 앞</a>

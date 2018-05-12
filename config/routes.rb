@@ -30,6 +30,7 @@ Rails.application.routes.draw do
   get 'home/pocpo'
   
   get 'home/pocpo_lineup'
+  
 # --------------------------------------------------------------------
   
   get 'police/new_report'
