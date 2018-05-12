@@ -28,6 +28,9 @@ Rails.application.routes.draw do
   get 'home/hd_front'
   
   get 'home/pocpo'
+  
+  get 'home/pocpo_lineup'
+  
 # --------------------------------------------------------------------
   
   get 'police/new_report'

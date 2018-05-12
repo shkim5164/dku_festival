@@ -31,6 +31,13 @@ class HomeController < ApplicationController
     else
       @peace = false
     end
+    
+    @pocpo_bus = Singer.where(day: 4)
+    @pocpo_bus.each do |v|
+      if Time.now.to_i > v.st_time && Time.now.to_i < v.end_time
+        @now_busk = Singer.where(id: v.id)
+      end
+    end
   end
 
   def gomsang
@@ -42,7 +49,7 @@ class HomeController < ApplicationController
   end
   
   def pocpo
-    
+    @p_buths = Pbuth.all
   end
   
   def booth
