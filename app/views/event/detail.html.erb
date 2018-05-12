@@ -9,18 +9,18 @@
   <body>
   <div class="container">
     <section>
-      <div class="ev_img">
-        <img src="/img/event<%= params[:event_id]%>.jpg" alt="이벤트이미지">
+      <div class="ev_img" style="marin-top:1rem;">
+        <img src="/img/event_<%=params[:event_id]%>.jpg" alt="이벤트이미지" style="margin-top:1rem;">
       </div>
-
+        <pre><%=@text%></pre>
     </section>
   </div>
 
   <section>
     <div class="container">
       <div class="regi_btn">
-        <a href="/applies/new/<%= params[:event_id] %>">
-          <button class="btn btn-primary">신청하기</button>
+        <a href=<%= @apply_url %>>
+          <button class="btn btn-primary"><%= @buttonn %></button>
         </a>
       </div>
     </div>

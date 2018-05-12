@@ -22,6 +22,14 @@
     height: 203px;
   }
   
+  /*폭포,루프탑,노천,폭포*/
+  .nocheon{
+    background-color: #A5C6FB;
+  }
+  .frontlaw{
+    background-color: #FCB2CF;
+  }
+  
   /* nav */
   #mainNav{
     background-color:#567DBE;
@@ -40,6 +48,14 @@
   }
   .card.event p{
     font-size: 0.9rem;
+  }
+  /* event 상세 */
+  .ev_img img{
+    width: 75%;
+  }
+  section pre{
+    width: 100%;
+    font-size: 75%;
   }
 
   /* 축제일정 */
@@ -128,6 +144,7 @@
     border-radius: 10px;
     font-size: 1.1375rem;
   }
+  
   /*곰상지도*/
   .gom_map {
     height: 240px;
@@ -136,7 +153,6 @@
   }
   
   .bz {
-    position: absolute;
     top: 5%;
     left: 13%;
   }
@@ -144,8 +160,8 @@
   .bz_btn {
     width: 7rem;
     height: 5.2rem;
-    border-radius: 15px;
-    font-size: 2.125rem;
+    border-radius: 10px;
+    font-size: 1.75rem;
   }
   
   .elec {
@@ -156,20 +172,20 @@
   .elec_btn {
     width: 7rem;
     height: 5.5rem;
-    border-radius: 15px;
-    font-size: 1.5rem;
+    border-radius: 10px;
+    font-size: 1.7rem;
   }
   
   .soft {
-    bottom: 22%;
+    bottom: 31%;
     right: 10.7%;
   }
   
   .soft_btn {
     width: 4rem;
-    height: 5.31rem;
-    border-radius: 15px;
-    font-size: 1.125rem;
+    height: 3.75rem;
+    border-radius: 10px;
+    font-size: 0.75rem;
   }
   
   .thinking {
@@ -180,86 +196,82 @@
   .thinking_btn {
     width: 4rem;
     height: 3.5rem;
-    border-radius: 15px;
-    font-size: 1.5rem;
+    border-radius: 10px;
+    font-size: 1.25rem;
   }
   
   .statis{
     bottom: 0%;
-    left: 7%;
+    left: 5%;
   }
   
   .statis_btn {
-    width: 6.5rem;
+    width: 7rem;
     height: 2rem;
-    border-radius: 15px;
-    font-size: 1.43rem;
+    border-radius: 10px;
+    font-size: 1rem;
   }
   
   .physical {
-    bottom: 10%;
-    left: 74%;
+    bottom: 5.5%;
+    left: 71%;
   }
   
   .physical_btn {
-    width: 4.5rem;
-    height: 4.125rem;
-    border-radius: 15px;
-    font-size: 1.6875rem;
+    width: 4rem;
+    height: 3.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
   }
   
   .mech {
-    position: absolute;
-    bottom: 9.1%;
-    left: 38.4%;
-    z-index: 2;
+    bottom: 0%;
+    left: 38%;
   }
   
   .mech_btn {
-    width: 10.5rem;
-    height: 3.125rem;
-    border-radius: 20px;
-    font-size: 2.1875rem;
-    background-color: rgba(255,50,50, 0.7);
-    border: none;
-    cursor: pointer;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 10px;
+    font-size: 1.25rem;
   }
   
   .fadi {
-    position: absolute;
-    bottom: 23.1%;
-    left: 37.8%;
-    z-index: 2;
+    bottom: 15%;
+    left: 37%;
   }
   
   .fadi_btn {
-    width: 10.5rem;
-    height: 3.5rem;
-    border-radius: 20px;
-    font-size: 1.1875rem;
-    background-color: rgba(255,50,50, 0.7);
-    border: none;
-    cursor: pointer;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
   }
   
-  /*------------------------*/
-  
-  .gom_map > div > button:hover {
-    color: #e6a756
+  /*학과 주점 정보*/
+  .card-header h2 {
+    font-size: 1.5rem;
   }
   
-  .gom_map > div > a > button {
-    text-decoration: none;
-    color: black;
+  .nomenu{
+    font-size: 1.5rem;
   }
   
-  .gom_map > div > a > button:hover {
-    color: #e6a756
+  .jujum img{
+    display: block;
+    margin: auto;
   }
   
-  .card > button {
-    text-decoration: none;
-    padding:0;
+  .menu, .jujum{
+    text-align: left;
   }
-
+  
+  /* 혜당관 앞 */
+  .hd_map {
+    height: 204px;
+    width: 450px;
+    margin-bottom: 10px;
+    background-size: 100%;
+    margin: 0 auto 10px auto;
+  }
 }
