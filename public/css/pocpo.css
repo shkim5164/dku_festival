@@ -4,113 +4,129 @@
   width: 850px;
   text-align: center;
   margin-bottom: 10px;
-  background-image: url(/img/pocpo.png);
+  background-image: url(/img/pocpo2.png);
   background-color: black;
   background-position: center;
   background-size: 100%;
   margin: 0 auto 10px auto;
 }
 
-.hd_1 {
+.daejang {
   position: absolute;
-  top: 58.9%;
-    left: 20.8%;
+  bottom: 8.9%;
+  right: 3.8%;
   z-index: 2;
 }
 
-.hd_2 {
+.daejang_btn {
+  width: 12.31rem;
+  height: 10.12rem;
+  border-radius: 20px;
+  font-size: 3.125rem;
+  background-color: rgba(140,25,140, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.busking {
   position: absolute;
-      top: 58.9%;
-    left: 27.8%;
+  top: 2.8%;
+  left: 1.4%;
   z-index: 2;
 }
 
-.hd_3 {
+.busking_btn {
+  width: 11.25rem;
+  height: 7.75rem;
+  border-radius: 20px;
+  font-size: 3.125rem;
+  background-color: rgba(25,140,25, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.visual {
   position: absolute;
-   top: 58.9%;
-    left: 34.8%;
+  bottom: 14.4%;
+  right: 34.7%;
   z-index: 2;
 }
 
-.hd_4 {
+.visual_btn {
+  width: 3.5rem;
+  height: 3.31rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  background-color: rgba(255,192,203, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.flee {
   position: absolute;
-   top: 58.9%;
-    left: 44.8%;
+  bottom: 44.4%;
+  left: 5.8%;
   z-index: 2;
 }
 
-.hd_5 {
+.flee_btn {
+  width: 15rem;
+  height: 3.1875rem;
+  border-radius: 20px;
+  font-size: 2.1875rem;
+  background-color: rgba(255,255,76, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.semi {
   position: absolute;
-  top: 58.9%;
-    left: 56.8%;
+  bottom: 47.8%;
+  left: 38.9%;
   z-index: 2;
 }
 
-.hd_6 {
+.semi_btn {
+  width: 20.56rem;
+  height: 14.125rem;
+  border-radius: 20px;
+  font-size: 3rem;
+  background-color: rgba(76,76,255, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.foodtruck {
   position: absolute;
-  top: 81.9%;
-  left: 20.8%;
+  bottom: 4.1%;
+  left: 38.4%;
   z-index: 2;
 }
 
-.hd_7 {
-  position: absolute;
-    top: 81.9%;
-    left: 32.8%;
-    z-index: 2;
+.foodtruck_btn {
+  width: 15.5rem;
+  height: 3.125rem;
+  border-radius: 20px;
+  font-size: 2.1875rem;
+  background-color: rgba(255,50,50, 0.7);
+  border: none;
+  cursor: pointer;
 }
 
-.hd_8 {
-    position: absolute;
-    top: 81.9%;
-    left: 44.8%;
-    z-index: 2;
+.pp_map > div > button:hover {
+  color: #e6a756
 }
-.hd_9 {
-    position: absolute;
-    top: 81.9%;
-    left: 56.8%;
-    z-index: 2;
+
+.pp_map > div > a > button {
+  text-decoration: none;
+  color: black;
 }
-.hd_10 {
-position: absolute;
-    top: 81.9%;
-    left: 68.8%;
-    z-index: 2;
+
+.pp_map > div > a > button:hover {
+  color: #e6a756
 }
-.hd_11 {
-position: absolute;
-    top: 12.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_12 {
-position: absolute;
-    top: 22.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_13 {
-    position: absolute;
-    top: 32.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_14 {
-  position: absolute;
-    top: 58.9%;
-    left: 70.8%;
-    z-index: 2;
-}
-.hd_15 {
-     position: absolute;
-    top: 58.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_16 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
+
+.pp_map > .gbtn > a {
+  text-decoration: none;
+  color: black;
 }
