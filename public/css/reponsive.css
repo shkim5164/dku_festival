@@ -49,6 +49,14 @@
   .card.event p{
     font-size: 0.9rem;
   }
+  /* event 상세 */
+  .ev_img img{
+    width: 75%;
+  }
+  section pre{
+    width: 100%;
+    font-size: 75%;
+  }
 
   /* 축제일정 */
   /* search */
@@ -256,5 +264,14 @@
   
   .menu, .jujum{
     text-align: left;
+  }
+  
+  /* 혜당관 앞 */
+  .hd_map {
+    height: 204px;
+    width: 450px;
+    margin-bottom: 10px;
+    background-size: 100%;
+    margin: 0 auto 10px auto;
   }
 }
