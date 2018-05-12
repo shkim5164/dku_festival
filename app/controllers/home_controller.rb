@@ -19,6 +19,18 @@ class HomeController < ApplicationController
         @now_singer = Singer.where(id: s.id)
       end
     end
+    
+    if (Time.now.to_i > Time.new(2018, 05, 15, 12, 00, 00, "+09:00").to_i && Time.now.to_i < Time.new(2018, 05, 15, 18, 00, 00, "+09:00").to_i) or (Time.now.to_i > Time.new(2018, 05, 16, 13, 00, 00, "+09:00").to_i && Time.now.to_i < Time.new(2018, 05, 16, 18, 00, 00, "+09:00").to_i) or (Time.now.to_i > Time.new(2018, 05, 17, 13, 00, 00, "+09:00").to_i && Time.now.to_i < Time.new(2018, 05, 17, 18, 00, 00, "+09:00").to_i)
+      @hd = true
+    else
+      @hd = false
+    end
+    
+    if (Time.now.to_i > Time.new(2018, 05, 15, 18, 00, 00, "+09:00").to_i && Time.now.to_i < Time.new(2018, 05, 16, 02, 00, 00, "+09:00").to_i) or (Time.now.to_i > Time.new(2018, 05, 16, 18, 00, 00, "+09:00").to_i && Time.now.to_i < Time.new(2018, 05, 17, 02, 00, 00, "+09:00").to_i) or (Time.now.to_i > Time.new(2018, 05, 17, 18, 00, 00, "+09:00").to_i && Time.now.to_i < Time.new(2018, 05, 18, 02, 00, 00, "+09:00").to_i)
+      @peace = true
+    else
+      @peace = false
+    end
   end
 
   def gomsang
