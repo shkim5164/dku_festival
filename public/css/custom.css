@@ -152,104 +152,116 @@
 
 .nbbtn {
   position: absolute;
-  bottom: 8.9%;
-  right: 3.8%;
+  bottom: 6.5%;
+  right: 1.25%;
   z-index: 2;
 }
 
 .no_btn {
   width: 12.31rem;
-  height: 10.12rem;
-  border-radius: 20px;
+  height: 11rem;
+  border-radius: 10px;
   font-size: 3.125rem;
-  background-color: rgba(140,25,140, 0.7);
+  background-color: rgba(140,25,140, 0.5);
   border: none;
   cursor: pointer;
+}
+.no_btn:hover {
+  background-color: rgba(140,25,140, 0.7);
 }
 
 .pbbtn {
   position: absolute;
-  top: 2.8%;
-  left: 1.4%;
+  top: 0%;
+  left: 0.9%;
   z-index: 2;
 }
 
 .poc_btn {
-  width: 11.25rem;
-  height: 7.75rem;
-  border-radius: 20px;
-  font-size: 3.125rem;
+  width: 11rem;
+  height: 7.4rem;
+  border-radius: 10px;
+  font-size: 3rem;
+  background-color: rgba(25,140,25, 0.5);
+  border: none;
+  cursor: pointer;
+}
+.poc_btn:hover{
   background-color: rgba(25,140,25, 0.7);
-  border: none;
-  cursor: pointer;
 }
 
-.rbbtn {
-  position: absolute;
-  bottom: 14.4%;
-  right: 34.7%;
-  z-index: 2;
-}
+/*.rbbtn {*/
+/*  position: absolute;*/
+/*  bottom: 14.4%;*/
+/*  right: 34.7%;*/
+/*  z-index: 2;*/
+/*}*/
 
-.rft_btn {
-  width: 3.5rem;
-  height: 3.31rem;
-  border-radius: 20px;
-  font-size: 1rem;
-  background-color: rgba(255,192,203, 0.7);
-  border: none;
-  cursor: pointer;
-}
+/*.rft_btn {*/
+/*  width: 3.5rem;*/
+/*  height: 3.31rem;*/
+/*  border-radius: 20px;*/
+/*  font-size: 1rem;*/
+/*  background-color: rgba(255,192,203, 0.7);*/
+/*  border: none;*/
+/*  cursor: pointer;*/
+/*}*/
 
-.dbbtn {
-  position: absolute;
-  bottom: 44.4%;
-  left: 5.8%;
-  z-index: 2;
-}
+/*.dbbtn {*/
+/*  position: absolute;*/
+/*  bottom: 44.4%;*/
+/*  left: 5.8%;*/
+/*  z-index: 2;*/
+/*}*/
 
-.daebup_btn {
-  width: 15rem;
-  height: 3.1875rem;
-  border-radius: 20px;
-  font-size: 2.1875rem;
-  background-color: rgba(255,255,76, 0.7);
-  border: none;
-  cursor: pointer;
-}
+/*.daebup_btn {*/
+/*  width: 15rem;*/
+/*  height: 3.1875rem;*/
+/*  border-radius: 20px;*/
+/*  font-size: 2.1875rem;*/
+/*  background-color: rgba(255,255,76, 0.7);*/
+/*  border: none;*/
+/*  cursor: pointer;*/
+/*}*/
 
 .gbtn {
   position: absolute;
-  bottom: 47.8%;
-  left: 38.9%;
+  bottom: 57.5%;
+  left: 39.75%;
   z-index: 2;
 }
 
 .gom_btn {
-  width: 20.56rem;
-  height: 14.125rem;
+  width: 15.5rem;
+  height: 12.5rem;
   border-radius: 20px;
   font-size: 3rem;
-  background-color: rgba(76,76,255, 0.7);
+  background-color: rgba(255,255,255, 0.5);
   border: none;
   cursor: pointer;
+}
+.gom_btn:hover{
+  background-color: rgba(255,255,255,0.7);
 }
 
 .hbbtn {
   position: absolute;
-  bottom: 4.1%;
-  left: 38.4%;
+  bottom: 7.5%;
+  left: 40%;
   z-index: 2;
 }
 
 .h_btn {
   width: 15.5rem;
   height: 3.125rem;
-  border-radius: 20px;
+  border-radius: 10px;
   font-size: 2.1875rem;
-  background-color: rgba(255,50,50, 0.7);
+  background-color: rgba(255,50,50, 0.5);
   border: none;
   cursor: pointer;
+}
+.h_btn:hover {
+  background-color: rgba(255,50,50,0.7);
 }
 
 .map > div > button:hover {

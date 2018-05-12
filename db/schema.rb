@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 20180507060857) do
     t.string   "name"
     t.text     "content"
     t.string   "idd"
+    t.string   "where"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
