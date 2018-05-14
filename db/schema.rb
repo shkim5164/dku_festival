@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180512095614) do
+ActiveRecord::Schema.define(version: 20180514163854) do
 
   create_table "applies", force: :cascade do |t|
     t.integer  "how_many"
@@ -49,8 +49,9 @@ ActiveRecord::Schema.define(version: 20180512095614) do
 
   create_table "menus", force: :cascade do |t|
     t.string   "name"
-    t.integer  "price"
-    t.integer  "jujum_id"
+    t.text     "content"
+    t.string   "idd"
+    t.string   "where"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -87,6 +88,15 @@ ActiveRecord::Schema.define(version: 20180512095614) do
     t.string   "w_time"
     t.datetime "created_at",           null: false
     t.datetime "updated_at",           null: false
+  end
+
+  create_table "sixteens", force: :cascade do |t|
+    t.string   "name"
+    t.text     "content"
+    t.string   "idd"
+    t.string   "where"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|

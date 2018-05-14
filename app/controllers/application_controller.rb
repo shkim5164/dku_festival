@@ -13,4 +13,17 @@ class ApplicationController < ActionController::Base
             devise_parameter_sanitizer.permit(:sign_up, keys: [:name, :phone_number, :student_id, :email, :password])
             devise_parameter_sanitizer.permit(:account_update, keys: [:name, :email, :password, :current_password, :phone_number, :student_id])
         end
+def check
+    if Time.now.to_i > Time.new(2018, 05, 15, 00, 00, 00, "+09:00").to_i && Time.now.to_i < Time.new(2018, 05, 16, 00, 00, 00, "+09:00").to_i
+      @day = 1
+    elsif Time.now.to_i > Time.new(2018, 05, 16, 00, 00, 00, "+09:00").to_i && Time.now.to_i < Time.new(2018, 05, 17, 00, 00, 00, "+09:00").to_i
+      @day = 2
+    elsif Time.now.to_i > Time.new(2018, 05, 17, 00, 00, 00, "+09:00").to_i && Time.now.to_i < Time.new(2018, 05, 18, 00, 00, 00, "+09:00").to_i
+      @day = 3
+    elsif Time.now.to_i < Time.new(2018, 05, 15, 00, 00, 00, "+09:00").to_i
+      @day = 0
+    else
+      @day = 4
+    end
+end
 end

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <div class="container">
+            <section class="gs_map">
+              <h1 style="text-align: center;">혜당관 앞</h1>
+              <div class="hd_map15">
+                  
+              </div>
+                  <table class="table reports">
+                      <thead class="thead-dark">
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">부스내용</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                          <% @buths.each do |report| %>
+                            <tr>
+                              <th scope="row"><%= report.name %></th>
+                              <td colspan="6"><%= report.content %></td>
+                            </tr>
+                        <% end %>
+                      </tbody>
+                  </table>
+            </section>
+        </div>
+    </body>
+</html>

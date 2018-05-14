@@ -1,255 +1,282 @@
 
-.hd_map {
+.hd_map15 {
   position:relative;
   height: 404px;
   width: 850px;
   text-align: center;
   margin-bottom: 10px;
-  background-image: url(/img/hd_front4.png);
+  background-image: url(/img/hd_front15.png);
   background-color: black;
   background-position: center;
   background-size: 100%;
   margin: 0 auto 10px auto;
 }
 
-.hd_1 {
-  position: absolute;
-  top: 58.9%;
-    left: 26.8%;
-  z-index: 2;
+.hd_map16 {
+  position:relative;
+  height: 404px;
+  width: 850px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-image: url(/img/hd_front16.png);
+  background-color: black;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto 10px auto;
 }
 
-.hd_2 {
-  position: absolute;
-      top: 58.9%;
-    left: 32.8%;
-  z-index: 2;
+.hd_map17 {
+  position:relative;
+  height: 404px;
+  width: 850px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-image: url(/img/hd_front17.png);
+  background-color: black;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto 10px auto;
 }
 
-.hd_3 {
-  position: absolute;
-   top: 58.9%;
-    left: 37.8%;
-  z-index: 2;
-}
 
-.hd_4 {
-  position: absolute;
-   top: 58.9%;
-    left: 42.8%;
-  z-index: 2;
-}
+/*.hd_1 {*/
+/*  position: absolute;*/
+/*  top: 58.9%;*/
+/*    left: 26.8%;*/
+/*  z-index: 2;*/
+/*}*/
 
-.hd_5 {
-  position: absolute;
-  top: 50.9%;
-    left: 42.8%;
-  z-index: 2;
-}
+/*.hd_2 {*/
+/*  position: absolute;*/
+/*      top: 58.9%;*/
+/*    left: 32.8%;*/
+/*  z-index: 2;*/
+/*}*/
 
-.hd_6 {
-  position: absolute;
-  top: 50.9%;
-  left: 55.8%;
-  z-index: 2;
-}
+/*.hd_3 {*/
+/*  position: absolute;*/
+/*   top: 58.9%;*/
+/*    left: 37.8%;*/
+/*  z-index: 2;*/
+/*}*/
 
-.hd_7 {
-  position: absolute;
-    top: 58.9%;
-    left: 55.8%;
-    z-index: 2;
-}
+/*.hd_4 {*/
+/*  position: absolute;*/
+/*   top: 58.9%;*/
+/*    left: 42.8%;*/
+/*  z-index: 2;*/
+/*}*/
 
-.hd_8 {
-    position: absolute;
-    top: 58.9%;
-    left: 60.8%;
-    z-index: 2;
-}
-.hd_9 {
-    position: absolute;
-    top: 58.9%;
-    left: 65.8%;
-    z-index: 2;
-}
-.hd_10 {
-position: absolute;
-    top: 58.9%;
-    left: 70.8%;
-    z-index: 2;
-}
-.hd_11 {
-position: absolute;
-    top: 58.9%;
-    left: 85.8%;
-    z-index: 2;
-}
-.hd_12 {
-position: absolute;
-    top: 58.9%;
-    left: 80.8%;
-    z-index: 2;
-}
-.hd_13 {
-    position: absolute;
-    top: 32.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_14 {
-  position: absolute;
-    top: 58.9%;
-    left: 70.8%;
-    z-index: 2;
-}
-.hd_15 {
-     position: absolute;
-    top: 58.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_16 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_17 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_18 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_19 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_20 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_21 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_22 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_23 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_24 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_25 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_26 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_27 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_28 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_29 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_30 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_31 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_32 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_33 {
-position: absolute;
-    top: 58.9%;
-    left: 80.8%;
-    z-index: 2;
-}
-.hd_34 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_35 {
-position: absolute;
-    top: 58.9%;
-    left: 75.8%;
-    z-index: 2;
-}
-.hd_36 {
-position: absolute;
-    top: 58.9%;
-    left: 75.8%;
-    z-index: 2;
-}
-.hd_37 {
-position: absolute;
-    top: 81.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_38 {
-position: absolute;
-    top: 58.9%;
-    left: 88.8%;
-    z-index: 2;
-}
-.hd_39 {
-position: absolute;
-    top: 58.9%;
-    left: 88.8%;
-    z-index: 2;
-}
+/*.hd_5 {*/
+/*  position: absolute;*/
+/*  top: 50.9%;*/
+/*    left: 42.8%;*/
+/*  z-index: 2;*/
+/*}*/
+
+/*.hd_6 {*/
+/*  position: absolute;*/
+/*  top: 50.9%;*/
+/*  left: 55.8%;*/
+/*  z-index: 2;*/
+/*}*/
+
+/*.hd_7 {*/
+/*  position: absolute;*/
+/*    top: 58.9%;*/
+/*    left: 55.8%;*/
+/*    z-index: 2;*/
+/*}*/
+
+/*.hd_8 {*/
+/*    position: absolute;*/
+/*    top: 58.9%;*/
+/*    left: 60.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_9 {*/
+/*    position: absolute;*/
+/*    top: 58.9%;*/
+/*    left: 65.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_10 {*/
+/*position: absolute;*/
+/*    top: 58.9%;*/
+/*    left: 70.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_11 {*/
+/*position: absolute;*/
+/*    top: 58.9%;*/
+/*    left: 85.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_12 {*/
+/*position: absolute;*/
+/*    top: 58.9%;*/
+/*    left: 80.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_13 {*/
+/*    position: absolute;*/
+/*    top: 32.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_14 {*/
+/*  position: absolute;*/
+/*    top: 58.9%;*/
+/*    left: 70.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_15 {*/
+/*     position: absolute;*/
+/*    top: 58.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_16 {*/
+/*position: absolute;*/
+/*    top: 81.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_17 {*/
+/*position: absolute;*/
+/*    top: 81.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_18 {*/
+/*position: absolute;*/
+/*    top: 81.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_19 {*/
+/*position: absolute;*/
+/*    top: 81.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_20 {*/
+/*position: absolute;*/
+/*    top: 81.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_21 {*/
+/*position: absolute;*/
+/*    top: 81.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_22 {*/
+/*position: absolute;*/
+/*    top: 81.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_23 {*/
+/*position: absolute;*/
+/*    top: 81.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_24 {*/
+/*position: absolute;*/
+/*    top: 81.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_25 {*/
+/*position: absolute;*/
+/*    top: 81.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_26 {*/
+/*position: absolute;*/
+/*    top: 81.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_27 {*/
+/*position: absolute;*/
+/*    top: 81.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_28 {*/
+/*position: absolute;*/
+/*    top: 81.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_29 {*/
+/*position: absolute;*/
+/*    top: 81.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_30 {*/
+/*position: absolute;*/
+/*    top: 81.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_31 {*/
+/*position: absolute;*/
+/*    top: 81.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_32 {*/
+/*position: absolute;*/
+/*    top: 81.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_33 {*/
+/*position: absolute;*/
+/*    top: 58.9%;*/
+/*    left: 80.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_34 {*/
+/*position: absolute;*/
+/*    top: 81.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_35 {*/
+/*position: absolute;*/
+/*    top: 58.9%;*/
+/*    left: 75.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_36 {*/
+/*position: absolute;*/
+/*    top: 58.9%;*/
+/*    left: 75.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_37 {*/
+/*position: absolute;*/
+/*    top: 81.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_38 {*/
+/*position: absolute;*/
+/*    top: 58.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/
+/*.hd_39 {*/
+/*position: absolute;*/
+/*    top: 58.9%;*/
+/*    left: 88.8%;*/
+/*    z-index: 2;*/
+/*}*/

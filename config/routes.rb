@@ -25,7 +25,9 @@ Rails.application.routes.draw do
   
   # get 'home/my_page'
   
-  get 'home/hd_front'
+  get 'home/hd_front15'
+  get 'home/hd_front16'
+  get 'home/hd_front17'
   
   get 'home/pocpo'
   

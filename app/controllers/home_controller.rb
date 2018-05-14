@@ -1,16 +1,6 @@
 class HomeController < ApplicationController
+  before_action :check
   def index
-    if Time.now.to_i > Time.new(2018, 05, 15, 00, 00, 00, "+09:00").to_i
-      @day = 1
-    elsif Time.now.to_i > Time.new(2018, 05, 16, 00, 00, 00, "+09:00").to_i && Time.now.to_i < Time.new(2018, 05, 17, 00, 00, 00, "+09:00").to_i
-      @day = 2
-    elsif Time.now.to_i > Time.new(2018, 05, 17, 00, 00, 00, "+09:00").to_i && Time.now.to_i < Time.new(2018, 05, 18, 00, 00, 00, "+09:00").to_i
-      @day = 3
-    elsif Time.now.to_i < Time.new(2018, 05, 15, 00, 00, 00, "+09:00").to_i
-      @day = 0
-    else
-      @day = 4
-    end
     
     @singers = Singer.all
     
@@ -44,8 +34,14 @@ class HomeController < ApplicationController
     @jujums = Jujum.all
   end
   
-  def hd_front
+  def hd_front15
     @buths = Buth.all
+  end
+  def hd_front16
+    @buths = Menu.all
+  end
+  def hd_front17
+    @buths = Sixteen.all
   end
   
   def pocpo

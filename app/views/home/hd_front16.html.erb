@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <div class="container">
+            <section class="gs_map">
+              <h1 style="text-align: center;">혜당관 앞</h1>
+              <div class="hd_map16">
+                  <% @buths.each do |b| %>
+                  <div class="hd_<%= b.id %>">
+                      <!--bz-->
+                      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-html="true" data-placement="top" title=" 
+                         <p><%= b.content %></p>">
+                          <%= b.name %>
+                      </button>
+                  </div>
+                  <% end %>
+              </div>
+            </section>
+        </div>
+    </body>
+</html>
