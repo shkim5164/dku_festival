@@ -204,10 +204,10 @@
     left: 26.5%;
   }
   .china_btn {
-    width: 1.5rem;
+    width: 1.75rem;
     height: 0.75rem;
     border-radius: 5px;
-    font-size: 0.1rem;
+    font-size: 5px;
   }
   
   .fadi {
@@ -218,7 +218,7 @@
     width: 0.85rem;
     height: 1.75rem;
     border-radius: 5px;
-    font-size: 0.1rem;
+    font-size: 5px;
   }
   
   .art {
@@ -229,7 +229,7 @@
     width: 1.75rem;
     height: 1.25rem;
     border-radius: 5px;
-    font-size: 0.1rem;
+    font-size: 5px;
   }
   
   .elec {
@@ -251,7 +251,7 @@
     width: 0.875rem;
     height: 2.5rem;
     border-radius: 5px;
-    font-size: 0.3rem;
+    font-size: 5px;
   }
   
   .gobunja{
@@ -262,7 +262,7 @@
     width: 2.5rem;
     height: 0.875rem;
     border-radius: 5px;
-    font-size: 0.3rem;
+    font-size: 5px;
   }
   
   .thinking {
@@ -300,18 +300,18 @@
   
   .archi{
     bottom: 2.5%;
-    right: 38%;
+    right: 37.5%;
   }
   .archi_btn{
-    width: 1.25rem;
-    height: 1.25rem;
+    width: 1.4rem;
+    height: 1.4rem;
     border-radius: 5px;
-    font-size: 0.1rem;
+    font-size: 5px;
   }
   
   .fiber {
     bottom: 12%;
-    left: 23%;
+    left: 20%;
   }
   .fiber_btn {
     width: 2rem;
@@ -322,13 +322,13 @@
   
   .tomok {
     bottom: 12%;
-    left: 32%;
+    left: 30%;
   }
   .tomok_btn {
-    width: 1.5rem;
+    width: 1.7rem;
     height: 0.875rem;
     border-radius: 5px;
-    font-size: 0.075rem;
+    font-size: 2px;
   }
   
   .mosigong{
@@ -336,54 +336,54 @@
     right: 52%;
   }
   .mosigong_btn{
-    width: 1.75rem;
+    width: 2rem;
     height: 0.875rem;
     border-radius: 5px;
-    font-size: 0.075rem;
+    font-size: 2px;
   }
   
   .uhak{
     bottom: 12%;
-    right: 45%;
+    right: 44%;
   }
   .uhak_btn{
-    width: 1.5rem;
-    height: 1rem;
+    width: 1.75rem;
+    height: 1.5rem;
     border-radius: 5px;
-    font-size: 0.075rem;
+    font-size: 2px;
   }
   
   .oksu{
-      bottom: 4%;
-      left: 40%;
+      bottom: 2%;
+      left: 37%;
   }
   .oksu_btn{
-      width: 1.5rem;
-      height: 1rem;
+      width: 1.75rem;
+      height: 1.5rem;
       border-radius: 5px;
-      font-size: 0.075rem;
+      font-size: 2px;
   }
   
   .sunwoori{
-      bottom: 4%;
-      left: 47%;
+      bottom: 2%;
+      left: 45%;
   }
   .sunwoori_btn{
-      width: 1.75rem;
+      width: 2rem;
       height: 0.875rem;
       border-radius: 5px;
-      font-size: 0.075rem;
+      font-size: 2px;
   }
   
   .bubsa{
-      bottom: 4%;
-      left: 24.5%;
+      bottom: 2%;
+      left: 23%;
   }
   .bubsa_btn{
-      width: 1.5rem;
+      width: 1.75rem;
       height: 1rem;
       border-radius: 5px;
-      font-size: 0.075rem;
+      font-size: 2px;
   }
   
   .chonghak{
@@ -391,7 +391,7 @@
       left: 5%;
   }
   .chonghak_btn{
-      width: 4rem;
+      width: 3rem;
       height: 7rem;
       border-radius: 5px;
       font-size: 1rem;
@@ -399,13 +399,13 @@
   
   .foodtruck{
       bottom: 25%;
-      left: 1%;
+      left: 0%;
   }
   .foodtruck_btn{
-      width: 1.5rem;
+      width: 1.4rem;
       height: 7rem;
       border-radius: 3px;
-      font-size: 1rem;
+      font-size: 0.5rem;
   }
 
   
