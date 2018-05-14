@@ -156,7 +156,7 @@ Singer.create(
     
     
     { name: '1일차 학생공연',
-    info: '다솜합창단 & 모닥불 & 자드락 & 공연영화학부',
+    info: '다솜합창단 & 모닥불 & 자드락 & 공연영화',
     st_time: Time.new(2018, 05, 15, 18, 00, 00, "+09:00").to_i,
     end_time: Time.new(2018, 05, 15, 19, 00, 00, "+09:00").to_i,
     img_addr: 'http://cfile24.uf.tistory.com/image/267D7B4A56E037C330982B',
@@ -251,102 +251,118 @@ Singer.create(
     )
 
 Jujum.create([
-    {name: '응용통계학과',
-    major: '응용통계학과',
+    {name: '통계',
+    major: '통계',
     numbs: 'One',
     idd: 'statis'
     },
-    {name: '경영학과',
-    major: '경영학과',
+    {name: '경영',
+    major: '경영',
     numbs: 'Two',
     idd: 'bz'
     },
-    {name: '전자전기공학부',
-    major: '전자전기공학부',
+    {name: '전전',
+    major: '전전',
     numbs: 'Three',
     idd: 'elec'},
-    {name: '화학공학과',
-    major: '화학공학과',
+    {name: '화공',
+    major: '화공',
     numbs: 'Four',
     idd: 'thinking'},
-    {name: '소프트웨어학과',
-    major: '소프트웨어학과',
+    {name: '소웨',
+    major: '소웨',
     numbs: 'Five',
     idd: 'soft'},
-    {name: '응용컴퓨터공학과',
-    major: '응용컴퓨터공학과',
+    {name: '응컴',
+    major: '응컴',
     numbs: 'Six',
     idd: 'physical'
     },
-    {name: '기계공학과',
-    major: '기계공학과',
+    {name: '커디',
+    major: '커디',
     numbs: 'Seven',
-    idd: 'mech'},
-    {name: '커뮤니케이션디자인학과',
-    major: '커뮤니케이션디자인학과',
-    numbs: 'Eight',
     idd: 'fadi'},
-    {name: '경제학과',
-    major: '경제학과',
-    numbs: 'Nine',
+    {name: '경제',
+    major: '경제',
+    numbs: 'Eight',
     idd: 'econo'
     },
-    {name: '무역학과',
-    major: '무역학과',
-    numbs: 'Ten',
+    {name: '무역',
+    major: '무역',
+    numbs: 'Nine',
     idd: 'trade'
     },
-    {name: '회계학과',
-    major: '회계학과',
-    numbs: 'Eleven',
+    {name: '회계',
+    major: '회계',
+    numbs: 'Ten',
     idd: 'account'
     },
-    {name: '도예과',
-    major: '도예과',
-    numbs: 'Twelve',
+    {name: '도예',
+    major: '도예',
+    numbs: 'Eleven',
     idd: 'china'
     },
-    {name: '예술대학',
-    major: '예술대학',
-    numbs: 'Thirteen',
+    {name: '예대 클럽',
+    major: '예대 클럽',
+    numbs: 'Twelve',
     idd: 'art'
     },
-    {name: '고분자공학과',
-    major: '고분자공학과',
-    numbs: 'Fourteen',
+    {name: '고분자',
+    major: '고분자',
+    numbs: 'Thirteen',
     idd: 'gobunja'
     },
-    {name: '파이버시스템공학과',
-    major: '파이버시스템공학과',
-    numbs: 'Fifteen',
+    {name: '파이버',
+    major: '파이버',
+    numbs: 'Fourteen',
     idd: 'fiber'
     },
-    {name: '토목환경공학과',
-    major: '토목환경공학과',
-    numbs: 'Sixteen',
+    {name: '토목',
+    major: '토목',
+    numbs: 'Fifteen',
     idd: 'tomok'
     },
-    {name: '모바일시스템공학과',
-    major: '모바일시스템공학과',
-    numbs: 'Senventeen',
+    {name: '모바일',
+    major: '모바일',
+    numbs: 'Sixteen',
     idd: 'mosigong'
     },
     {name: '유학생회',
     major: '유학생회',
-    numbs: 'Eighteen',
+    numbs: 'Seventeen',
     idd: 'uhak'
     },
-    {name: '건축대학',
-    major: '건축대학',
-    numbs: 'Nineteen',
+    {name: '건축',
+    major: '건축',
+    numbs: 'Eighteen',
     idd: 'archi'
     },
     {name: '옥수야학',
     major: '옥수야학',
-    numbs: 'Twenty',
+    numbs: 'Nineteen',
     idd: 'oksu'
+    },
+    {name: '법사',
+    major: '법사',
+    numbs: 'Twenty',
+    idd: 'bubsa'
+    },
+    {name: '선우리',
+    major: '선우리',
+    numbs: 'Twentyone',
+    idd: 'sunwoori'
+    },
+    {name: '총학',
+    major: '총학',
+    numbs: 'Twentytwo',
+    idd: 'chonghak'
+    },
+    {name: '푸드트럭',
+    major: '푸드트럭',
+    numbs: 'Twentythree',
+    idd: 'foodtruck'
     }
-    ])
+])
 
 # •제육볶음
 # •내장탕or육개장
@@ -429,8 +445,8 @@ Buth.create([
 ])
 
 Pbuth.create([
-    {name: '총학부스',
-    major: '총학부스',
+    {name: '총스',
+    major: '총스',
     numbs: 'One',
     idd: 'daejang',
     madi: 'home/chonghak'
@@ -458,11 +474,4 @@ Pbuth.create([
     numbs: 'Five',
     idd: 'semi',
     madi: 'home/semi'},
-    
-    {name: '푸드트럭존',
-    major: '푸드트럭존',
-    numbs: 'Six',
-    idd: 'foodtruck',
-    madi: 'home/foodtruck'
-    }
     ])

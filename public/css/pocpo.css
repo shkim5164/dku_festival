@@ -96,23 +96,6 @@
   cursor: pointer;
 }
 
-.foodtruck {
-  position: absolute;
-  bottom: 4.1%;
-  left: 38.4%;
-  z-index: 2;
-}
-
-.foodtruck_btn {
-  width: 15.5rem;
-  height: 3.125rem;
-  border-radius: 20px;
-  font-size: 2.1875rem;
-  background-color: rgba(255,50,50, 0.7);
-  border: none;
-  cursor: pointer;
-}
-
 .pp_map > div > button:hover {
   color: #e6a756
 }

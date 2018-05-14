@@ -153,103 +153,261 @@
     height: 240px;
     width: 350px;
     margin: 0 auto 10px auto;
-  }
+  } 
   
   .bz {
-    top: 5%;
-    left: 13%;
+    top: 27%;
+    left: 33%;
   }
-  
   .bz_btn {
-    width: 7rem;
-    height: 5.2rem;
-    border-radius: 10px;
-    font-size: 1.3rem;
+    width: 1.75rem;
+    height: 3.25rem;
+    border-radius: 5px;
+    font-size: 0.5rem;
   }
   
-  .elec {
-    top: 5%;
-    left: 56%;
+  .account {
+    top: 25.5%;
+    left: 41%;
   }
-  
-  .elec_btn {
-    width: 7rem;
-    height: 5.5rem;
-    border-radius: 10px;
-    font-size: 1.2rem;
-  }
-  
-  .soft {
-    bottom: 31%;
-    right: 10.7%;
-  }
-  
-  .soft_btn {
-    width: 4rem;
-    height: 3.75rem;
-    border-radius: 10px;
-    font-size: 0.775rem;
-  }
-  
-  .thinking {
-    bottom: 18%;
-    left: 15%;
-  }
-  
-  .thinking_btn {
-    width: 4rem;
-    height: 3.5rem;
-    border-radius: 10px;
-    font-size: 0.8rem;
-  }
-  
-  .statis{
-    bottom: 0%;
-    left: 5%;
-  }
-  
-  .statis_btn {
-    width: 7rem;
+  .account_btn{
+    width: 1rem;
     height: 2rem;
-    border-radius: 10px;
-    font-size: 1rem;
+    border-radius: 5px;
+    font-size: 0.35rem;
   }
   
-  .physical {
-    bottom: 5.5%;
-    left: 71%;
+  .trade {
+    top: 25.5%;
+    left: 46%;
   }
-  
-  .physical_btn {
-    width: 4rem;
-    height: 3.5rem;
-    border-radius: 10px;
-    font-size: 0.8rem;
-  }
-  
-  .mech {
-    bottom: 0%;
-    left: 38%;
-  }
-  
-  .mech_btn {
-    width: 7rem;
+  .trade_btn {
+    width: 1rem;
     height: 2rem;
-    border-radius: 10px;
-    font-size: 1.25rem;
+    border-radius: 5px;
+    font-size: 0.4rem;
+  }
+  
+  .econo {
+    top: 27%;
+    left: 19%;
+   }
+  .econo_btn {
+    width: 1.75rem;
+    height: 3.25rem;
+    border-radius: 5px;
+    font-size: 0.5rem;
+   }
+   
+  .china {
+    top: 49%;
+    left: 26.5%;
+  }
+  .china_btn {
+    width: 1.5rem;
+    height: 0.75rem;
+    border-radius: 5px;
+    font-size: 0.35rem;
   }
   
   .fadi {
-    bottom: 15%;
-    left: 37%;
+    bottom: 32%;
+    left: 32.5%;
+  }
+  .fadi_btn {
+    width: 0.85rem;
+    height: 1.75rem;
+    border-radius: 5px;
+    font-size: 0.3rem;
   }
   
-  .fadi_btn {
-    width: 7rem;
-    height: 2.5rem;
-    border-radius: 10px;
-    font-size: 0.9rem;
+  .art {
+    top: 62%;
+    left: 26.5%;
   }
+  .art_btn {
+    width: 1.5rem;
+    height: 1.1rem;
+    border-radius: 5px;
+    font-size: 0.1rem;
+  }
+  
+  .elec {
+    top: 52%;
+    left: 42%;
+  }
+  .elec_btn {
+    width: 2.5rem;
+    height: 1.75rem;
+    border-radius: 5px;
+    font-size: 0.5rem;
+  }
+  
+  .soft {
+    bottom: 26%;
+    right: 59%;
+  }
+  .soft_btn {
+    width: 0.875rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    font-size: 0.3rem;
+  }
+  
+  .gobunja{
+    top: 66%;
+    left: 42%;
+  }
+  .gobunja_btn{
+    width: 2.5rem;
+    height: 0.875rem;
+    border-radius: 5px;
+    font-size: 0.3rem;
+  }
+  
+  .thinking {
+    top: 25%;
+    right: 27.75%;
+  }
+  .thinking_btn {
+    width: 2rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    font-size: 0.5rem;
+  }
+  
+  .physical {
+    bottom: 29%;
+    right: 27.75%;
+  }
+  .physical_btn {
+    width: 2rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    font-size: 0.5rem;
+  }
+  
+  .statis{
+    top: 62.5%;
+    left: 57.5%;
+  }
+  .statis_btn {
+    width: 1rem;
+    height: 2rem;
+    border-radius: 5px;
+    font-size: 0.3rem;
+  }
+  
+  .archi{
+    bottom: 2.5%;
+    right: 38%;
+  }
+  .archi_btn{
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 5px;
+    font-size: 0.35rem;
+  }
+  
+  .fiber {
+    bottom: 12%;
+    left: 23%;
+  }
+  .fiber_btn {
+    width: 2rem;
+    height: 0.875rem;
+    border-radius: 5px;
+    font-size: 0.4rem;
+  }
+  
+  .tomok {
+    bottom: 12%;
+    left: 32%;
+  }
+  .tomok_btn {
+    width: 1.5rem;
+    height: 0.875rem;
+    border-radius: 5px;
+    font-size: 0.1rem;
+  }
+  
+  .mosigong{
+    bottom: 12%;
+    right: 52%;
+  }
+  .mosigong_btn{
+    width: 1.75rem;
+    height: 0.875rem;
+    border-radius: 5px;
+    font-size: 0.1rem;
+  }
+  
+  .uhak{
+    bottom: 12%;
+    right: 45%;
+  }
+  .uhak_btn{
+    width: 1.5rem;
+    height: 1rem;
+    border-radius: 5px;
+    font-size: 0.1rem;
+  }
+  
+  .oksu{
+      bottom: 4%;
+      left: 40%;
+  }
+  .oksu_btn{
+      width: 1.5rem;
+      height: 1rem;
+      border-radius: 5px;
+      font-size: 0.1rem;
+  }
+  
+  .sunwoori{
+      bottom: 4%;
+      left: 47%;
+  }
+  .sunwoori_btn{
+      width: 1.75rem;
+      height: 0.875rem;
+      border-radius: 5px;
+      font-size: 0.1rem;
+  }
+  
+  .bubsa{
+      bottom: 4%;
+      left: 24.5%;
+  }
+  .bubsa_btn{
+      width: 1.5rem;
+      height: 1rem;
+      border-radius: 5px;
+      font-size: 0.1rem;
+  }
+  
+  .chonghak{
+      bottom: 3%;
+      left: 5%;
+  }
+  .chonghak_btn{
+      width: 4rem;
+      height: 7rem;
+      border-radius: 5px;
+      font-size: 1rem;
+  }
+  
+  .foodtruck{
+      bottom: 25%;
+      left: 1%;
+  }
+  .foodtruck_btn{
+      width: 1.5rem;
+      height: 7rem;
+      border-radius: 5px;
+      font-size: 1rem;
+  }
+
   
   /*학과 주점 정보*/
   .card-header h2 {
@@ -347,18 +505,6 @@
     font-size: 1.5rem;
   }
   
-  .foodtruck {
-    bottom: 4.1%;
-    left: 38.4%;
-  }
-  
-  .foodtruck_btn {
-    width: 6rem;
-    height: 1.5rem;
-    border-radius: 10px;
-    font-size: 1rem;
-  }
-  
   .pp_map > div > button:hover {
     color: #e6a756
   }
@@ -376,4 +522,6 @@
     text-decoration: none;
     color: black;
   }
+  
+  /* 곰상 주*/
 }

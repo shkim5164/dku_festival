@@ -1,8 +1,8 @@
 /* 곰상지도 */
 .gom_map {
   position:relative;
-  height: 297px;
-    width: 555px;
+  height: 497px;
+  width: 755px;
   text-align: center;
   margin-bottom: 10px;
   background-image: url(/img/gom_map.png);
@@ -14,16 +14,111 @@
 
 .bz {
   position: absolute;
-  top: 13.9%;
-  left: 12.8%;
+  top: 25.5%;
+  left: 33%;
   z-index: 2;
 }
-
 .bz_btn {
-  width: 11.31rem;
-  height: 8.12rem;
-  border-radius: 20px;
-  font-size: 2.75rem;
+  width: 3.5rem;
+  height: 7rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgba(255,255,76, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.account {
+  position: absolute;
+  top: 25.5%;
+  left: 41%;
+  z-index: 2;
+}
+.account_btn{
+  width: 2rem;
+  height: 4rem;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  background-color: rgba(255,255,76, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.trade {
+  position: absolute;
+  top: 25.5%;
+  left: 46%;
+  z-index: 2;
+}
+.trade_btn {
+  width: 2rem;
+  height: 4rem;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  background-color: rgba(255,255,76, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.econo {
+  position: absolute;
+  top: 25.5%;
+  left: 19%;
+  z-index: 2;
+ }
+.econo_btn {
+  width: 3.5rem;
+  height: 7rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgba(255,255,76, 0.7);
+  border: none;
+  cursor: pointer;
+ }
+ 
+.china {
+  position: absolute;
+  top: 52%;
+  left: 26.25%;
+  z-index: 2;
+}
+.china_btn {
+  width: 3.1rem;
+  height: 1.5rem;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  background-color: rgba(140,25,140, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.fadi {
+  position: absolute;
+  bottom: 33%;
+  left: 32.5%;
+  z-index: 2;
+}
+.fadi_btn {
+  width: 1.7rem;
+  height: 3.5rem;
+  border-radius: 10px;
+  font-size: 0.6rem;
+  background-color: rgba(140,25,140, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.art {
+  position: absolute;
+  top: 65%;
+  left: 27.3%;
+  z-index: 2;
+}
+.art_btn {
+  width: 2.25rem;
+  height: 1.5rem;
+  border-radius: 10px;
+  font-size: 0.4rem;
   background-color: rgba(140,25,140, 0.7);
   border: none;
   cursor: pointer;
@@ -31,124 +126,259 @@
 
 .elec {
   position: absolute;
-  top: 13.8%;
-  left: 55.4%;
+  top: 52%;
+  left: 42%;
   z-index: 2;
 }
-
 .elec_btn {
-  width: 11.25rem;
-  height: 8.5rem;
-  border-radius: 20px;
-  font-size: 1.75rem;
-  background-color: rgba(25,140,25, 0.7);
+  width: 5rem;
+  height: 3.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgba(0, 128, 0, 0.7);
   border: none;
   cursor: pointer;
 }
 
 .soft {
   position: absolute;
-  bottom: 36.4%;
-  right: 10.7%;
+  bottom: 25%;
+  right: 59%;
   z-index: 2;
 }
-
 .soft_btn {
-  width: 6rem;
-  height: 5.31rem;
-  border-radius: 20px;
-  font-size: 1.125rem;
-  background-color: rgba(255,192,203, 0.7);
+  width: 1.75rem;
+  height: 5rem;
+  border-radius: 10px;
+  font-size: 0.6rem;
+  background-color: rgba(0, 128, 0, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.gobunja{
+  position: absolute;
+  top: 69%;
+  left: 42%;
+  z-index: 2;
+}
+.gobunja_btn{
+  width: 5rem;
+  height: 1.75rem;
+  border-radius: 10px;
+  font-size: 0.6rem;
+  background-color: rgba(0, 128, 0, 0.7);
   border: none;
   cursor: pointer;
 }
 
 .thinking {
   position: absolute;
-  bottom: 24%;
-  left: 15%;
+  top: 25%;
+  right: 28%;
   z-index: 2;
 }
-
 .thinking_btn {
-  width: 6.5rem;
-  height: 5.5rem;
-  border-radius: 20px;
-  font-size: 1.75rem;
-  background-color: rgba(255,255,76, 0.7);
-  border: none;
-  cursor: pointer;
-}
-
-.statis{
-  position: absolute;
-  bottom: 8%;
-  left: 5.9%;
-  z-index: 2;
-}
-
-.statis_btn {
-  width: 10.5rem;
-  height: 3.7rem;
-  border-radius: 20px;
-  font-size: 1.75rem;
-  background-color: rgba(76,76,255, 0.7);
+  width: 4rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgba(0, 128, 0, 0.7);
   border: none;
   cursor: pointer;
 }
 
 .physical {
   position: absolute;
-  bottom: 12.1%;
-  left: 71%;
+  bottom: 29%;
+  right: 28%;
   z-index: 2;
 }
-
 .physical_btn {
-  width: 6.5rem;
-  height: 6.125rem;
-  border-radius: 20px;
-  font-size: 1.35rem;
-  background-color: rgba(255,50,50, 0.7);
+  width: 4rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgba(0, 128, 0, 0.7);
   border: none;
   cursor: pointer;
 }
 
-.mech {
+.statis{
   position: absolute;
-  bottom: 7%;
-  left: 38.4%;
+  top: 62.5%;
+  left: 57.5%;
   z-index: 2;
 }
-
-.mech_btn {
-  width: 10.5rem;
+.statis_btn {
+  width: 2rem;
   height: 4rem;
-  border-radius: 20px;
-  font-size: 2rem;
-  background-color: rgba(255,50,50, 0.7);
+  border-radius: 10px;
+  font-size: 0.6rem;
+  background-color: rgba(0, 200, 0, 0.7);
   border: none;
   cursor: pointer;
 }
 
-.fadi {
+.archi{
   position: absolute;
-  bottom: 23.1%;
-  left: 37.8%;
+  bottom: 2.5%;
+  right: 38%;
   z-index: 2;
 }
+.archi_btn{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  background-color: rgba(210,105,30, 0.7);
+  border: none;
+  cursor: pointer;
+}
 
-.fadi_btn {
-  width: 10.5rem;
-  height: 3.5rem;
-  border-radius: 20px;
-  font-size: 1.1875rem;
+.fiber {
+  position: absolute;
+  bottom: 12%;
+  left: 23%;
+  z-index: 2;
+}
+.fiber_btn {
+  width: 4rem;
+  height: 1.75rem;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  background-color: rgba(0, 128, 0, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.tomok {
+  position: absolute;
+  bottom: 12%;
+  left: 32%;
+  z-index: 2;
+}
+.tomok_btn {
+  width: 2.75rem;
+  height: 1.75rem;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  background-color: rgba(0, 128, 0, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.mosigong{
+  position: absolute;
+  bottom: 12%;
+  right: 52%;
+  z-index: 2;
+}
+.mosigong_btn{
+  width: 2.5rem;
+  height: 1.75rem;
+  border-radius: 10px;
+  font-size: 0.6rem;
   background-color: rgba(255,50,50, 0.7);
   border: none;
   cursor: pointer;
 }
 
-/*------------------------*/
+.uhak{
+  position: absolute;
+  bottom: 12%;
+  right: 46.5%;
+  z-index: 2;
+}
+.uhak_btn{
+  width: 2.5rem;
+  height: 1.75rem;
+  border-radius: 10px;
+  font-size: 0.5rem;
+  background-color: rgba(67,67,67, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.oksu{
+    position: absolute;
+    bottom: 4%;
+    left: 44%;
+    z-index: 2;
+}
+.oksu_btn{
+    width: 2.7rem;
+    height: 1.75rem;
+    border-radius: 10px;
+    font-size: 0.55rem;
+    background-color: rgba(154,188,222, 0.7);
+    border: none;
+    cursor: pointer;
+}
+
+.sunwoori{
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    z-index: 2;
+}
+.sunwoori_btn{
+    width: 2rem;
+    height: 1.75rem;
+    border-radius: 10px;
+    font-size: 0.5rem;
+    background-color: rgba(154,188,222, 0.7);
+    border: none;
+    cursor: pointer;
+}
+
+.bubsa{
+    position: absolute;
+    bottom: 4%;
+    left: 24.5%;
+    z-index: 2;
+}
+.bubsa_btn{
+    width: 2.5rem;
+    height: 1.75rem;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    background-color: rgba(101,67,33, 0.7);
+    border: none;
+    cursor: pointer;
+}
+
+.chonghak{
+    position: absolute;
+    bottom: 5%;
+    left: 7.5%;
+    z-index: 2;
+}
+.chonghak_btn{
+    width: 8rem;
+    height: 14rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    background-color: rgba(210,103,233, 0.7);
+    border: none;
+    cursor: pointer;
+}
+
+.foodtruck{
+    position: absolute;
+    bottom: 25%;
+    left: 1%;
+    z-index: 2;
+}
+.foodtruck_btn{
+    width: 3rem;
+    height: 14rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    background-color: rgba(245,245,245, 0.7);
+    border: none;
+    cursor: pointer;
+}
 
 .gom_map > div > button:hover {
   color: #e6a756
@@ -175,182 +405,4 @@
   border: 1px solid black;
 }
 
-.econo {
-   position: absolute;
-  top: 13.9%;
-  left: 12.8%;
-  z-index: 2;
- }
-.econo_btn {
-   width: 11.31rem;
-  height: 8.12rem;
-  border-radius: 20px;
-  font-size: 2.75rem;
-  background-color: rgba(140,25,140, 0.7);
-  border: none;
-  cursor: pointer;
- }
-.trade {
-  position: absolute;
-  top: 13.9%;
-  left: 12.8%;
-  z-index: 2;
-}
-.trade_btn {
-  width: 11.31rem;
-  height: 8.12rem;
-  border-radius: 20px;
-  font-size: 2.75rem;
-  background-color: rgba(140,25,140, 0.7);
-  border: none;
-  cursor: pointer;
-}
-.account {
-  position: absolute;
-  top: 13.9%;
-  left: 12.8%;
-  z-index: 2;
-}
-.account_btn{
-  width: 11.31rem;
-  height: 8.12rem;
-  border-radius: 20px;
-  font-size: 2.75rem;
-  background-color: rgba(140,25,140, 0.7);
-  border: none;
-  cursor: pointer;
-}
-.china {
-  position: absolute;
-  top: 13.9%;
-  left: 12.8%;
-  z-index: 2;
-}
-.china_btn {
-  width: 11.31rem;
-  height: 8.12rem;
-  border-radius: 20px;
-  font-size: 2.75rem;
-  background-color: rgba(140,25,140, 0.7);
-  border: none;
-  cursor: pointer;
-}
-.art {
-  position: absolute;
-  top: 13.9%;
-  left: 12.8%;
-  z-index: 2;
-}
-.art_btn {
-  width: 11.31rem;
-  height: 8.12rem;
-  border-radius: 20px;
-  font-size: 2.75rem;
-  background-color: rgba(140,25,140, 0.7);
-  border: none;
-  cursor: pointer;
-}
-.gobunja{
-  position: absolute;
-  top: 13.9%;
-  left: 12.8%;
-  z-index: 2;
-}
-.gobunja_btn{
-  width: 11.31rem;
-  height: 8.12rem;
-  border-radius: 20px;
-  font-size: 2.75rem;
-  background-color: rgba(140,25,140, 0.7);
-  border: none;
-  cursor: pointer;
-}
-.fiber {
-  position: absolute;
-  top: 13.9%;
-  left: 12.8%;
-  z-index: 2;
-}
-.fiber_btn {
-  width: 11.31rem;
-  height: 8.12rem;
-  border-radius: 20px;
-  font-size: 2.75rem;
-  background-color: rgba(140,25,140, 0.7);
-  border: none;
-  cursor: pointer;
-}
-.tomok {
-  position: absolute;
-  top: 13.9%;
-  left: 12.8%;
-  z-index: 2;
-}
-.tomok_btn {
-  width: 11.31rem;
-  height: 8.12rem;
-  border-radius: 20px;
-  font-size: 2.75rem;
-  background-color: rgba(140,25,140, 0.7);
-  border: none;
-  cursor: pointer;
-}
-.mosigong{
-  position: absolute;
-  top: 13.9%;
-  left: 12.8%;
-  z-index: 2;
-}
-.mosigong_btn{
-  width: 11.31rem;
-  height: 8.12rem;
-  border-radius: 20px;
-  font-size: 2.75rem;
-  background-color: rgba(140,25,140, 0.7);
-  border: none;
-  cursor: pointer;
-}
-.uhak{
-  position: absolute;
-  top: 13.9%;
-  left: 12.8%;
-  z-index: 2;
-}
-.uhak_btn{
-  width: 11.31rem;
-  height: 8.12rem;
-  border-radius: 20px;
-  font-size: 2.75rem;
-  background-color: rgba(140,25,140, 0.7);
-  border: none;
-  cursor: pointer;
-}
-.archi{
-  position: absolute;
-  top: 13.9%;
-  left: 12.8%;
-  z-index: 2;
-}
-.archi_btn{
-  width: 11.31rem;
-  height: 8.12rem;
-  border-radius: 20px;
-  font-size: 2.75rem;
-  background-color: rgba(140,25,140, 0.7);
-  border: none;
-  cursor: pointer;}
-.oksu{
-    position: absolute;
-    top: 87.9%;
-    left: 39.8%;
-    z-index: 2;
-}
-.oksu_btn{
-    width: 3.31rem;
-    height: 2.12rem;
-    border-radius: 20px;
-    font-size: 0.75rem;
-    background-color: rgba(140,25,140, 0.7);
-    border: none;
-    cursor: pointer;
-}
+
