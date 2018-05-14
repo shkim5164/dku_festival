@@ -49,6 +49,15 @@ class HomeController < ApplicationController
   end
   
   def booth
+      if @day == 1
+        @ddd = 15
+      elsif @day == 2
+        @ddd = 16
+      elsif @day == 3
+        @ddd = 17
+      else
+        @ddd = 17
+      end
   end
   
   def about
