@@ -273,8 +273,107 @@
   .hd_map {
     height: 12rem;
     width: 20rem;
-    margin-bottom: 10px;
-    background-size: 100%;
-    margin: 0 auto 10px auto;
+  }
+  
+  .hd_map div button {
+    font-size: 0.4rem;
+    padding: 0.2rem;
+  }
+  
+  /* 폭포공원 앞 */
+  .poc_map {
+    height: 9rem;
+    width: 20rem;
+    background-repeat: no-repeat;
+  }
+  
+  .daejang {
+    bottom: 8.9%;
+    right: 3.8%;
+  }
+  
+  .daejang_btn {
+    width: 6rem;
+    height: 5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .busking {
+    top: 2.8%;
+    left: 1.4%;
+  }
+  
+  .busking_btn {
+    width: 5rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+  .visual {
+    bottom: 14.4%;
+    right: 34.7%;
+  }
+  
+  .visual_btn {
+    width: 3rem;
+    height: 2.8rem;
+    border-radius: 10px;
+    font-size: 0.7rem;
+  }
+  
+  .flee {
+    bottom: 44.4%;
+    left: 5.8%;
+  }
+  
+  .flee_btn {
+    width: 7rem;
+    height: 2rem;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+  .semi {
+    bottom: 47.8%;
+    left: 38.9%;
+  }
+  
+  .semi_btn {
+    width: 8rem;
+    height: 5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .foodtruck {
+    bottom: 4.1%;
+    left: 38.4%;
+  }
+  
+  .foodtruck_btn {
+    width: 6rem;
+    height: 1.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+  .pp_map > div > button:hover {
+    color: #e6a756
+  }
+  
+  .pp_map > div > a > button {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .pp_map > div > a > button:hover {
+    color: #e6a756
+  }
+  
+  .pp_map > .gbtn > a {
+    text-decoration: none;
+    color: black;
   }
 }
