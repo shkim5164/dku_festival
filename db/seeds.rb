@@ -7,12 +7,12 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first
 
 # 신고 게시물
-for x in 1..100 do
-    Report.create(
-             name: "title#{x}",
-              content: "content#{x}"
-            )
-end
+# for x in 1..100 do
+#     Report.create(
+#              name: "title#{x}",
+#               content: "content#{x}"
+#             )
+# end
 
 # Admin user
 # User.create(email: 'admin@admin.com', name: '이벤트1관리자', password: '123123', password_confirmation: '123123', phone_number: '010-1234-5678', student_id: '32181818')

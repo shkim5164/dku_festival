@@ -421,6 +421,7 @@
   .jujum img{
     display: block;
     margin: auto;
+    height: 100%;
   }
   
   .menu, .jujum{
@@ -440,8 +441,8 @@
   
   /* 폭포공원 앞 */
   .poc_map {
-    height: 9rem;
-    width: 20rem;
+    height: 8rem;
+    width: 17rem;
     background-repeat: no-repeat;
   }
   
@@ -458,8 +459,8 @@
   }
   
   .busking {
-    top: 2.8%;
-    left: 1.4%;
+    top: 49.8%;
+    left: 23.4%;
   }
   
   .busking_btn {
@@ -524,4 +525,42 @@
   }
   
   /* 곰상 주*/
+  
+  /*혜당관 앞*/
+  .hd_map15 {
+    position: relative;
+     height: 276px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-image: url(/img/hd_front15.png);
+    background-color: black;
+    background-position: center;
+    background-size: 100%;
+    margin: 0 auto 10px auto;
+  }
+   .hd_map16 {
+    position: relative;
+    height: 276px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-image: url(/img/hd_front16.png);
+    background-color: black;
+    background-position: center;
+    background-size: 100%;
+    margin: 0 auto 10px auto;
+  }
+   .hd_map17 {
+    position: relative;
+    height: 276px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-image: url(/img/hd_front17.png);
+    background-color: black;
+    background-position: center;
+    background-size: 100%;
+    margin: 0 auto 10px auto;
+  }
 }
