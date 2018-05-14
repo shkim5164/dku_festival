@@ -19,6 +19,8 @@ before_action :check
       elsif @day == 3
         @search_b = Sixteen.search_for(params[:search_info])
         @ddd = 17
+      else
+        @ddd = 17
       end
   end
     
