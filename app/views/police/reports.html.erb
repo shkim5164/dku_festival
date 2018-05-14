@@ -5,14 +5,21 @@
     
     <body>
         <div class="container police">
-            <h1 style="text-align:center;"><신고 및 건의사항 게시판></h1>
-            <a href="/police/new_report" class="btn btn-primary new" style="text-align: center;">새 글 작성</a>
+            <h1 style="text-align:center;"><방명록></h1>
+            <p style="text-align:center;">축제서비스를 이용한 여러분! 한마디 남겨주세요 :)</p>
+            <%= form_tag("/police/make_report", method: "post") do %>
+              <p class="labels"><%= label_tag(:title, "글쓴이") %></p>
+              <%= text_field_tag(:name, "") %>
+              <p class="labels"><%= label_tag(:title, "내용") %></p>
+              <textarea name="content" style="width: 100%;"></textarea>
+              <%= submit_tag("작성", :class => "btn btn-primary btn-lg", :style => "font-size: 35px; margin-top: 10px; margin-bottom: 10px;") %>
+            <% end %>
             <table class="table reports">
               <thead class="thead-dark">
                 <tr>
                   <th scope="col" >#</th>
-                  <th scope="col" colspan="6">제목</th>
-                  <th scope="col" >작성자</th>
+                  <th scope="col" colspan="6">내용</th>
+                  <th scope="col" colspan="6">작성자</th>
                   <th scope="col" colspan="3">작성시간(+9)</th>
                 </tr>
               </thead>
@@ -20,14 +27,25 @@
                   <% @reports.each do |report| %>
                     <tr>
                       <th scope="row"><%= report.id %></th>
-                      <td colspan="6"><a href="/police/report_show/<%=report.id %>"><%= report.title %></a></td>
-                      <td><%= report.user.email %></td>
+                      <td colspan="6"><%= report.content %></td>
+                      <td colspan="6"><%= report.name %></td>
                       <td colspan="3"><%= report.updated_at%></td>
                     </tr>
                 <% end %>
               </tbody>
             </table>
             <%= paginate @reports %>
+            <div style="text-align:center; background-color: #dfdfe6; border-radius:5px;">
+              <h1>축제서비스를 만든 사람들</h1>
+              <h3>단국대 멋쟁이 사자처럼 운영진</h3>
+              <p>김순후 | 박세아 | 최수빈</p>
+              <h3>단국대 멋쟁이 사자처럼 6기</h3>
+              <p>김재훈 | 김지수 | 김지현</p>
+              <p>박수연 | 박태윤 | 신다정</p>
+              <p>윤태진 | 이동규 | 이상윤 | 이채연</p>
+              <h3>도움주신분들</h3>
+              <p>단국대학교 총학생회</p>
+            </div>
         </div>
     </body>
 </html>

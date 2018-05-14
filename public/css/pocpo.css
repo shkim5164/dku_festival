@@ -11,33 +11,33 @@
   margin: 0 auto 10px auto;
 }
 
-.daejang {
-  position: absolute;
-  bottom: 8.9%;
-  right: 3.8%;
-  z-index: 2;
-}
+/*.daejang {*/
+/*  position: absolute;*/
+/*  bottom: 8.9%;*/
+/*  right: 3.8%;*/
+/*  z-index: 2;*/
+/*}*/
 
-.daejang_btn {
-  width: 12.31rem;
-  height: 10.12rem;
-  border-radius: 20px;
-  font-size: 3.125rem;
-  background-color: rgba(140,25,140, 0.7);
-  border: none;
-  cursor: pointer;
-}
+/*.daejang_btn {*/
+/*  width: 12.31rem;*/
+/*  height: 10.12rem;*/
+/*  border-radius: 20px;*/
+/*  font-size: 3.125rem;*/
+/*  background-color: rgba(140,25,140, 0.7);*/
+/*  border: none;*/
+/*  cursor: pointer;*/
+/*}*/
 
 .busking {
   position: absolute;
-  top: 2.8%;
-  left: 1.4%;
+    top: 49.8%;
+    left: 22.4%;
   z-index: 2;
 }
 
 .busking_btn {
-  width: 11.25rem;
-  height: 7.75rem;
+      width: 8.25rem;
+    height: 10.75rem;
   border-radius: 20px;
   font-size: 3.125rem;
   background-color: rgba(25,140,25, 0.7);
@@ -45,73 +45,73 @@
   cursor: pointer;
 }
 
-.visual {
-  position: absolute;
-  bottom: 14.4%;
-  right: 34.7%;
-  z-index: 2;
-}
+/*.visual {*/
+/*  position: absolute;*/
+/*  bottom: 14.4%;*/
+/*  right: 34.7%;*/
+/*  z-index: 2;*/
+/*}*/
 
-.visual_btn {
-  width: 3.5rem;
-  height: 3.31rem;
-  border-radius: 20px;
-  font-size: 1rem;
-  background-color: rgba(255,192,203, 0.7);
-  border: none;
-  cursor: pointer;
-}
+/*.visual_btn {*/
+/*  width: 3.5rem;*/
+/*  height: 3.31rem;*/
+/*  border-radius: 20px;*/
+/*  font-size: 1rem;*/
+/*  background-color: rgba(255,192,203, 0.7);*/
+/*  border: none;*/
+/*  cursor: pointer;*/
+/*}*/
 
-.flee {
-  position: absolute;
-  bottom: 44.4%;
-  left: 5.8%;
-  z-index: 2;
-}
+/*.flee {*/
+/*  position: absolute;*/
+/*  bottom: 44.4%;*/
+/*  left: 5.8%;*/
+/*  z-index: 2;*/
+/*}*/
 
-.flee_btn {
-  width: 15rem;
-  height: 3.1875rem;
-  border-radius: 20px;
-  font-size: 2.1875rem;
-  background-color: rgba(255,255,76, 0.7);
-  border: none;
-  cursor: pointer;
-}
+/*.flee_btn {*/
+/*  width: 15rem;*/
+/*  height: 3.1875rem;*/
+/*  border-radius: 20px;*/
+/*  font-size: 2.1875rem;*/
+/*  background-color: rgba(255,255,76, 0.7);*/
+/*  border: none;*/
+/*  cursor: pointer;*/
+/*}*/
 
-.semi {
-  position: absolute;
-  bottom: 47.8%;
-  left: 38.9%;
-  z-index: 2;
-}
+/*.semi {*/
+/*  position: absolute;*/
+/*  bottom: 47.8%;*/
+/*  left: 38.9%;*/
+/*  z-index: 2;*/
+/*}*/
 
-.semi_btn {
-  width: 20.56rem;
-  height: 14.125rem;
-  border-radius: 20px;
-  font-size: 3rem;
-  background-color: rgba(76,76,255, 0.7);
-  border: none;
-  cursor: pointer;
-}
+/*.semi_btn {*/
+/*  width: 20.56rem;*/
+/*  height: 14.125rem;*/
+/*  border-radius: 20px;*/
+/*  font-size: 3rem;*/
+/*  background-color: rgba(76,76,255, 0.7);*/
+/*  border: none;*/
+/*  cursor: pointer;*/
+/*}*/
 
-.foodtruck {
-  position: absolute;
-  bottom: 4.1%;
-  left: 38.4%;
-  z-index: 2;
-}
+/*.foodtruck {*/
+/*  position: absolute;*/
+/*  bottom: 4.1%;*/
+/*  left: 38.4%;*/
+/*  z-index: 2;*/
+/*}*/
 
-.foodtruck_btn {
-  width: 15.5rem;
-  height: 3.125rem;
-  border-radius: 20px;
-  font-size: 2.1875rem;
-  background-color: rgba(255,50,50, 0.7);
-  border: none;
-  cursor: pointer;
-}
+/*.foodtruck_btn {*/
+/*  width: 15.5rem;*/
+/*  height: 3.125rem;*/
+/*  border-radius: 20px;*/
+/*  font-size: 2.1875rem;*/
+/*  background-color: rgba(255,50,50, 0.7);*/
+/*  border: none;*/
+/*  cursor: pointer;*/
+/*}*/
 
 .pp_map > div > button:hover {
   color: #e6a756

@@ -34,11 +34,11 @@ Rails.application.routes.draw do
   get 'home/bumjung'
 # --------------------------------------------------------------------
   
-  # get 'police/new_report'
+  get 'police/new_report'
   
-  # get 'police/reports'
+  get 'police/reports'
   
-  # get '/police/report_show/:report_id' => 'police#report_show'
+  get '/police/report_show/:report_id' => 'police#report_show'
   
   # get '/police/report_edit/:report_id' => 'police#report_edit'
   
@@ -46,7 +46,7 @@ Rails.application.routes.draw do
   
   # post '/police/report_destroy/:report_id' => 'police#report_destroy'
   
-  # post 'police/make_report'
+  post 'police/make_report'
   
 #-----------------------------------------------------------------------
   
