@@ -541,5 +541,13 @@
     border-radius: 10px;
     font-size: 1.75rem;
   }
-
+  #flee_c h1{
+    font-size: 2rem;
+  }
+  #flee_c p {
+    font-size: 1rem;
+  }
+  #flee_c h4 {
+    font-size: 1.5rem;
+  }
 }
