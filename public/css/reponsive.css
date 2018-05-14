@@ -68,7 +68,7 @@
   /* card-body */
   .card-body img{
     width: 10rem;
-    height: 10rem;
+    /*height: 10rem;*/
     margin-top: 1rem;
   }
   .card-body h2{
