@@ -265,16 +265,16 @@ Jujum.create([
     major: '전자전기공학부',
     numbs: 'Three',
     idd: 'elec'},
-    {name: '철학과',
-    major: '철학과',
+    {name: '화학공학과',
+    major: '화학공학과',
     numbs: 'Four',
     idd: 'thinking'},
     {name: '소프트웨어학과',
     major: '소프트웨어학과',
     numbs: 'Five',
     idd: 'soft'},
-    {name: '체육볶음',
-    major: '체육교육과',
+    {name: '응용컴퓨터공학과',
+    major: '응용컴퓨터공학과',
     numbs: 'Six',
     idd: 'physical'
     },
@@ -282,10 +282,70 @@ Jujum.create([
     major: '기계공학과',
     numbs: 'Seven',
     idd: 'mech'},
-    {name: '패션디자인학과',
-    major: '패션디자인학과',
+    {name: '커뮤니케이션디자인학과',
+    major: '커뮤니케이션디자인학과',
     numbs: 'Eight',
-    idd: 'fadi'}
+    idd: 'fadi'},
+    {name: '경제학과',
+    major: '경제학과',
+    numbs: 'Nine',
+    idd: 'econo'
+    },
+    {name: '무역학과',
+    major: '무역학과',
+    numbs: 'Ten',
+    idd: 'trade'
+    },
+    {name: '회계학과',
+    major: '회계학과',
+    numbs: 'Eleven',
+    idd: 'account'
+    },
+    {name: '도예과',
+    major: '도예과',
+    numbs: 'Twelve',
+    idd: 'china'
+    },
+    {name: '예술대학',
+    major: '예술대학',
+    numbs: 'Thirteen',
+    idd: 'art'
+    },
+    {name: '고분자공학과',
+    major: '고분자공학과',
+    numbs: 'Fourteen',
+    idd: 'gobunja'
+    },
+    {name: '파이버시스템공학과',
+    major: '파이버시스템공학과',
+    numbs: 'Fifteen',
+    idd: 'fiber'
+    },
+    {name: '토목환경공학과',
+    major: '토목환경공학과',
+    numbs: 'Sixteen',
+    idd: 'tomok'
+    },
+    {name: '모바일시스템공학과',
+    major: '모바일시스템공학과',
+    numbs: 'Senventeen',
+    idd: 'mosigong'
+    },
+    {name: '유학생회',
+    major: '유학생회',
+    numbs: 'Eighteen',
+    idd: 'uhak'
+    },
+    {name: '건축대학',
+    major: '건축대학',
+    numbs: 'Nineteen',
+    idd: 'archi'
+    },
+    {name: '옥수야학',
+    major: '옥수야학',
+    numbs: 'Twenty',
+    idd: 'oksu'
+    }
     ])
 
 # •제육볶음
@@ -372,31 +432,37 @@ Pbuth.create([
     {name: '총학부스',
     major: '총학부스',
     numbs: 'One',
-    idd: 'daejang'
+    idd: 'daejang',
+    madi: 'home/chonghak'
     },
     {name: '버스킹무대',
     major: '버스킹무대',
     numbs: 'Two',
-    idd: 'busking'
+    idd: 'busking',
+    madi: 'home/busking'
     },
     {name: '비주얼존',
     major: '비주얼존',
     numbs: 'Three',
-    idd: 'visual'},
+    idd: 'visual',
+    madi: 'home/visual'},
     
     {name: '플리마켓',
     major: '플리마켓',
     numbs: 'Four',
-    idd: 'flee'},
+    idd: 'flee',
+    madi: 'home/flee'},
     
     {name: '세미클럽',
     major: '세미클럽',
     numbs: 'Five',
-    idd: 'semi'},
+    idd: 'semi',
+    madi: 'home/semi'},
     
     {name: '푸드트럭존',
     major: '푸드트럭존',
     numbs: 'Six',
-    idd: 'foodtruck'
+    idd: 'foodtruck',
+    madi: 'home/foodtruck'
     }
     ])
