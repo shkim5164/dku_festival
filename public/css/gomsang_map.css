@@ -1,8 +1,8 @@
 /* 곰상지도 */
 .gom_map {
   position:relative;
-  height: 470px;
-  width: 555px;
+  height: 297px;
+    width: 555px;
   text-align: center;
   margin-bottom: 10px;
   background-image: url(/img/gom_map.png);
@@ -173,4 +173,184 @@
   width: 200px;
   border-radius: 50%;
   border: 1px solid black;
+}
+
+.econo {
+   position: absolute;
+  top: 13.9%;
+  left: 12.8%;
+  z-index: 2;
+ }
+.econo_btn {
+   width: 11.31rem;
+  height: 8.12rem;
+  border-radius: 20px;
+  font-size: 2.75rem;
+  background-color: rgba(140,25,140, 0.7);
+  border: none;
+  cursor: pointer;
+ }
+.trade {
+  position: absolute;
+  top: 13.9%;
+  left: 12.8%;
+  z-index: 2;
+}
+.trade_btn {
+  width: 11.31rem;
+  height: 8.12rem;
+  border-radius: 20px;
+  font-size: 2.75rem;
+  background-color: rgba(140,25,140, 0.7);
+  border: none;
+  cursor: pointer;
+}
+.account {
+  position: absolute;
+  top: 13.9%;
+  left: 12.8%;
+  z-index: 2;
+}
+.account_btn{
+  width: 11.31rem;
+  height: 8.12rem;
+  border-radius: 20px;
+  font-size: 2.75rem;
+  background-color: rgba(140,25,140, 0.7);
+  border: none;
+  cursor: pointer;
+}
+.china {
+  position: absolute;
+  top: 13.9%;
+  left: 12.8%;
+  z-index: 2;
+}
+.china_btn {
+  width: 11.31rem;
+  height: 8.12rem;
+  border-radius: 20px;
+  font-size: 2.75rem;
+  background-color: rgba(140,25,140, 0.7);
+  border: none;
+  cursor: pointer;
+}
+.art {
+  position: absolute;
+  top: 13.9%;
+  left: 12.8%;
+  z-index: 2;
+}
+.art_btn {
+  width: 11.31rem;
+  height: 8.12rem;
+  border-radius: 20px;
+  font-size: 2.75rem;
+  background-color: rgba(140,25,140, 0.7);
+  border: none;
+  cursor: pointer;
+}
+.gobunja{
+  position: absolute;
+  top: 13.9%;
+  left: 12.8%;
+  z-index: 2;
+}
+.gobunja_btn{
+  width: 11.31rem;
+  height: 8.12rem;
+  border-radius: 20px;
+  font-size: 2.75rem;
+  background-color: rgba(140,25,140, 0.7);
+  border: none;
+  cursor: pointer;
+}
+.fiber {
+  position: absolute;
+  top: 13.9%;
+  left: 12.8%;
+  z-index: 2;
+}
+.fiber_btn {
+  width: 11.31rem;
+  height: 8.12rem;
+  border-radius: 20px;
+  font-size: 2.75rem;
+  background-color: rgba(140,25,140, 0.7);
+  border: none;
+  cursor: pointer;
+}
+.tomok {
+  position: absolute;
+  top: 13.9%;
+  left: 12.8%;
+  z-index: 2;
+}
+.tomok_btn {
+  width: 11.31rem;
+  height: 8.12rem;
+  border-radius: 20px;
+  font-size: 2.75rem;
+  background-color: rgba(140,25,140, 0.7);
+  border: none;
+  cursor: pointer;
+}
+.mosigong{
+  position: absolute;
+  top: 13.9%;
+  left: 12.8%;
+  z-index: 2;
+}
+.mosigong_btn{
+  width: 11.31rem;
+  height: 8.12rem;
+  border-radius: 20px;
+  font-size: 2.75rem;
+  background-color: rgba(140,25,140, 0.7);
+  border: none;
+  cursor: pointer;
+}
+.uhak{
+  position: absolute;
+  top: 13.9%;
+  left: 12.8%;
+  z-index: 2;
+}
+.uhak_btn{
+  width: 11.31rem;
+  height: 8.12rem;
+  border-radius: 20px;
+  font-size: 2.75rem;
+  background-color: rgba(140,25,140, 0.7);
+  border: none;
+  cursor: pointer;
+}
+.archi{
+  position: absolute;
+  top: 13.9%;
+  left: 12.8%;
+  z-index: 2;
+}
+.archi_btn{
+  width: 11.31rem;
+  height: 8.12rem;
+  border-radius: 20px;
+  font-size: 2.75rem;
+  background-color: rgba(140,25,140, 0.7);
+  border: none;
+  cursor: pointer;}
+.oksu{
+    position: absolute;
+    top: 87.9%;
+    left: 39.8%;
+    z-index: 2;
+}
+.oksu_btn{
+    width: 3.31rem;
+    height: 2.12rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    background-color: rgba(140,25,140, 0.7);
+    border: none;
+    cursor: pointer;
 }

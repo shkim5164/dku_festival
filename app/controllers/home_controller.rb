@@ -58,18 +58,6 @@ class HomeController < ApplicationController
   def about
     
   end
-  
-  
-
-  
-#-------------------------admin관리
-  
-  def ad_event
-  end
-  
-  def ad_event_detail
-  end
-  
 #-------------------------my_page관리
 
   def my_page

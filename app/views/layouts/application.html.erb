@@ -94,22 +94,6 @@
                 </div>
               </div>
             </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase" href="/police/reports" style="font-family: 'Jeju Gothic', sans-serif;">신고</a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <% unless user_signed_in? %>
-                <a class="nav-link text-uppercase" href="/users/sign_in" style="font-family: 'Jeju Gothic', sans-serif;">로그인</a>
-              <% else %>
-                <%= link_to "로그아웃", destroy_user_session_path, :method => :delete, :class => "nav-link text-uppercase text-expanded"  %>
-                <li class="nav-item px-lg-4">
-                  <a class="nav-link text-uppercase" href="/home/my_page" style="font-family: 'Jeju Gothic', sans-serif;">마이 페이지</a>
-                </li>
-              <% end %>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase" href="/admin/index"  style="font-family: 'Jeju Gothic', sans-serif;">관리자페이지</a>
-            </li>
           </ul>
         </div>
       </div>
