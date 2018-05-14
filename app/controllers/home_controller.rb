@@ -49,7 +49,7 @@ class HomeController < ApplicationController
   end
   
   def pocpo
-    @p_buths = Pbuth.all
+    @p_buths = Pbuth.where(name: '버스킹무대')
   end
   
   def booth
@@ -57,6 +57,10 @@ class HomeController < ApplicationController
   
   def about
     
+  end
+  
+  def bumjung
+     @p_buths = Pbuth.where(name: '플리마켓')
   end
 #-------------------------my_page관리
 

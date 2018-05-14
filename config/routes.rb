@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   
   get 'applies/new/:event_id' => 'applies#new'
 
-  devise_for :users
+  # devise_for :users
   
   root 'home#index'
 
@@ -18,34 +18,35 @@ Rails.application.routes.draw do
   
   get 'home/about'
   
-  get 'home/ad_event'
+  # get 'home/ad_event'
   
-  get 'home/ad_event_detail'
+  # get 'home/ad_event_detail'
   
   
-  get 'home/my_page'
+  # get 'home/my_page'
   
   get 'home/hd_front'
   
   get 'home/pocpo'
   
-  get 'home/pocpo_lineup'
+  # get 'home/pocpo_lineup'
   
+  get 'home/bumjung'
 # --------------------------------------------------------------------
   
-  get 'police/new_report'
+  # get 'police/new_report'
   
-  get 'police/reports'
+  # get 'police/reports'
   
-  get '/police/report_show/:report_id' => 'police#report_show'
+  # get '/police/report_show/:report_id' => 'police#report_show'
   
-  get '/police/report_edit/:report_id' => 'police#report_edit'
+  # get '/police/report_edit/:report_id' => 'police#report_edit'
   
-  post '/police/report_update/:report_id' => 'police#report_update'
+  # post '/police/report_update/:report_id' => 'police#report_update'
   
-  post '/police/report_destroy/:report_id' => 'police#report_destroy'
+  # post '/police/report_destroy/:report_id' => 'police#report_destroy'
   
-  post 'police/make_report'
+  # post 'police/make_report'
   
 #-----------------------------------------------------------------------
   

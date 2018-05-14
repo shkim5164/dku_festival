@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="/css/bumjung.css" />
+  </head>
+  
+  <body>
+
+  <div class="container">
+    <section class="pp_map">
+      <h1 style="text-align: center;">범정관 앞</h1>
+      <div class="poc_map">
+        <% @p_buths.each do |jujum| %>
+         <div class="<%= jujum.idd %>">
+           <a href="#<%= jujum.idd %>_c">
+            <button class="<%= jujum.idd %>_btn"><%= jujum.major %></button>
+           </a>
+         </div>
+        <% end %>
+      </div>
+    </section>
+  </div>
+
+      <section class="jujum">
+        <h1 class="no_show">학과 주점정보</h1>
+        <div class="container">
+            <div class="lineup">
+              <div id="accordion">
+                
+                <% @p_buths.each do |jujum| %>
+                <div class="card" id="<%= jujum.idd %>_c">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapse<%= jujum.numbs %>" aria-expanded="true" aria-controls="collapse<%= jujum.numbs %>" id="time_header">
+                    <div class="card-header" id="heading<%= jujum.idd %>">
+                        <h2 class="mb-0"><%= jujum.name %></h2>
+                    </div>
+                  </button>
+                  <div id="collapse<%= jujum.numbs %>" class="collapse" aria-labelledby="heading<%= jujum.numbs %>" data-parent="#accordion">
+                    <div class="card-body">
+                      <div class="row">
+                          <%= render jujum.madi %>
+                        </div>
+                      </div>
+
+                    </div>
+                </div>
+              <!--반복문 끝-->
+              <% end %>
+            </div>
+        </div>
+      </div>
+    </section>
+
+  </body>
+  <script>
+  <% @p_buths.each do |v| %>
+    $("div.<%= v.idd%> a").click(function(){  // 네비게이션 클릭시
+          var direction = $(this).attr("href");   // direction = 클릭한 요소의 href 속성
+          scrolling( direction ); // direction 을 인자로 함수 실행
+          return false;   // 본래 이벤트 방지 
+      });
+  <% end %>
+  </script>
+</html>

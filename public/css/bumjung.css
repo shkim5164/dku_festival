@@ -1,0 +1,47 @@
+.bum_map {
+  position:relative;
+  height: 404px;
+  width: 850px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-image: url(/img/bumjung.png);
+  background-color: black;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto 10px auto;
+}
+
+.flee {
+  position: absolute;
+  bottom: 44.4%;
+  left: 5.8%;
+  z-index: 2;
+}
+
+.flee_btn {
+  width: 15rem;
+  height: 3.1875rem;
+  border-radius: 20px;
+  font-size: 2.1875rem;
+  background-color: rgba(255,255,76, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.pp_map > div > button:hover {
+  color: #e6a756
+}
+
+.pp_map > div > a > button {
+  text-decoration: none;
+  color: black;
+}
+
+.pp_map > div > a > button:hover {
+  color: #e6a756
+}
+
+.pp_map > .gbtn > a {
+  text-decoration: none;
+  color: black;
+}
