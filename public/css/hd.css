@@ -15,80 +15,80 @@
 .hd_1 {
   position: absolute;
   top: 58.9%;
-    left: 20.8%;
+    left: 26.8%;
   z-index: 2;
 }
 
 .hd_2 {
   position: absolute;
       top: 58.9%;
-    left: 27.8%;
+    left: 32.8%;
   z-index: 2;
 }
 
 .hd_3 {
   position: absolute;
    top: 58.9%;
-    left: 34.8%;
+    left: 37.8%;
   z-index: 2;
 }
 
 .hd_4 {
   position: absolute;
    top: 58.9%;
-    left: 44.8%;
+    left: 42.8%;
   z-index: 2;
 }
 
 .hd_5 {
   position: absolute;
-  top: 58.9%;
-    left: 56.8%;
+  top: 50.9%;
+    left: 42.8%;
   z-index: 2;
 }
 
 .hd_6 {
   position: absolute;
-  top: 81.9%;
-  left: 20.8%;
+  top: 50.9%;
+  left: 55.8%;
   z-index: 2;
 }
 
 .hd_7 {
   position: absolute;
-    top: 81.9%;
-    left: 32.8%;
+    top: 58.9%;
+    left: 55.8%;
     z-index: 2;
 }
 
 .hd_8 {
     position: absolute;
-    top: 81.9%;
-    left: 44.8%;
+    top: 58.9%;
+    left: 60.8%;
     z-index: 2;
 }
 .hd_9 {
     position: absolute;
-    top: 81.9%;
-    left: 56.8%;
+    top: 58.9%;
+    left: 65.8%;
     z-index: 2;
 }
 .hd_10 {
 position: absolute;
-    top: 81.9%;
-    left: 68.8%;
+    top: 58.9%;
+    left: 70.8%;
     z-index: 2;
 }
 .hd_11 {
 position: absolute;
-    top: 12.9%;
-    left: 88.8%;
+    top: 58.9%;
+    left: 85.8%;
     z-index: 2;
 }
 .hd_12 {
 position: absolute;
-    top: 22.9%;
-    left: 88.8%;
+    top: 58.9%;
+    left: 80.8%;
     z-index: 2;
 }
 .hd_13 {
@@ -112,6 +112,144 @@ position: absolute;
 .hd_16 {
 position: absolute;
     top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_17 {
+position: absolute;
+    top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_18 {
+position: absolute;
+    top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_19 {
+position: absolute;
+    top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_20 {
+position: absolute;
+    top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_21 {
+position: absolute;
+    top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_22 {
+position: absolute;
+    top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_23 {
+position: absolute;
+    top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_24 {
+position: absolute;
+    top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_25 {
+position: absolute;
+    top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_26 {
+position: absolute;
+    top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_27 {
+position: absolute;
+    top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_28 {
+position: absolute;
+    top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_29 {
+position: absolute;
+    top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_30 {
+position: absolute;
+    top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_31 {
+position: absolute;
+    top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_32 {
+position: absolute;
+    top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_33 {
+position: absolute;
+    top: 58.9%;
+    left: 80.8%;
+    z-index: 2;
+}
+.hd_34 {
+position: absolute;
+    top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_35 {
+position: absolute;
+    top: 58.9%;
+    left: 75.8%;
+    z-index: 2;
+}
+.hd_36 {
+position: absolute;
+    top: 58.9%;
+    left: 75.8%;
+    z-index: 2;
+}
+.hd_37 {
+position: absolute;
+    top: 81.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_38 {
+position: absolute;
+    top: 58.9%;
+    left: 88.8%;
+    z-index: 2;
+}
+.hd_39 {
+position: absolute;
+    top: 58.9%;
     left: 88.8%;
     z-index: 2;
 }
