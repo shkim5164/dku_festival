@@ -523,5 +523,23 @@
     color: black;
   }
   
-  /* 곰상 주*/
+  /* 범정관 */
+  .bum_map {
+    height: 190px;
+    width: 330px;
+    background-repeat: no-repeat;
+  }
+  
+  .flee {
+    bottom: 36.4%;
+    left: 5%;
+  }
+  
+  .flee_btn {
+    width: 19rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-size: 1.75rem;
+  }
+
 }
