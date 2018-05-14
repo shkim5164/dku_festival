@@ -41,10 +41,10 @@ gem 'simple_form'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'figaro'
+
 group :production do
-  # gem 'mysql2', '~> 0.4.10'
-   gem 'pg', '~> 0.20.0'
-   gem 'rails_12factor'
+  gem 'mysql2'
 
 end
 
