@@ -151,8 +151,8 @@
   /*곰상지도*/
   .gom_map {
     height: 240px;
-    width: 350px;
-    margin: 0 auto 10px auto;
+    width: 335px;
+    margin-bottom: 10px;
   } 
   
   .bz {
@@ -174,7 +174,7 @@
     width: 1rem;
     height: 2rem;
     border-radius: 5px;
-    font-size: 0.35rem;
+    font-size: 0.25rem;
   }
   
   .trade {
@@ -185,7 +185,7 @@
     width: 1rem;
     height: 2rem;
     border-radius: 5px;
-    font-size: 0.4rem;
+    font-size: 0.25rem;
   }
   
   .econo {
@@ -207,7 +207,7 @@
     width: 1.5rem;
     height: 0.75rem;
     border-radius: 5px;
-    font-size: 0.35rem;
+    font-size: 0.1rem;
   }
   
   .fadi {
@@ -218,7 +218,7 @@
     width: 0.85rem;
     height: 1.75rem;
     border-radius: 5px;
-    font-size: 0.3rem;
+    font-size: 0.1rem;
   }
   
   .art {
@@ -226,8 +226,8 @@
     left: 26.5%;
   }
   .art_btn {
-    width: 1.5rem;
-    height: 1.1rem;
+    width: 1.75rem;
+    height: 1.25rem;
     border-radius: 5px;
     font-size: 0.1rem;
   }
@@ -306,7 +306,7 @@
     width: 1.25rem;
     height: 1.25rem;
     border-radius: 5px;
-    font-size: 0.35rem;
+    font-size: 0.1rem;
   }
   
   .fiber {
@@ -328,7 +328,7 @@
     width: 1.5rem;
     height: 0.875rem;
     border-radius: 5px;
-    font-size: 0.1rem;
+    font-size: 0.075rem;
   }
   
   .mosigong{
@@ -339,7 +339,7 @@
     width: 1.75rem;
     height: 0.875rem;
     border-radius: 5px;
-    font-size: 0.1rem;
+    font-size: 0.075rem;
   }
   
   .uhak{
@@ -350,7 +350,7 @@
     width: 1.5rem;
     height: 1rem;
     border-radius: 5px;
-    font-size: 0.1rem;
+    font-size: 0.075rem;
   }
   
   .oksu{
@@ -361,7 +361,7 @@
       width: 1.5rem;
       height: 1rem;
       border-radius: 5px;
-      font-size: 0.1rem;
+      font-size: 0.075rem;
   }
   
   .sunwoori{
@@ -372,7 +372,7 @@
       width: 1.75rem;
       height: 0.875rem;
       border-radius: 5px;
-      font-size: 0.1rem;
+      font-size: 0.075rem;
   }
   
   .bubsa{
@@ -383,7 +383,7 @@
       width: 1.5rem;
       height: 1rem;
       border-radius: 5px;
-      font-size: 0.1rem;
+      font-size: 0.075rem;
   }
   
   .chonghak{
@@ -404,7 +404,7 @@
   .foodtruck_btn{
       width: 1.5rem;
       height: 7rem;
-      border-radius: 5px;
+      border-radius: 3px;
       font-size: 1rem;
   }
 
