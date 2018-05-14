@@ -68,7 +68,7 @@
   /* card-body */
   .card-body img{
     width: 10rem;
-    height: 10rem;
+    /*height: 10rem;*/
     margin-top: 1rem;
   }
   .card-body h2{
@@ -524,6 +524,7 @@
     color: black;
   }
   
+
   /* 곰상 주*/
   
   /*혜당관 앞*/
@@ -562,5 +563,33 @@
     background-position: center;
     background-size: 100%;
     margin: 0 auto 10px auto;
+}
+  /* 범정관 */
+  .bum_map {
+    height: 190px;
+    width: 330px;
+    background-repeat: no-repeat;
+  }
+  
+  .flee {
+    bottom: 36.4%;
+    left: 5%;
+  }
+  
+  .flee_btn {
+    width: 19rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-size: 1.75rem;
+  }
+  #flee_c h1{
+    font-size: 2rem;
+  }
+  #flee_c p {
+    font-size: 1rem;
+  }
+  #flee_c h4 {
+    font-size: 1.5rem;
+
   }
 }
