@@ -69,8 +69,28 @@ class EventController < ApplicationController
 
 🎈단국대학교 총학생회 인스타 팔로우 ; @dankookstudent , 검색창에 
 단국대학교 , 단국대학교 총학생회 검색 !"
+         elsif params[:event_id]=="3"
+            @apply_url="/home/about"
+            @buttonn="목록으로"
+            @text="초록색 병이 매력적인 <AGWA> 와 <DANFESTA: 청춘해, 봄>이 만나 부스를 운영합니다! 
+또한 ✨LED 조명으로 불✨이 들어와 밤에 마시면 더욱 아름다운 <TYKU>도 준비되어 있습니다. 
+칵테일을 마시며 쉴 수 있는 자리를 마련했으니 많은 분들이 즐겼으면 합니다.
+
+또한 메인무대 공연 이후 오후 10시부터 세미클럽도 준비했으니 많은 참여부탁드립니다!
+
+📍장소: 평화의 광장(곰상)
+📍시간: 화, 수, 목 모두 진행
+13:00 - 18:00 
+18:00 - 22:00(BREAK TIME)
+22:00 - 00:00(SEMI CLUB)
+
+📍입장시 스티커가 붙어있는 컵을 받아가시면 '무료'로 아그와를 마실 수 있습니다 💕"
+else
+            @apply_url="/home/about"
+            @buttonn="목록으로"
+            @text=nil
         end
-        
+    
         
     end
 end
