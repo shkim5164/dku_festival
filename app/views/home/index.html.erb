@@ -35,7 +35,7 @@
             <a href="/home/pocpo"><img src="/img/buth.png" alt="부스이미지"></a>
             <h3>다양한 부스 운영중!</h3>
             <p>비주얼존, 프리마켓 등 다양한 부스 체험해보세요!</p>
-        <% elsif @now_busk.nil == false %>
+        <% elsif !(@now_busk.nil?) %>
           <% @now_busk.each do |busk| %>
             <img src="<%= busk.img_addr %>" alt="<%= busk.name %>">
             <h3><%= busk.name %></h3>
