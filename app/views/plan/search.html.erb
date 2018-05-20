@@ -15,7 +15,7 @@
            <h1 class="day_count">"<%= @word %>"에 대한 검색결과 입니다.</h1>
            <div class="search_result">
                <h2>* 가수 검색</h2>
-                <% if @search_s.empty? %>
+                <% if @search_s.nil? %>
                 <p>가수 검색결과가 없습니다.</p>
                 <% else %>
                     <% @search_s.each do |singer| %>
@@ -33,7 +33,7 @@
                 <% end %>
                 <hr>
                 <h2>* 주점 검색</h2>
-                <% if @search_j.empty? %>
+                <% if @search_j.nil? %>
                 <p>주점 검색결과가 없습니다.</p>
                 <% else %>
                     <% @search_j.each do |jujum| %>
@@ -66,7 +66,7 @@
                 <% end %>
                 <hr>
                 <h2>* 오늘의 부스 검색</h2>
-                <% if @search_b.empty? %>
+                <% if @search_b.nil? %>
                 <p>부스 검색결과가 없습니다.</p>
                 <% else %>
                     <% @search_b.each do |jujum| %>
